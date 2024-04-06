@@ -1,0 +1,4 @@
+
+
+select * from jsondata where DEVICE like "printer%" AND json_extract(jsondata.DATA,'$.est_days') < 27
+
