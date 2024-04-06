@@ -1,0 +1,274 @@
+[
+    {
+        "id": "7d551c48106025c7",
+        "type": "tab",
+        "label": "SQLite",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a7231f61188ee96e",
+        "type": "sqlite",
+        "z": "7d551c48106025c7",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "prepared",
+        "sql": "INSERT INTO sqldata (component, printer_url , Life_Remaining, est_days, status, rating, est_pages) VALUES ($val1, $val2, $val3,$val4, $val5, $val6, $val7)",
+        "name": "into_sqldata",
+        "x": 710,
+        "y": 320,
+        "wires": [
+            [
+                "1cb27c3c7754640a"
+            ]
+        ]
+    },
+    {
+        "id": "af489741c7a20e28",
+        "type": "function",
+        "z": "7d551c48106025c7",
+        "name": "prepare-params",
+        "func": "msg.params = {\n    $val1: msg.payload.component, \n    $val2: msg.payload.printer_url,\n    $val3: msg.payload.Life_Remaining,\n    $val4: msg.payload.est_days,\n    $val5: msg.payload.status,\n    $val6: msg.payload.rating,\n    $val7: msg.payload.est_pages\n    }\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "a7231f61188ee96e",
+                "a1b49c1e4f810908"
+            ]
+        ]
+    },
+    {
+        "id": "11647df7ae8d2bce",
+        "type": "inject",
+        "z": "7d551c48106025c7",
+        "name": "printer-json-data 2stk",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"component\":\"Keeley Bosco\",\"printer_url\":\"printer1\",\"Life_Remaining\":\"Lake Gladysberg\",\"est_days\":20,\"status\":\"yes\",\"rating\":3,\"est_pages\":46},{\"component\":\"Jamey Paucek\",\"printer_url\":\"santino.abshire@collins.net\",\"Life_Remaining\":\"East Geovany\",\"est_days\":51,\"status\":\"yes\",\"rating\":2,\"est_pages\":93}]",
+        "payloadType": "json",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "cd027851cd3f6dad"
+            ]
+        ]
+    },
+    {
+        "id": "0faf6ca9804d6f4f",
+        "type": "debug",
+        "z": "7d551c48106025c7",
+        "name": "payloadres",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "cd027851cd3f6dad",
+        "type": "split",
+        "z": "7d551c48106025c7",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "af489741c7a20e28"
+            ]
+        ]
+    },
+    {
+        "id": "599869c4b8ba596f",
+        "type": "sqlite",
+        "z": "7d551c48106025c7",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "xeroxdata",
+        "x": 840,
+        "y": 440,
+        "wires": [
+            [
+                "0faf6ca9804d6f4f"
+            ]
+        ]
+    },
+    {
+        "id": "1d7289dfb23d0e03",
+        "type": "inject",
+        "z": "7d551c48106025c7",
+        "name": "create sqldata2 ",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE sqldata2 (component\tTEXT, printer_url TEXT, Life_Remaining TEXT, est_days INTEGER, status TEXT, rating INTEGER, est_pages INTEGER)",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 440,
+        "wires": [
+            [
+                "599869c4b8ba596f"
+            ]
+        ]
+    },
+    {
+        "id": "de33fc2a19699b3f",
+        "type": "inject",
+        "z": "7d551c48106025c7",
+        "name": "printer-json-data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"component\":\"Keeley Bosco\",\"printer_url\":\"printer1\",\"Life_Remaining\":\"Lake Gladysberg\",\"est_days\":20,\"status\":\"yes\",\"rating\":3,\"est_pages\":46},{\"component\":\"Rubye Jerde\",\"printer_url\":\"printer1\",\"Life_Remaining\":\"San Jose\",\"est_days\":28,\"status\":\"yes\",\"rating\":3,\"est_pages\":53},{\"component\":\"Miss Darian Breitenberg\",\"printer_url\":\"printer2\",\"Life_Remaining\":\"Los Angeles\",\"est_days\":85,\"status\":\"yes\",\"rating\":3,\"est_pages\":93},{\"component\":\"Celine Ankunding\",\"printer_url\":\"emery_kunze@rogahn.net\",\"Life_Remaining\":\"Chicago\",\"est_days\":65,\"status\":\"no\",\"rating\":3,\"est_pages\":47},{\"component\":\"Dr. Araceli Lang\",\"printer_url\":\"mavis_lehner@jacobi.component\",\"Life_Remaining\":\"Yvettemouth\",\"est_days\":22,\"status\":\"yes\",\"rating\":3,\"est_pages\":4},{\"component\":\"Esteban Von\",\"printer_url\":\"Esteban.Von@example.com\",\"Life_Remaining\":\"Houston\",\"est_days\":27,\"status\":\"no\",\"rating\":3,\"est_pages\":14},{\"component\":\"statuserette Swift\",\"printer_url\":\"gielle_jacobs@flatleyboehm.biz\",\"Life_Remaining\":\"Dallas\",\"est_days\":74,\"status\":\"yes\",\"rating\":5,\"est_pages\":67},{\"component\":\"Terrell Boyle\",\"printer_url\":\"augustine.conroy@keebler.component\",\"Life_Remaining\":\"Port Reaganfort\",\"est_days\":19,\"status\":\"yes\",\"rating\":4,\"est_pages\":82},{\"component\":\"Miss Emmie Muller\",\"printer_url\":\"Miss.Emmie.Muller@example.com\",\"Life_Remaining\":\"Kaleyhaven\",\"est_days\":24,\"status\":\"yes\",\"rating\":3,\"est_pages\":73},{\"component\":\"Libby Renner\",\"printer_url\":\"Libby.Renner@example.com\",\"Life_Remaining\":\"Port Reneeside\",\"est_days\":62,\"status\":\"yes\",\"rating\":2,\"est_pages\":91},{\"component\":\"Kris Spencer\",\"printer_url\":\"Kris.Spencer@example.com\",\"Life_Remaining\":\"Los Angeles\",\"est_days\":50,\"status\":\"yes\",\"rating\":3,\"est_pages\":8},{\"component\":\"Terrance Schiller\",\"printer_url\":\"prince@rosenbaum.info\",\"Life_Remaining\":\"Chicago\",\"est_days\":25,\"status\":\"yes\",\"rating\":4,\"est_pages\":93},{\"component\":\"Alessandro Barton\",\"printer_url\":\"sigurd.hudson@hodkiewicz.net\",\"Life_Remaining\":\"South Pearl\",\"est_days\":43,\"status\":\"yes\",\"rating\":5,\"est_pages\":37},{\"component\":\"Dr. Art Grimes\",\"printer_url\":\"monica@abbott.org\",\"Life_Remaining\":\"Dallas\",\"est_days\":46,\"status\":\"no\",\"rating\":3,\"est_pages\":21},{\"component\":\"Kstatusen Purdy\",\"printer_url\":\"carter_zboncak@schmidtjenkins.info\",\"Life_Remaining\":\"Port Marjolaineshire\",\"est_days\":82,\"status\":\"no\",\"rating\":4,\"est_pages\":81},{\"component\":\"William Wisozk DVM\",\"printer_url\":\"adonis@dach.net\",\"Life_Remaining\":\"Rogelioton\",\"est_days\":35,\"status\":\"no\",\"rating\":4,\"est_pages\":42},{\"component\":\"Oma Grady\",\"printer_url\":\"laurianne_goldner@kerluke.biz\",\"Life_Remaining\":\"South Chelsie\",\"est_days\":26,\"status\":\"no\",\"rating\":3,\"est_pages\":99},{\"component\":\"Annie Schamberger\",\"printer_url\":\"blanca_smitham@pfeffervon.net\",\"Life_Remaining\":\"Marvinville\",\"est_days\":52,\"status\":\"no\",\"rating\":3,\"est_pages\":65},{\"component\":\"Jazmin Kovacek\",\"printer_url\":\"mittie.ullrich@boehm.component\",\"Life_Remaining\":\"San Jose\",\"est_days\":32,\"status\":\"yes\",\"rating\":2,\"est_pages\":16},{\"component\":\"Thomas O'Conner\",\"printer_url\":\"Thomas.O'Conner@example.com\",\"Life_Remaining\":\"North Tierramouth\",\"est_days\":76,\"status\":\"no\",\"rating\":4,\"est_pages\":9},{\"component\":\"Jordi Jaskolski II\",\"printer_url\":\"Jordi.Jaskolski.II@example.com\",\"Life_Remaining\":\"San Jose\",\"est_days\":68,\"status\":\"yes\",\"rating\":4,\"est_pages\":35},{\"component\":\"Willy Beahan III\",\"printer_url\":\"Willy.Beahan.III@example.com\",\"Life_Remaining\":\"Port Heloise\",\"est_days\":67,\"status\":\"no\",\"rating\":2,\"est_pages\":3},{\"component\":\"Alessandra Nader Sr.\",\"printer_url\":\"Alessandra.Nader.Sr.@example.com\",\"Life_Remaining\":\"Yasminville\",\"est_days\":57,\"status\":\"yes\",\"rating\":2,\"est_pages\":19},{\"component\":\"Leora Heller\",\"printer_url\":\"Leora.Heller@example.com\",\"Life_Remaining\":\"Port Jerad\",\"est_days\":79,\"status\":\"yes\",\"rating\":5,\"est_pages\":17},{\"component\":\"Crystel Satterfield\",\"printer_url\":\"olin@christiansenklocko.component\",\"Life_Remaining\":\"New Ebony\",\"est_days\":57,\"status\":\"yes\",\"rating\":1,\"est_pages\":82},{\"component\":\"Neal Nitzsche\",\"printer_url\":\"Neal.Nitzsche@example.com\",\"Life_Remaining\":\"Rohanview\",\"est_days\":73,\"status\":\"yes\",\"rating\":5,\"est_pages\":63},{\"component\":\"Ramona Lubowitz\",\"printer_url\":\"Ramona.Lubowitz@example.com\",\"Life_Remaining\":\"Port Ford\",\"est_days\":85,\"status\":\"yes\",\"rating\":4,\"est_pages\":1},{\"component\":\"Miss Brock Macejkovic\",\"printer_url\":\"Miss.Brock.Macejkovic@example.com\",\"Life_Remaining\":\"San Antonio\",\"est_days\":82,\"status\":\"no\",\"rating\":4,\"est_pages\":2},{\"component\":\"Mrs. Keyon Bergnaum\",\"printer_url\":\"Mrs..Keyon.Bergnaum@example.com\",\"Life_Remaining\":\"Port Alaynaview\",\"est_days\":29,\"status\":\"no\",\"rating\":2,\"est_pages\":46},{\"component\":\"Renee Hand\",\"printer_url\":\"landen.dicki@hilll.com\",\"Life_Remaining\":\"Vivienland\",\"est_days\":33,\"status\":\"yes\",\"rating\":3,\"est_pages\":99},{\"component\":\"Jamey Paucek\",\"printer_url\":\"santino.abshire@collins.net\",\"Life_Remaining\":\"East Geovany\",\"est_days\":51,\"status\":\"yes\",\"rating\":2,\"est_pages\":93}]",
+        "payloadType": "json",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "cd027851cd3f6dad"
+            ]
+        ]
+    },
+    {
+        "id": "1cb27c3c7754640a",
+        "type": "debug",
+        "z": "7d551c48106025c7",
+        "d": true,
+        "name": "payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a1b49c1e4f810908",
+        "type": "debug",
+        "z": "7d551c48106025c7",
+        "name": "completeobject",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "926cbfbd7862f9d2",
+        "type": "function",
+        "z": "7d551c48106025c7",
+        "name": "function 5",
+        "func": "msg.topic = \"select * from sqldata\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "599869c4b8ba596f"
+            ]
+        ]
+    },
+    {
+        "id": "26b7d67a60cbd488",
+        "type": "inject",
+        "z": "7d551c48106025c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 500,
+        "wires": [
+            [
+                "926cbfbd7862f9d2"
+            ]
+        ]
+    },
+    {
+        "id": "fe775cdef0b98bdb",
+        "type": "sqlitedb",
+        "db": "c:\\sqlite3\\xeroxdata.sql",
+        "mode": "RWC"
+    }
+]
