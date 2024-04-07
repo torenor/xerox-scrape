@@ -2,3 +2,32 @@
 
 select * from jsondata where DEVICE like "printer%" AND json_extract(jsondata.DATA,'$.est_days') < 27
 
+
+https://stackoverflow.com/questions/200309/how-to-create-timestamp-column-with-default-value-now
+
+create table if not exists sensor_data4 (
+   id integer primary key autoincrement NOT NULL,
+   device TEXT,
+   sensor TEXT,
+   value REAL,
+   epoch INTEGER,
+   timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   ts TIMESTAMP DEFAULT (DATETIME('now')),
+   ts2 integer(4) not null default (strftime('%s','now'))
+   
+
+);
+
+
+
+sqlite> select
+   ...> id
+   ...> ,device
+   ...> ,ts2 as epoch
+   ...> ,datetime(ts2, 'unixepoch') as utc
+   ...> ,datetime(ts2, 'unixepoch', 'localtime') as localtime
+   ...> from sensor_data4;
+1|device1|1712522336|2024-04-07 20:38:56|2024-04-07 22:38:56
+2|device4|1712522336|2024-04-07 20:38:56|2024-04-07 22:38:56
+sqlite>
+
