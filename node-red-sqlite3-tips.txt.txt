@@ -66,3 +66,25 @@ select
 from printerdata
 order by id
 ;
+
+
+            'Component',
+            'Status',
+            'LifeRemaining',
+            'EstPages',
+            'EstDays',
+            'PrinterUrl'
+            //'Timestamp' - settes inn av DB
+
+        ]
+
+
+
+{
+        "Component": Cyan",
+	"Status": "yes",
+        "LifeRemaining": "80&",
+	"EstPages": 46
+        "EstDays": 20,
+        "PrinterUrl": "printer1"
+    }
