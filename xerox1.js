@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Define your three URLs
 const urls = [
-    'https://158.38.104.4/stat/consumables.php', 'https://158.38.104.7/stat/consumables.php'
+    'https://Lev-print-C4/stat/consumables.php', 'https://158.38.104.7/stat/consumables.php'
 ]
 
 
@@ -31,11 +31,11 @@ async function scrapeData(url) {
 
             'Component',
             'Status',
-            'Life_Remaining',
-            'Est_pages',
-            'Est_days',
-            'Printer_url',
-            'Timestamp'
+            'LifeRemaining',
+            'EstPages',
+            'EstDays',
+            'PrinterUrl'
+            //'Timestamp' - settes inn av DB
 
         ]
 

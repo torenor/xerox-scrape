@@ -31,3 +31,38 @@ sqlite> select
 2|device4|1712522336|2024-04-07 20:38:56|2024-04-07 22:38:56
 sqlite>
 
+
+create table if not exists printerdata (
+   id integer primary key autoincrement NOT NULL,
+   Component TEXT,
+   Status TEXT,
+   LifeRemaining TEXT,
+   EstPages INTEGER,
+   EstDays INTEGER,
+   PrinterUrl TEXT,
+   epoch INTEGER,
+   timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   ts TIMESTAMP DEFAULT (DATETIME('now')),
+   ts2 integer(4) not null default (strftime('%s','now'))
+
+
+);
+
+
+
+insert into printerdata(Component) values
+ ('foo')
+,('bar')
+;
+
+
+
+select
+ id
+,Component
+,ts2 as epoch
+,datetime(ts2, 'unixepoch') as utc
+,datetime(ts2, 'unixepoch', 'localtime') as localtime
+from printerdata
+order by id
+;
