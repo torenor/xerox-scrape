@@ -1,0 +1,3665 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://158.38.104.7/counters/usage.php
+Subject: Telleverk for bruk
+Date: Tue, 9 Apr 2024 10:29:56 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----"
+
+
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: text/html
+Content-ID: <frame-9CB2860045FBE61AF8467538489094B0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://158.38.104.7/counters/usage.php
+
+<!DOCTYPE html><html style=3D"display: block;"><head><meta http-equiv=3D"Co=
+ntent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet"=
+ type=3D"text/css" href=3D"cid:css-60e502a4-6e0d-445f-b71e-8aaf2fe1dcc9@mht=
+ml.blink" />
+            <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+            <meta name=3D"viewport" content=3D"width=3Ddevice-width, initia=
+l-scale=3D1.0, maximum-scale=3D1.0, user-scalable=3Dno">
+               =20
+<!--
+    Copyright (c) 2006-2015 Xerox Corporation. All Rights Reserved.
+
+    Copyright protection claimed includes all forms and matters of
+    copyrightable material and information now allowed by statutory or
+    judicial law or hereinafter granted, including without limitation,
+    material generated from the software programs which are displayed
+    on the screen such as icons, screen and the like.
+-->
+    <title>Telleverk for bruk</title>
+<!-- This is a bundled file from the following source:
+	/css/seventh/header.css
+	/css/seventh/footer.css
+	/css/global.css
+	/css/widgets/modal.css
+	/css/widgets/popover.css
+ -->
+    <link rel=3D"Stylesheet" href=3D"https://158.38.104.7/css/php_includes/=
+CommonPage-bundle-1.css" type=3D"text/css" media=3D"all">
+           =20
+                        <link rel=3D"stylesheet" href=3D"https://158.38.104=
+.7/css/seventh/tree.css" type=3D"text/css" media=3D"all">
+           =20
+<!-- This is a bundled file from the following source:
+	/js/helpers/error_reporting.js
+	/js/helpers/ajax_tracking.js
+	/js/xfsPrevent.js
+	/js/header.js
+	/js/sessionstorage.js
+	/js/cookie.js
+ -->
+   =20
+           =20
+<!-- This is a bundled file from the following source:
+	/js/timers/timers.js
+	/js/widgets/modal.js
+	/js/widgets/popover.js
+ -->
+   =20
+                       =20
+            <!-- This is a bundled file from the following source:
+	/js/cookie.js
+	/js/tree.js
+ -->
+   =20
+           =20
+           =20
+           =20
+           =20
+    <link rel=3D"Stylesheet" href=3D"https://158.38.104.7/css/seventh/table=
+.css" type=3D"text/css" media=3D"all">
+
+
+
+</head>
+
+<body style=3D"">
+<div id=3D"div-all-modals-placeholder">
+        <!-- The modal screen -->
+        <div id=3D"generic-modal" class=3D"modal-screen">
+            <!-- Modal content -->
+           =20
+        <div class=3D"modal-content">
+            <div id=3D"generic-modal-header" class=3D"modal-header">
+                <div id=3D"generic-modal-title" class=3D"modal-title">
+                    placeholder-title                </div>
+            </div>
+
+            <div id=3D"generic-modal-content" class=3D"alertMessage" style=
+=3D"text-align: left;">
+                            </div>
+            <div class=3D"buttonsBox" style=3D"text-align: right;">
+            <div class=3D"button-box-left"></div>
+               =20
+                                    <!-- closes the modal -->
+                    <button class=3D"close">
+                        Lukk                    </button>
+               =20
+               =20
+                            </div>
+        </div>
+
+                </div>
+
+       =20
+        <!-- The modal screen -->
+        <div id=3D"generic-activity-modal" class=3D"modal-screen">
+            <!-- Modal content -->
+           =20
+        <div class=3D"modal-content">
+            <div id=3D"generic-activity-modal-header" class=3D"modal-header=
+">
+                <div id=3D"generic-activity-modal-title" class=3D"modal-tit=
+le">
+                    placeholder-title                </div>
+            </div>
+
+            <div id=3D"generic-activity-modal-content" class=3D"alertMessag=
+e" style=3D"text-align: center;">
+                    <img src=3D"https://158.38.104.7/images/gen8/ai_web_lig=
+ht_bkgd_24f.gif" alt=3D"Aktivitetsindikator">
+                </div>
+            <div class=3D"buttonsBox" style=3D"text-align: right;">
+            <div class=3D"button-box-left"></div>
+               =20
+               =20
+               =20
+                            </div>
+        </div>
+
+                </div>
+
+        </div>
+<header id=3D"globalHeader" class=3D"global-header">
+	<table>
+		<tbody><tr style=3D"vertical-align: middle;">
+			<td id=3D"xeroxLogo"><a href=3D"http://www.xerox.com/" title=3D"xerox.co=
+m"><i class=3D"xrx-logo glyph"></i></a></td>
+			<td id=3D"productName">Xerox<sup>=C2=AE </sup>AltaLink<sup>=C2=AE </sup>=
+C8055</td>
+			<td id=3D"loginButton">
+				<button id=3D"globalHeaderLoginBtn" type=3D"button" class=3D"loginButto=
+n">P=C3=A5logging</button>
+			</td>
+		</tr>
+	</tbody></table>
+	<div id=3D"navBar" $alignarabictext=3D"">			<div class=3D"navBarItem selec=
+ted ">
+				<a href=3D"https://158.38.104.7/stat/welcome.php" id=3D"tab_stat"><div =
+class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-home glyph"></i></span><br>
+					<span class=3D"navName">Hjemmeside</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable ">
+				<a href=3D"https://158.38.104.7/jobs/active.php" id=3D"tab_jobs"><div c=
+lass=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-queue glyph"></i></span><br>
+					<span class=3D"navName">Jobber</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable ">
+				<a href=3D"https://158.38.104.7/print/print.php" id=3D"tab_print"><div =
+class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-print glyph"></i></span><br>
+					<span class=3D"navName">Utskrift</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable ">
+				<a href=3D"https://158.38.104.7/scan/new_info.php?show=3Dtemp" id=3D"ta=
+b_scan"><div class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-scan glyph"></i></span><br>
+					<span class=3D"navName">Skanning</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable ">
+				<a href=3D"https://158.38.104.7/addressbook/viewContact.php" id=3D"tab_=
+addressbook"><div class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-contacts glyph"></i></span><b=
+r>
+					<span class=3D"navName">Adressebok</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable ">
+				<a href=3D"https://158.38.104.7/properties/blank.php" id=3D"tab_propert=
+ies"><div class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-toggles glyph"></i></span><br=
+>
+					<span class=3D"navName">Egenskaper</span>
+				</div></a>
+			</div>
+			<div class=3D"navBarItem selectable last">
+				<a href=3D"https://158.38.104.7/support/support.php" id=3D"tab_support"=
+><div class=3D"navGlyph">
+					<span class=3D"navGlyph"><i class=3D"xrx-support glyph"></i></span><br=
+>
+					<span class=3D"navName">St=C3=B8tte</span>
+				</div></a>
+			</div>
+</div>
+
+</header>
+            <div class=3D"mainContentNoSideBar">
+           =20
+
+<h1 class=3D"withIcon">Telleverk for bruk</h1>
+
+<!-- #bbmark refresh button -->
+<div class=3D"horizButtonBarAboveTableLeft">
+    <button>
+        Oppdater    </button>
+    <button>
+        Last ned fil til datamaskinen    </button>
+</div>
+
+<div class=3D"boundingBox normalSpacing noTop noBottom">
+    <div class=3D"boxBody tableBody">
+        <table cellspacing=3D"0" cellpadding=3D"0" class=3D"tableDiv">
+            <thead>
+                <tr class=3D"header">
+                    <th class=3D"first">Teller</th>
+                    <th>Antall</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr class=3D"odd"><td width=3D"50%">Totalt antall trykk</td><td=
+ style=3D"text-align: center;">556284</td></tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Sorte trykk</td><td =
+style=3D"text-align: center;">401239</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ant=
+all sorte kopierte trykk</td><td style=3D"text-align: center;">67287</td></=
+tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An=
+tall sorte trykk skrevet ut</td><td style=3D"text-align: center;">333952</t=
+d></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Fargetrykk</td><td st=
+yle=3D"text-align: center;">155045</td></tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An=
+tall kopierte fargetrykk</td><td style=3D"text-align: center;">22384</td></=
+tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ant=
+all utskrevne fargetrykk</td><td style=3D"text-align: center;">132661</td><=
+/tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Enkelttrykk</td><td =
+style=3D"text-align: center;">549961</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enk=
+elttrykk i sort-hvitt</td><td style=3D"text-align: center;">399477</td></tr=
+>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En=
+kelttrykk i farger</td><td style=3D"text-align: center;">150484</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Tilsvarende A4-trykk<=
+/td><td style=3D"text-align: center;">556284</td></tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ti=
+lsvarende A4-trykk i sort-hvitt</td><td style=3D"text-align: center;">40123=
+9</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Til=
+svarende A4-trykk i farger</td><td style=3D"text-align: center;">155045</td=
+></tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Trykk fra Internett-=
+faks</td><td style=3D"text-align: center;">0</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;Store fargetrykk</td>=
+<td style=3D"text-align: center;">6323</td></tr>
+<tr class=3D"even"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;St=
+ore sorte trykk</td><td style=3D"text-align: center;">1762</td></tr>
+<tr class=3D"odd"><td width=3D"50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sto=
+re fargetrykk</td><td style=3D"text-align: center;">4561</td></tr>
+<tr class=3D"even"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall kopiark (sort)</td><td style=3D"=
+text-align: center;">41550</td></tr>
+<tr class=3D"even"><td width=3D"50%">Fargekopierte ark</td><td style=3D"tex=
+t-align: center;">15716</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall ark skrevet ut (sort)</td><td st=
+yle=3D"text-align: center;">195320</td></tr>
+<tr class=3D"even"><td width=3D"50%">Fargetrykte ark</td><td style=3D"text-=
+align: center;">96578</td></tr>
+<tr class=3D"odd"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class=3D"even"><td width=3D"50%">Antall kopierte tosidige ark (sort)</t=
+d><td style=3D"text-align: center;">23221</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall kopierte tosidige ark (farge)</t=
+d><td style=3D"text-align: center;">7446</td></tr>
+<tr class=3D"even"><td width=3D"50%">Antall tosidige ark skrevet ut (sort)<=
+/td><td style=3D"text-align: center;">129582</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall tosidige ark skrevet ut (farge)<=
+/td><td style=3D"text-align: center;">40548</td></tr>
+<tr class=3D"even"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall kopierte store ark (sort)</td><t=
+d style=3D"text-align: center;">869</td></tr>
+<tr class=3D"even"><td width=3D"50%">Store fargekopierte ark</td><td style=
+=3D"text-align: center;">795</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall store ark skrevet ut (sort)</td>=
+<td style=3D"text-align: center;">459</td></tr>
+<tr class=3D"even"><td width=3D"50%">Store fargetrykte ark</td><td style=3D=
+"text-align: center;">2498</td></tr>
+<tr class=3D"odd"><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class=3D"even"><td width=3D"50%">Antall sendte Internett-faksbilder</td=
+><td style=3D"text-align: center;">0</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Sendte bilder via e-post</td><td style=
+=3D"text-align: center;">19717</td></tr>
+<tr class=3D"even"><td width=3D"50%">Antall sendte serverfaksbilder</td><td=
+ style=3D"text-align: center;">0</td></tr>
+<tr class=3D"odd"><td width=3D"50%">Antall sendte nettverksskanningsbilder<=
+/td><td style=3D"text-align: center;">0</td></tr>
+<tr class=3D"even"><td width=3D"50%">Trykk siden systemoppstart</td><td sty=
+le=3D"text-align: center;">2239</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class=3D"clearFloats"></div>
+</div>
+<div class=3D"horizButtonBarBelowTableRight">
+    <button type=3D"button" id=3D"closeButton">Lukk</button>
+</div>
+
+   =20
+
+	<div id=3D"globalFooter">
+		=C2=A92017-2019&nbsp;&nbsp;Xerox Corporation. Forbeholdt alle rettigheter=
+.<br>Xerox=C2=AE, Xerox og figurativt merke=C2=AE og AltaLink=C2=AE er vare=
+merker for <br>Xerox Corporation i USA og/eller andre land.
+		<br>
+	=09
+			Hjemmeside
+			 | <a href=3D"https://158.38.104.7/links.php" target=3D"_top">Indeks</a>
+			 | <a href=3D"https://158.38.104.7/sitemap.php" target=3D"_top">Omr=C3=
+=A5deoversikt</a>
+			 | <a>Hjelp...</a>
+	</div>
+<form action=3D"https://158.38.104.7/dummypost/xerox.set" method=3D"post">
+<div>
+   =20
+   =20
+   =20
+   =20
+</div>
+</form>
+
+            <div id=3D"timeout-alert">
+                <div id=3D"timeout-alert-msg-div">
+                    Tidsavbrudd for enhet er snart utl=C3=B8pt pga. ingen a=
+ktivitet.                    <br>
+                    Du blir logget ut hvis du ikke gj=C3=B8r noe.          =
+          <br>
+                    Velg OK hvis du vil fortsette =C3=A5 jobbe.            =
+    </div>
+                <div id=3D"timeout-alert-btn-div">
+                    <button id=3D"timeout-alert-ok">OK</button>
+                </div>
+            </div>
+                    </div>
+           =20
+
+</body></html>
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-60e502a4-6e0d-445f-b71e-8aaf2fe1dcc9@mhtml.blink
+
+@charset "utf-8";
+
+#popover-LogoutLink { margin-top: 20px; }
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://158.38.104.7/css/php_includes/CommonPage-bundle-1.css
+
+@charset "utf-8";
+
+#globalHeader { background-color: rgb(31, 129, 233); height: 64px; }
+
+#globalHeader table { width: 100%; height: 64px; }
+
+#globalHeader .loginButton { border-color: rgb(255, 255, 255); color: rgb(2=
+55, 255, 255); }
+
+#globalHeader .loginButton:hover { border-color: rgb(78, 191, 250); }
+
+#globalHeader .loginButton:active { border-color: rgb(255, 255, 255); backg=
+round: rgb(255, 255, 255); color: rgb(31, 129, 233); }
+
+#xeroxLogo { color: white; font-size: 120px; text-align: left; width: 200px=
+; }
+
+#xeroxLogo a i { display: inline-block; color: white; position: absolute; t=
+op: 0px; overflow: hidden; line-height: 50px; }
+
+#xeroxLogo a { display: inline-block; height: 28px; width: 88px; position: =
+absolute; top: 10px; left: 16px; }
+
+#productName { color: rgb(255, 255, 255); text-align: center; font-size: 20=
+px; font-weight: bold; width: 99%; white-space: nowrap; }
+
+#subBranding img { vertical-align: middle; }
+
+#childDeviceHead { padding-right: 15px; text-align: right; white-space: now=
+rap; }
+
+#loginButton { color: rgb(255, 255, 255); text-align: right; white-space: n=
+owrap; }
+
+#loginButton button { font-size: 16px; border-radius: 5px; height: 32px; ma=
+rgin-right: 16px; font-weight: normal; }
+
+@media screen {
+  .global-header { position: fixed; width: 100%; }
+  .sidebar { position: fixed; top: 129px; left: 0px; width: 258px; height: =
+calc(100% - 129px); overflow-y: auto; }
+  .sidebar ul { margin: 0px; padding: 0px; }
+  .mainContent { position: fixed; top: 129px; bottom: 0px; margin: 0px 0px =
+0px 258px; width: calc(100% - 258px); border-left: 1px solid rgb(201, 200, =
+205); overflow: auto; }
+  .mainContentNoSideBar { position: fixed; top: 129px; bottom: 0px; margin:=
+ 0px; width: 100%; border-left: 1px solid rgb(201, 200, 205); overflow: aut=
+o; }
+}
+
+@media print {
+  .global-header { display: none; }
+}
+
+.scanSidebar { margin-top: 10px; }
+
+#childDevice { color: rgb(31, 129, 233); text-align: right; font-size: 16px=
+; min-height: 32px; padding-left: 10px; font-weight: normal; background: rg=
+b(255, 255, 255); border-color: rgb(255, 255, 255); }
+
+#navBar { background-color: rgb(31, 129, 233); font-size: 8pt; font-weight:=
+ bold; height: 64px; border-top: 1px solid rgb(255, 255, 255); border-botto=
+m: 1px solid rgb(255, 255, 255); display: table; table-layout: fixed; width=
+: 100%; }
+
+div.navBarItem { border-right: 1px solid white; display: table-cell; text-a=
+lign: center; vertical-align: initial; height: 62px; }
+
+div.navBarItem.selectable a { color: rgb(255, 255, 255); }
+
+div.navBarItem.selectable:hover { background-color: rgb(78, 191, 250); colo=
+r: rgb(255, 255, 255); overflow: auto; }
+
+div.navBarItem.selected { background-color: rgb(255, 255, 255); color: rgb(=
+31, 129, 233); }
+
+div.navBarItem.selected:hover { background-color: rgb(255, 255, 255); color=
+: rgb(31, 129, 233); overflow: auto; }
+
+div.navBarItem a { display: block; text-decoration: none; width: 100%; heig=
+ht: 100%; overflow: auto; }
+
+div.navGlyph { line-height: normal; display: inline-block; padding-top: 11p=
+x; }
+
+span.navGlyph { font-size: 24px; margin-top: 10px; }
+
+#globalFooter { background-color: inherit; color: rgb(69, 77, 106); font-si=
+ze: 7pt; margin: 18px 15px 10px; padding: 0px; text-align: center; }
+
+#globalFooter a img { border: 0px; margin-top: 9px; margin-bottom: 9px; }
+
+#globalFooter hr { background-color: rgb(130, 137, 166); color: rgb(130, 13=
+7, 166); height: 2px; margin: 18px 0px 0px; padding: 0px; }
+
+.xrx-accounting::before, .xrx-accounting_auxiliary_device::before, .xrx-acc=
+ounting_disabled::before, .xrx-accounting_network::before, .xrx-action::bef=
+ore, .xrx-activity::before, .xrx-add_circle::before, .xrx-add_square::befor=
+e, .xrx-adhesive_lef::before, .xrx-adhesive_sef::before, .xrx-airplane::bef=
+ore, .xrx-airprint::before, .xrx-alarmclock::before, .xrx-alert::before, .x=
+rx-alert_square::before, .xrx-align_dropdown::before, .xrx-align_left::befo=
+re, .xrx-align_right::before, .xrx-android::before, .xrx-apple::before, .xr=
+x-applications::before, .xrx-archival_lef::before, .xrx-archival_sef::befor=
+e, .xrx-arrow_down::before, .xrx-arrow_down_left::before, .xrx-arrow_down_r=
+ight::before, .xrx-arrow_left::before, .xrx-arrow_left_right::before, .xrx-=
+arrow_right::before, .xrx-arrow_right_square::before, .xrx-arrow_up::before=
+, .xrx-arrow_up_down::before, .xrx-arrow_up_left::before, .xrx-arrow_up_rig=
+ht::before, .xrx-asterisk::before, .xrx-asterisk_square::before, .xrx-auto:=
+:before, .xrx-automatically_select_type_lef::before, .xrx-automatically_sel=
+ect_type_sef::before, .xrx-auto_disabled::before, .xrx-background_color::be=
+fore, .xrx-backspace::before, .xrx-backspace_rtl::before, .xrx-banner_close=
+::before, .xrx-barcode::before, .xrx-bar_chart::before, .xrx-bates_stamp::b=
+efore, .xrx-bell::before, .xrx-bell_disabled::before, .xrx-billboard::befor=
+e, .xrx-bluetooth::before, .xrx-bluetooth_logo::before, .xrx-bold::before, =
+.xrx-bond_lef::before, .xrx-bond_sef::before, .xrx-book::before, .xrx-bookm=
+ark::before, .xrx-bootstrap::before, .xrx-box::before, .xrx-brightness::bef=
+ore, .xrx-business::before, .xrx-businesses::before, .xrx-button::before, .=
+xrx-bypass_paper_empty::before, .xrx-bypass_paper_present::before, .xrx-cal=
+culate::before, .xrx-calculator::before, .xrx-calendar::before, .xrx-camera=
+::before, .xrx-caps::before, .xrx-card::before, .xrx-cart::before, .xrx-cas=
+t_coated_lef::before, .xrx-cast_coated_sef::before, .xrx-center_text::befor=
+e, .xrx-certificate::before, .xrx-certificate_error::before, .xrx-certifica=
+te_upload::before, .xrx-certified::before, .xrx-change::before, .xrx-chat::=
+before, .xrx-chat_text::before, .xrx-checklist::before, .xrx-checkmark::bef=
+ore, .xrx-checkmark_circle::before, .xrx-check_background::before, .xrx-che=
+ck_off::before, .xrx-check_on::before, .xrx-check_on_press::before, .xrx-ch=
+rome::before, .xrx-clear_all::before, .xrx-clipboard::before, .xrx-clipboar=
+d_add::before, .xrx-clock::before, .xrx-clock_square::before, .xrx-clone::b=
+efore, .xrx-clone_alt::before, .xrx-clone_destination::before, .xrx-clone_s=
+ource::before, .xrx-close::before, .xrx-close_square::before, .xrx-cloud::b=
+efore, .xrx-cloud_check_square::before, .xrx-cloud_close_square::before, .x=
+rx-cloud_disabled_square::before, .xrx-cloud_download::before, .xrx-cloud_d=
+ownload_square::before, .xrx-cloud_print::before, .xrx-cloud_square::before=
+, .xrx-cloud_upload::before, .xrx-cloud_upload_square::before, .xrx-code::b=
+efore, .xrx-code_square::before, .xrx-coins::before, .xrx-coin_star::before=
+, .xrx-color_overlay::before, .xrx-columns::before, .xrx-compose::before, .=
+xrx-compress::before, .xrx-computer::before, .xrx-confidential_danger::befo=
+re, .xrx-confidential_ok::before, .xrx-confidential_warning::before, .xrx-c=
+onfiguration_report::before, .xrx-contacts::before, .xrx-contacts_add::befo=
+re, .xrx-contact_card::before, .xrx-contract::before, .xrx-contract_height:=
+:before, .xrx-contrast::before, .xrx-control_panel_horizontal::before, .xrx=
+-control_panel_vertical::before, .xrx-create::before, .xrx-credit_card::bef=
+ore, .xrx-credit_cards::before, .xrx-crop::before, .xrx-crosshair::before, =
+.xrx-custom_type_five_lef::before, .xrx-custom_type_five_sef::before, .xrx-=
+custom_type_four_lef::before, .xrx-custom_type_four_sef::before, .xrx-custo=
+m_type_lef::before, .xrx-custom_type_one_lef::before, .xrx-custom_type_one_=
+sef::before, .xrx-custom_type_sef::before, .xrx-custom_type_seven_lef::befo=
+re, .xrx-custom_type_seven_sef::before, .xrx-custom_type_six_lef::before, .=
+xrx-custom_type_six_sef::before, .xrx-custom_type_three_lef::before, .xrx-c=
+ustom_type_three_sef::before, .xrx-custom_type_two_lef::before, .xrx-custom=
+_type_two_sef::before, .xrx-dashboard::before, .xrx-decrease_indent::before=
+, .xrx-delete_all::before, .xrx-demote::before, .xrx-demote_square::before,=
+ .xrx-deselect_all::before, .xrx-desktop::before, .xrx-details::before, .xr=
+x-dial::before, .xrx-displays::before, .xrx-document_glass::before, .xrx-do=
+wnload::before, .xrx-download_square::before, .xrx-dropbox::before, .xrx-du=
+plex::before, .xrx-duplicate::before, .xrx-edit::before, .xrx-edit_all::bef=
+ore, .xrx-edit_color::before, .xrx-edit_disabled::before, .xrx-edit_square:=
+:before, .xrx-eject::before, .xrx-ellipsis::before, .xrx-ellipsis_vertical:=
+:before, .xrx-email_message::before, .xrx-embossed_lef::before, .xrx-emboss=
+ed_sef::before, .xrx-emboss_full_cut_tabs_lef::before, .xrx-emboss_full_cut=
+_tabs_sef::before, .xrx-emboss_precut_tabs_lef::before, .xrx-emboss_precut_=
+tabs_sef::before, .xrx-energy_saver::before, .xrx-enter::before, .xrx-enter=
+_rtl::before, .xrx-envelope::before, .xrx-envelope_lef::before, .xrx-envelo=
+pe_reloaded_lef::before, .xrx-envelope_reloaded_sef::before, .xrx-envelope_=
+sef::before, .xrx-eraser::before, .xrx-exit::before, .xrx-expand::before, .=
+xrx-expand_height::before, .xrx-export::before, .xrx-extra_heavyweight_glos=
+s_lef::before, .xrx-extra_heavyweight_gloss_sef::before, .xrx-extra_heavywe=
+ight_labels_lef::before, .xrx-extra_heavyweight_labels_sef::before, .xrx-ex=
+tra_heavyweight_lef::before, .xrx-extra_heavyweight_plus_lef::before, .xrx-=
+extra_heavyweight_plus_sef::before, .xrx-extra_heavyweight_punched_lef::bef=
+ore, .xrx-extra_heavyweight_punched_sef::before, .xrx-extra_heavyweight_rel=
+oaded_lef::before, .xrx-extra_heavyweight_reloaded_sef::before, .xrx-extra_=
+heavyweight_sef::before, .xrx-extra_hw_gloss_plus_lef::before, .xrx-extra_h=
+w_gloss_plus_sef::before, .xrx-extra_hw_gloss_reloaded_lef::before, .xrx-ex=
+tra_hw_gloss_reloaded_sef::before, .xrx-extra_hw_plus_reloaded_lef::before,=
+ .xrx-extra_hw_plus_reloaded_sef::before, .xrx-facebook::before, .xrx-fastf=
+orward::before, .xrx-fault::before, .xrx-favorites::before, .xrx-favorites_=
+disabled::before, .xrx-favorites_disabled_light::before, .xrx-fax_dialog_ch=
+aracters::before, .xrx-fax_dial_numbers::before, .xrx-fax_machine::before, =
+.xrx-fax_secure::before, .xrx-file::before, .xrx-files::before, .xrx-file_c=
+abinet::before, .xrx-file_l::before, .xrx-file_locked::before, .xrx-file_mo=
+ve::before, .xrx-file_move_copy::before, .xrx-file_outline::before, .xrx-fi=
+lm_lef::before, .xrx-film_sef::before, .xrx-finishing::before, .xrx-firefox=
+::before, .xrx-flag::before, .xrx-fold::before, .xrx-folder::before, .xrx-f=
+older_add::before, .xrx-folder_camera::before, .xrx-folder_download::before=
+, .xrx-folder_locked::before, .xrx-folder_personal::before, .xrx-folder_pub=
+lic::before, .xrx-folder_read_only::before, .xrx-folder_subtract::before, .=
+xrx-folder_unlock::before, .xrx-folder_upload::before, .xrx-folder_usb::bef=
+ore, .xrx-folding::before, .xrx-fonts::before, .xrx-font_color::before, .xr=
+x-four_holes_left_l::before, .xrx-four_holes_left_p::before, .xrx-four_hole=
+s_right_l::before, .xrx-four_holes_right_p::before, .xrx-four_holes_top_l::=
+before, .xrx-four_holes_top_p::before, .xrx-full_cut_tabs_lef::before, .xrx=
+-full_cut_tabs_sef::before, .xrx-funnel::before, .xrx-fx_logo::before, .xrx=
+-fx_logo_small::before, .xrx-gear::before, .xrx-gears::before, .xrx-globe::=
+before, .xrx-gloss_lef::before, .xrx-gloss_reloaded_lef::before, .xrx-gloss=
+_reloaded_sef::before, .xrx-gloss_sef::before, .xrx-google::before, .xrx-go=
+ogle_drive::before, .xrx-google_plus::before, .xrx-grid::before, .xrx-group=
+::before, .xrx-group_add::before, .xrx-group_favorite::before, .xrx-group_n=
+etwork::before, .xrx-hand::before, .xrx-hard_drive::before, .xrx-headset::b=
+efore, .xrx-heart::before, .xrx-heart_disabled::before, .xrx-heavyweight_gl=
+oss_lef::before, .xrx-heavyweight_gloss_reloaded_lef::before, .xrx-heavywei=
+ght_gloss_reloaded_sef::before, .xrx-heavyweight_gloss_sef::before, .xrx-he=
+avyweight_hole_punched_lef::before, .xrx-heavyweight_hole_punched_sef::befo=
+re, .xrx-heavyweight_labels_lef::before, .xrx-heavyweight_labels_sef::befor=
+e, .xrx-heavyweight_lef::before, .xrx-heavyweight_precut_tabs_lef::before, =
+.xrx-heavyweight_precut_tabs_sef::before, .xrx-heavyweight_preprinted_lef::=
+before, .xrx-heavyweight_preprinted_sef::before, .xrx-heavyweight_reloaded_=
+lef::before, .xrx-heavyweight_reloaded_sef::before, .xrx-heavyweight_sef::b=
+efore, .xrx-help::before, .xrx-help_rtl::before, .xrx-highlighter::before, =
+.xrx-history::before, .xrx-hole_punch::before, .xrx-hole_punched_lef::befor=
+e, .xrx-hole_punched_sef::before, .xrx-home::before, .xrx-home_favorite::be=
+fore, .xrx-home_outline::before, .xrx-id_card::before, .xrx-ignored::before=
+, .xrx-import::before, .xrx-import_export::before, .xrx-inbox::before, .xrx=
+-increase_indent::before, .xrx-information::before, .xrx-insert::before, .x=
+rx-inserter_paper_empty::before, .xrx-inserter_paper_present::before, .xrx-=
+instagram::before, .xrx-install::before, .xrx-install_square::before, .xrx-=
+internet_explorer::before, .xrx-interrupt::before, .xrx-italic::before, .xr=
+x-justify_text::before, .xrx-key::before, .xrx-keyboard::before, .xrx-keybo=
+ard_accent::before, .xrx-keyboard_alpha::before, .xrx-keyboard_arabic::befo=
+re, .xrx-keyboard_chinese_simplified::before, .xrx-keyboard_chinese_traditi=
+onal::before, .xrx-keyboard_down::before, .xrx-keyboard_greek_alpha::before=
+, .xrx-keyboard_japanese_hiragana::before, .xrx-keyboard_japanese_kana::bef=
+ore, .xrx-keyboard_japanese_katakana::before, .xrx-keyboard_korean::before,=
+ .xrx-keyboard_numbers::before, .xrx-keyboard_russian_alpha::before, .xrx-k=
+eyboard_symbols::before, .xrx-keyboard_thai::before, .xrx-keypad::before, .=
+xrx-key_counter::before, .xrx-labels_lef::before, .xrx-labels_sef::before, =
+.xrx-landscape::before, .xrx-laptop::before, .xrx-layout_image_text_l::befo=
+re, .xrx-layout_image_text_p::before, .xrx-layout_text_image_l::before, .xr=
+x-layout_text_image_p::before, .xrx-lef_sef::before, .xrx-lef_sef_fill::bef=
+ore, .xrx-letterhead_lef::before, .xrx-letterhead_sef::before, .xrx-lightbu=
+lb::before, .xrx-lightweight_gloss_lef::before, .xrx-lightweight_gloss_sef:=
+:before, .xrx-lightweight_lef::before, .xrx-lightweight_preprinted_lef::bef=
+ore, .xrx-lightweight_preprinted_sef::before, .xrx-lightweight_reloaded_lef=
+::before, .xrx-lightweight_reloaded_sef::before, .xrx-lightweight_sef::befo=
+re, .xrx-link::before, .xrx-linked_in::before, .xrx-link_small::before, .xr=
+x-list::before, .xrx-list_rtl::before, .xrx-locked::before, .xrx-locked_squ=
+are::before, .xrx-lock_outline::before, .xrx-logo::before, .xrx-logo_small:=
+:before, .xrx-long_edge_feed::before, .xrx-mailbox::before, .xrx-mailboxes:=
+:before, .xrx-mailbox_add::before, .xrx-mailbox_private::before, .xrx-map::=
+before, .xrx-matte_lef::before, .xrx-matte_sef::before, .xrx-medal::before,=
+ .xrx-menu::before, .xrx-menu_side::before, .xrx-merge::before, .xrx-mfd::b=
+efore, .xrx-mfd_fill::before, .xrx-microphone::before, .xrx-minimize::befor=
+e, .xrx-minus::before, .xrx-mobile::before, .xrx-mountain::before, .xrx-mou=
+ntain_square::before, .xrx-move::before, .xrx-ms_edge::before, .xrx-ms_offi=
+ce::before, .xrx-navigate_down::before, .xrx-navigate_first::before, .xrx-n=
+avigate_last::before, .xrx-navigate_left::before, .xrx-navigate_right::befo=
+re, .xrx-navigate_up::before, .xrx-network::before, .xrx-network_square::be=
+fore, .xrx-newspaper::before, .xrx-next::before, .xrx-next_square::before, =
+.xrx-nfc::before, .xrx-non_secure::before, .xrx-notebook::before, .xrx-no_e=
+ntry::before, .xrx-numbering::before, .xrx-numbering_rtl::before, .xrx-offs=
+et_printed::before, .xrx-onedrive::before, .xrx-one_staple_l::before, .xrx-=
+one_staple_left_l::before, .xrx-one_staple_left_p::before, .xrx-one_staple_=
+p::before, .xrx-one_staple_right_l::before, .xrx-one_staple_right_p::before=
+, .xrx-one_touch::before, .xrx-opera::before, .xrx-order_down_left::before,=
+ .xrx-order_down_right::before, .xrx-order_left_down::before, .xrx-order_le=
+ft_right::before, .xrx-order_right_down::before, .xrx-order_right_left::bef=
+ore, .xrx-other_type_lef::before, .xrx-other_type_lef_rtl::before, .xrx-oth=
+er_type_sef::before, .xrx-other_type_sef_rtl::before, .xrx-outbox::before, =
+.xrx-package::before, .xrx-page_number::before, .xrx-paint::before, .xrx-pa=
+perclip::before, .xrx-password::before, .xrx-pause::before, .xrx-pause_circ=
+le::before, .xrx-paypal::before, .xrx-personal_jobs::before, .xrx-phone::be=
+fore, .xrx-phone_disabled::before, .xrx-photo_lef::before, .xrx-photo_sef::=
+before, .xrx-picture::before, .xrx-pictures::before, .xrx-pie_chart::before=
+, .xrx-plain_lef::before, .xrx-plain_reloaded_lef::before, .xrx-plain_reloa=
+ded_sef::before, .xrx-plain_sef::before, .xrx-play::before, .xrx-plug::befo=
+re, .xrx-plus::before, .xrx-plus_minus::before, .xrx-pointer::before, .xrx-=
+polling::before, .xrx-portrait::before, .xrx-positioning::before, .xrx-post=
+card_lef::before, .xrx-postcard_reloaded_lef::before, .xrx-postcard_reloade=
+d_sef::before, .xrx-postcard_sef::before, .xrx-pound::before, .xrx-power::b=
+efore, .xrx-precut_tabs_lef::before, .xrx-precut_tabs_sef::before, .xrx-pre=
+printed_lef::before, .xrx-preprinted_sef::before, .xrx-presentation::before=
+, .xrx-previous::before, .xrx-previous_square::before, .xrx-print::before, =
+.xrx-printer_default_type_lef::before, .xrx-printer_default_type_sef::befor=
+e, .xrx-print_square::before, .xrx-profile::before, .xrx-prohibit::before, =
+.xrx-prohibit_square::before, .xrx-promo::before, .xrx-promote::before, .xr=
+x-promote_square::before, .xrx-qr_code::before, .xrx-queue::before, .xrx-qu=
+eue_active::before, .xrx-queue_completed::before, .xrx-queue_held::before, =
+.xrx-quote::before, .xrx-radio_off::before, .xrx-radio_on::before, .xrx-rea=
+ding_list::before, .xrx-reading_order_l_r::before, .xrx-reading_order_r_l::=
+before, .xrx-read_receipts::before, .xrx-receipt::before, .xrx-record::befo=
+re, .xrx-recycle::before, .xrx-recycled_full_cut_tabs_lef::before, .xrx-rec=
+ycled_full_cut_tabs_sef::before, .xrx-recycled_lef::before, .xrx-recycled_p=
+recut_tabs_lef::before, .xrx-recycled_precut_tabs_sef::before, .xrx-recycle=
+d_sef::before, .xrx-redirect::before, .xrx-redo::before, .xrx-redo_square::=
+before, .xrx-reduce_enlarge::before, .xrx-refresh::before, .xrx-refresh_all=
+::before, .xrx-refresh_square::before, .xrx-reload::before, .xrx-remote::be=
+fore, .xrx-remote_desktop::before, .xrx-remove_all::before, .xrx-remove_all=
+_square::before, .xrx-rename::before, .xrx-reorder::before, .xrx-replay::be=
+fore, .xrx-replay_all::before, .xrx-replay_square::before, .xrx-reply_to::b=
+efore, .xrx-reset::before, .xrx-reset_all::before, .xrx-reset_square::befor=
+e, .xrx-restart::before, .xrx-return::before, .xrx-rewind::before, .xrx-rou=
+gh_surface_lef::before, .xrx-rough_surface_sef::before, .xrx-rows::before, =
+.xrx-rows_four::before, .xrx-ruler::before, .xrx-safari::before, .xrx-sampl=
+e::before, .xrx-save::before, .xrx-saved_jobs::before, .xrx-save_disabled::=
+before, .xrx-scale_down::before, .xrx-scale_up::before, .xrx-scan::before, =
+.xrx-screen_share::before, .xrx-scroll_top::before, .xrx-sd_card::before, .=
+xrx-search::before, .xrx-secure::before, .xrx-secure_print::before, .xrx-se=
+lect_all::before, .xrx-send::before, .xrx-sequence_emboss_lef::before, .xrx=
+-sequence_emboss_sef::before, .xrx-sequence_lef::before, .xrx-sequence_recy=
+cled_lef::before, .xrx-sequence_recycled_sef::before, .xrx-sequence_sef::be=
+fore, .xrx-server::before, .xrx-shapes::before, .xrx-share::before, .xrx-sh=
+arpness::before, .xrx-shield::before, .xrx-shift::before, .xrx-shopping_bag=
+::before, .xrx-short_edge_feed::before, .xrx-signature::before, .xrx-simple=
+x::before, .xrx-skip_backward::before, .xrx-skip_forward::before, .xrx-slee=
+p::before, .xrx-smart_card::before, .xrx-sort::before, .xrx-sort_ascending:=
+:before, .xrx-sort_a_z::before, .xrx-sort_big_small::before, .xrx-sort_desc=
+ending::before, .xrx-sort_down::before, .xrx-sort_newest::before, .xrx-sort=
+_small_big::before, .xrx-sort_up::before, .xrx-sort_z_a::before, .xrx-space=
+_bar::before, .xrx-spinner::before, .xrx-springboard::before, .xrx-staple_h=
+orizontal_top::before, .xrx-staple_none::before, .xrx-staple_two_horizontal=
+_top::before, .xrx-staple_two_vertical_left::before, .xrx-staple_two_vertic=
+al_right::before, .xrx-staple_upper_left::before, .xrx-staple_upper_right::=
+before, .xrx-staple_vertical_left::before, .xrx-staple_vertical_right::befo=
+re, .xrx-stapling::before, .xrx-star::before, .xrx-starburst::before, .xrx-=
+start::before, .xrx-star_disabled::before, .xrx-stop::before, .xrx-stopwatc=
+h::before, .xrx-store::before, .xrx-straighten::before, .xrx-strikethrough:=
+:before, .xrx-submit_file::before, .xrx-subtract_circle::before, .xrx-subtr=
+act_square::before, .xrx-sunshine::before, .xrx-support::before, .xrx-swipe=
+_card::before, .xrx-sync::before, .xrx-sync_alert::before, .xrx-sync_check:=
+:before, .xrx-sync_fault::before, .xrx-tables::before, .xrx-tab_backward::b=
+efore, .xrx-tab_forward::before, .xrx-tag::before, .xrx-tap_down::before, .=
+xrx-tap_left::before, .xrx-tap_right::before, .xrx-tap_up::before, .xrx-tar=
+get::before, .xrx-text::before, .xrx-text_square::before, .xrx-three_holes_=
+left_l::before, .xrx-three_holes_left_p::before, .xrx-three_holes_right_l::=
+before, .xrx-three_holes_right_p::before, .xrx-three_holes_top_l::before, .=
+xrx-three_holes_top_p::before, .xrx-thumbnails::before, .xrx-thumbnail_reor=
+der::before, .xrx-thumbnail_text::before, .xrx-thumb_drive::before, .xrx-to=
+ggles::before, .xrx-toner::before, .xrx-toolbox::before, .xrx-transfer::bef=
+ore, .xrx-transfer_lef::before, .xrx-transfer_sef::before, .xrx-transparenc=
+y_lef::before, .xrx-transparency_sef::before, .xrx-trash::before, .xrx-tras=
+h_square::before, .xrx-tray_auto::before, .xrx-tray_eight_empty::before, .x=
+rx-tray_eight_fifty::before, .xrx-tray_eight_full::before, .xrx-tray_eight_=
+inserter_empty::before, .xrx-tray_eight_inserter_present::before, .xrx-tray=
+_eight_seventy_five::before, .xrx-tray_eight_twenty_five::before, .xrx-tray=
+_empty::before, .xrx-tray_fifty::before, .xrx-tray_five_bypass_empty::befor=
+e, .xrx-tray_five_bypass_present::before, .xrx-tray_five_empty::before, .xr=
+x-tray_five_fifty::before, .xrx-tray_five_full::before, .xrx-tray_five_seve=
+nty_five::before, .xrx-tray_five_twenty_five::before, .xrx-tray_four_empty:=
+:before, .xrx-tray_four_fifty::before, .xrx-tray_four_full::before, .xrx-tr=
+ay_four_seventy_five::before, .xrx-tray_four_twenty_five::before, .xrx-tray=
+_full::before, .xrx-tray_one_bypass_empty::before, .xrx-tray_one_bypass_pre=
+sent::before, .xrx-tray_one_empty::before, .xrx-tray_one_fifty::before, .xr=
+x-tray_one_full::before, .xrx-tray_one_seventy_five::before, .xrx-tray_one_=
+twenty_five::before, .xrx-tray_seventy_five::before, .xrx-tray_seven_empty:=
+:before, .xrx-tray_seven_fifty::before, .xrx-tray_seven_full::before, .xrx-=
+tray_seven_inserter_empty::before, .xrx-tray_seven_inserter_present::before=
+, .xrx-tray_seven_seventy_five::before, .xrx-tray_seven_twenty_five::before=
+, .xrx-tray_six_empty::before, .xrx-tray_six_fifty::before, .xrx-tray_six_f=
+ull::before, .xrx-tray_six_inserter_empty::before, .xrx-tray_six_inserter_p=
+resent::before, .xrx-tray_six_seventy_five::before, .xrx-tray_six_twenty_fi=
+ve::before, .xrx-tray_three_empty::before, .xrx-tray_three_fifty::before, .=
+xrx-tray_three_full::before, .xrx-tray_three_seventy_five::before, .xrx-tra=
+y_three_twenty_five::before, .xrx-tray_twenty_five::before, .xrx-tray_two_e=
+mpty::before, .xrx-tray_two_fifty::before, .xrx-tray_two_full::before, .xrx=
+-tray_two_seventy_five::before, .xrx-tray_two_twenty_five::before, .xrx-tro=
+phy::before, .xrx-truck::before, .xrx-twitter::before, .xrx-two_holes_left_=
+l::before, .xrx-two_holes_left_p::before, .xrx-two_holes_right_l::before, .=
+xrx-two_holes_right_p::before, .xrx-two_holes_top_l::before, .xrx-two_holes=
+_top_p::before, .xrx-two_staples_left_l::before, .xrx-two_staples_left_p::b=
+efore, .xrx-two_staples_right_l::before, .xrx-two_staples_right_p::before, =
+.xrx-two_staples_top_l::before, .xrx-two_staples_top_p::before, .xrx-uncoat=
+ed_lef::before, .xrx-uncoated_reloaded_lef::before, .xrx-uncoated_reloaded_=
+sef::before, .xrx-uncoated_sef::before, .xrx-underline::before, .xrx-undo::=
+before, .xrx-undo_square::before, .xrx-unlock::before, .xrx-unlock_square::=
+before, .xrx-upload::before, .xrx-upload_square::before, .xrx-usage_counter=
+::before, .xrx-usb::before, .xrx-user::before, .xrx-user_add::before, .xrx-=
+user_admin::before, .xrx-user_check_on::before, .xrx-user_diagnose::before,=
+ .xrx-user_favorite::before, .xrx-user_job::before, .xrx-user_network::befo=
+re, .xrx-user_password::before, .xrx-user_personalize::before, .xrx-user_sa=
+ve::before, .xrx-user_secure::before, .xrx-user_subtract::before, .xrx-vide=
+o::before, .xrx-video_player::before, .xrx-view::before, .xrx-view_disabled=
+::before, .xrx-volume::before, .xrx-volume_high::before, .xrx-volume_low::b=
+efore, .xrx-volume_mute::before, .xrx-wand::before, .xrx-weight::before, .x=
+rx-wifi::before, .xrx-wifi_direct::before, .xrx-wifi_disabled::before, .xrx=
+-wifi_logo::before, .xrx-wifi_medium::before, .xrx-wifi_none::before, .xrx-=
+wifi_secure_medium::before, .xrx-wifi_secure_none::before, .xrx-wifi_secure=
+_strong::before, .xrx-wifi_secure_weak::before, .xrx-wifi_weak::before, .xr=
+x-window::before, .xrx-windows_phone::before, .xrx-workflow::before, .xrx-w=
+orkflow_add::before, .xrx-wrench::before, .xrx-wrench_phone::before, .xrx-w=
+rench_square::before, .xrx-youtube::before, .xrx-zoom_in::before, .xrx-zoom=
+_out::before { font-family: XeroxGlyph-Icons; font-style: normal; font-weig=
+ht: normal; font-variant: normal; text-transform: none; -webkit-font-smooth=
+ing: antialiased; line-height: 0; }
+
+.xrx-accounting::before { content: "=F0=9F=8F=A6"; }
+
+.xrx-accounting_auxiliary_device::before { content: "=E2=9B=B9"; }
+
+.xrx-accounting_disabled::before { content: "=E2=9B=BA"; }
+
+.xrx-accounting_network::before { content: "=E2=9B=BB"; }
+
+.xrx-action::before { content: "=E2=87=AB"; }
+
+.xrx-activity::before { content: "=EF=8C=B5"; }
+
+.xrx-add_circle::before { content: "=E2=8A=95"; }
+
+.xrx-add_square::before { content: "=E2=8A=9E"; }
+
+.xrx-adhesive_lef::before { content: "=EE=AA=88"; }
+
+.xrx-adhesive_sef::before { content: "=EE=AA=89"; }
+
+.xrx-airplane::before { content: "=EE=B0=82"; }
+
+.xrx-airprint::before { content: "=E2=9C=88"; }
+
+.xrx-alarmclock::before { content: "=E2=8F=B0"; }
+
+.xrx-alert::before { content: "=E2=9A=A0"; }
+
+.xrx-alert_square::before { content: "=EE=B0=96"; }
+
+.xrx-align_dropdown::before { content: "=EA=9C=92"; }
+
+.xrx-align_left::before { content: "=E2=96=8C"; }
+
+.xrx-align_right::before { content: "=E2=96=90"; }
+
+.xrx-android::before { content: "=EE=B0=A6"; }
+
+.xrx-apple::before { content: "=EF=A3=BF"; }
+
+.xrx-applications::before { content: "=E2=96=88"; }
+
+.xrx-archival_lef::before { content: "=EE=80=84"; }
+
+.xrx-archival_sef::before { content: "=EE=80=B0"; }
+
+.xrx-arrow_down::before { content: "=E2=86=93"; }
+
+.xrx-arrow_down_left::before { content: "=E2=86=99"; }
+
+.xrx-arrow_down_right::before { content: "=E2=86=98"; }
+
+.xrx-arrow_left::before { content: "=E2=86=90"; }
+
+.xrx-arrow_left_right::before { content: "=EE=A8=B9"; }
+
+.xrx-arrow_right::before { content: "=E2=86=92"; }
+
+.xrx-arrow_right_square::before { content: "=EE=AA=84"; }
+
+.xrx-arrow_up::before { content: "=E2=86=91"; }
+
+.xrx-arrow_up_down::before { content: "=EE=A8=B8"; }
+
+.xrx-arrow_up_left::before { content: "=E2=86=96"; }
+
+.xrx-arrow_up_right::before { content: "=E2=86=97"; }
+
+.xrx-asterisk::before { content: "*"; }
+
+.xrx-asterisk_square::before { content: "=E2=9C=B1"; }
+
+.xrx-auto::before { content: "=E2=8C=81"; }
+
+.xrx-automatically_select_type_lef::before { content: "=EE=80=80"; }
+
+.xrx-automatically_select_type_sef::before { content: "=EE=80=B1"; }
+
+.xrx-auto_disabled::before { content: "=EF=80=91"; }
+
+.xrx-background_color::before { content: "=C4=80"; }
+
+.xrx-backspace::before { content: "=E2=8C=AB"; }
+
+.xrx-backspace_rtl::before { content: "=EE=89=9C"; }
+
+.xrx-banner_close::before { content: "=E2=94=85"; }
+
+.xrx-barcode::before { content: "=E2=96=AE"; }
+
+.xrx-bar_chart::before { content: "=F0=9F=93=8A"; }
+
+.xrx-bates_stamp::before { content: "=EA=84=94"; }
+
+.xrx-bell::before { content: "=F0=9F=94=94"; }
+
+.xrx-bell_disabled::before { content: "=F0=9F=94=95"; }
+
+.xrx-billboard::before { content: "=EE=89=96"; }
+
+.xrx-bluetooth::before { content: "=CA=99"; }
+
+.xrx-bluetooth_logo::before { content: "=C9=83"; }
+
+.xrx-bold::before { content: "=F0=9D=90=81"; }
+
+.xrx-bond_lef::before { content: "=EE=80=85"; }
+
+.xrx-bond_sef::before { content: "=EE=81=B6"; }
+
+.xrx-book::before { content: "=F0=9F=93=96"; }
+
+.xrx-bookmark::before { content: "=F0=9F=94=96"; }
+
+.xrx-bootstrap::before { content: "=E2=84=AC"; }
+
+.xrx-box::before { content: "=EE=94=A0"; }
+
+.xrx-brightness::before { content: "=F0=9F=94=86"; }
+
+.xrx-business::before { content: "=F0=9F=8F=A2"; }
+
+.xrx-businesses::before { content: "=F0=9F=8C=87"; }
+
+.xrx-button::before { content: "=E2=97=8F"; }
+
+.xrx-bypass_paper_empty::before { content: "=E2=87=A2"; }
+
+.xrx-bypass_paper_present::before { content: "=E2=87=9D"; }
+
+.xrx-calculate::before { content: "=E2=88=91"; }
+
+.xrx-calculator::before { content: "=EE=95=91"; }
+
+.xrx-calendar::before { content: "=F0=9F=93=85"; }
+
+.xrx-camera::before { content: "=F0=9F=93=B7"; }
+
+.xrx-caps::before { content: "=E2=87=AA"; }
+
+.xrx-card::before { content: "=EE=AC=91"; }
+
+.xrx-cart::before { content: "=F0=9F=91=9D"; }
+
+.xrx-cast_coated_lef::before { content: "=EE=A9=99"; }
+
+.xrx-cast_coated_sef::before { content: "=EE=A9=A0"; }
+
+.xrx-center_text::before { content: "=E2=96=80"; }
+
+.xrx-certificate::before { content: "=F0=9F=94=B8"; }
+
+.xrx-certificate_error::before { content: "=E2=AC=A9"; }
+
+.xrx-certificate_upload::before { content: "=E2=AC=B3"; }
+
+.xrx-certified::before { content: "=EE=B0=88"; }
+
+.xrx-change::before { content: "=F0=9F=94=80"; }
+
+.xrx-chat::before { content: "=EF=92=AC"; }
+
+.xrx-chat_text::before { content: "=F0=9F=92=AC"; }
+
+.xrx-checklist::before { content: "=EE=82=80"; }
+
+.xrx-checkmark::before { content: "=E2=9C=93"; }
+
+.xrx-checkmark_circle::before { content: "=EE=B0=92"; }
+
+.xrx-check_background::before { content: "=E2=96=A1"; }
+
+.xrx-check_off::before { content: "=E2=96=A2"; }
+
+.xrx-check_on::before { content: "=E2=98=91"; }
+
+.xrx-check_on_press::before { content: "=E2=98=90"; }
+
+.xrx-chrome::before { content: "=EE=B0=9E"; }
+
+.xrx-clear_all::before { content: "=E2=98=92"; }
+
+.xrx-clipboard::before { content: "=F0=9F=93=8B"; }
+
+.xrx-clipboard_add::before { content: "=EE=B8=A6"; }
+
+.xrx-clock::before { content: "=F0=9F=95=98"; }
+
+.xrx-clock_square::before { content: "=EE=A9=B6"; }
+
+.xrx-clone::before { content: "=EE=B8=A7"; }
+
+.xrx-clone_alt::before { content: "=EE=B8=A8"; }
+
+.xrx-clone_destination::before { content: "=EE=B8=A9"; }
+
+.xrx-clone_source::before { content: "=EE=B8=AA"; }
+
+.xrx-close::before { content: "=E2=9C=96"; }
+
+.xrx-close_square::before { content: "=E2=98=93"; }
+
+.xrx-cloud::before { content: "=E2=98=81"; }
+
+.xrx-cloud_check_square::before { content: "=EE=AA=81"; }
+
+.xrx-cloud_close_square::before { content: "=EE=AA=82"; }
+
+.xrx-cloud_disabled_square::before { content: "=EE=AA=80"; }
+
+.xrx-cloud_download::before { content: "=E2=86=B7"; }
+
+.xrx-cloud_download_square::before { content: "=EE=A9=B7"; }
+
+.xrx-cloud_print::before { content: "=EE=A9=8A"; }
+
+.xrx-cloud_square::before { content: "=EE=A9=B9"; }
+
+.xrx-cloud_upload::before { content: "=E2=86=B6"; }
+
+.xrx-cloud_upload_square::before { content: "=EE=A9=B8"; }
+
+.xrx-code::before { content: "=EE=B8=98"; }
+
+.xrx-code_square::before { content: "=EE=B8=99"; }
+
+.xrx-coins::before { content: "=F0=9F=9C=9B"; }
+
+.xrx-coin_star::before { content: "=EE=AC=92"; }
+
+.xrx-color_overlay::before { content: "=E2=96=81"; }
+
+.xrx-columns::before { content: "=E2=80=96"; }
+
+.xrx-compose::before { content: "=F0=9F=93=9D"; }
+
+.xrx-compress::before { content: "=E6=8B=B6"; }
+
+.xrx-computer::before { content: "=F0=9F=96=A5"; }
+
+.xrx-confidential_danger::before { content: "=EE=B0=B8"; }
+
+.xrx-confidential_ok::before { content: "=EE=B0=B6"; }
+
+.xrx-confidential_warning::before { content: "=EE=B0=B7"; }
+
+.xrx-configuration_report::before { content: "=E5=A0=B1"; }
+
+.xrx-contacts::before { content: "=F0=9F=93=91"; }
+
+.xrx-contacts_add::before { content: "=EE=B8=92"; }
+
+.xrx-contact_card::before { content: "=F0=9F=93=87"; }
+
+.xrx-contract::before { content: "=EE=A9=80"; }
+
+.xrx-contract_height::before { content: "=EE=A9=82"; }
+
+.xrx-contrast::before { content: "=E2=97=91"; }
+
+.xrx-control_panel_horizontal::before { content: "=EE=81=AF"; }
+
+.xrx-control_panel_vertical::before { content: "=EE=81=AE"; }
+
+.xrx-create::before { content: "=E2=9B=B6"; }
+
+.xrx-credit_card::before { content: "=F0=9F=92=B3"; }
+
+.xrx-credit_cards::before { content: "=EE=B0=91"; }
+
+.xrx-crop::before { content: "=E2=8C=8C"; }
+
+.xrx-crosshair::before { content: "=EE=AC=87"; }
+
+.xrx-custom_type_five_lef::before { content: "=E2=9E=8E"; }
+
+.xrx-custom_type_five_sef::before { content: "=EE=80=B7"; }
+
+.xrx-custom_type_four_lef::before { content: "=E2=9E=8D"; }
+
+.xrx-custom_type_four_sef::before { content: "=EE=80=B6"; }
+
+.xrx-custom_type_lef::before { content: "=EE=A9=96"; }
+
+.xrx-custom_type_one_lef::before { content: "=E2=9E=8A"; }
+
+.xrx-custom_type_one_sef::before { content: "=EE=81=B2"; }
+
+.xrx-custom_type_sef::before { content: "=EE=A9=95"; }
+
+.xrx-custom_type_seven_lef::before { content: "=E2=9E=90"; }
+
+.xrx-custom_type_seven_sef::before { content: "=EE=80=B9"; }
+
+.xrx-custom_type_six_lef::before { content: "=E2=9E=8F"; }
+
+.xrx-custom_type_six_sef::before { content: "=EE=80=B8"; }
+
+.xrx-custom_type_three_lef::before { content: "=E2=9E=8C"; }
+
+.xrx-custom_type_three_sef::before { content: "=EE=80=B5"; }
+
+.xrx-custom_type_two_lef::before { content: "=E2=9E=8B"; }
+
+.xrx-custom_type_two_sef::before { content: "=EE=81=B3"; }
+
+.xrx-dashboard::before { content: "=E2=80=94"; }
+
+.xrx-decrease_indent::before { content: "=E2=86=9C"; }
+
+.xrx-delete_all::before { content: "=EE=82=98"; }
+
+.xrx-demote::before { content: "=E2=AC=8E"; }
+
+.xrx-demote_square::before { content: "=E2=A4=B5"; }
+
+.xrx-deselect_all::before { content: "=E2=9C=95"; }
+
+.xrx-desktop::before { content: "=F0=9F=92=BB"; }
+
+.xrx-details::before { content: "=E2=84=B9"; }
+
+.xrx-dial::before { content: "=E2=80=93"; }
+
+.xrx-displays::before { content: "=EE=AC=81"; }
+
+.xrx-document_glass::before { content: "=F0=9F=93=90"; }
+
+.xrx-download::before { content: "=E2=86=A7"; }
+
+.xrx-download_square::before { content: "=EE=A9=B3"; }
+
+.xrx-dropbox::before { content: "=E2=8D=BD"; }
+
+.xrx-duplex::before { content: "=EE=B0=9D"; }
+
+.xrx-duplicate::before { content: "=E2=8A=8E"; }
+
+.xrx-edit::before { content: "=E2=9C=8E"; }
+
+.xrx-edit_all::before { content: "=EE=B8=94"; }
+
+.xrx-edit_color::before { content: "=F0=9F=96=89"; }
+
+.xrx-edit_disabled::before { content: "=EE=81=B1"; }
+
+.xrx-edit_square::before { content: "=E2=9C=8F"; }
+
+.xrx-eject::before { content: "=E2=8F=8F"; }
+
+.xrx-ellipsis::before { content: "=E2=80=A6"; }
+
+.xrx-ellipsis_vertical::before { content: "=E2=97=8D"; }
+
+.xrx-email_message::before { content: "=EE=AA=85"; }
+
+.xrx-embossed_lef::before { content: "=EE=80=86"; }
+
+.xrx-embossed_sef::before { content: "=EE=80=BA"; }
+
+.xrx-emboss_full_cut_tabs_lef::before { content: "=EE=B0=8E"; }
+
+.xrx-emboss_full_cut_tabs_sef::before { content: "=EE=B0=98"; }
+
+.xrx-emboss_precut_tabs_lef::before { content: "=EE=B0=8B"; }
+
+.xrx-emboss_precut_tabs_sef::before { content: "=EE=B0=8A"; }
+
+.xrx-energy_saver::before { content: "=E2=93=8F"; }
+
+.xrx-enter::before { content: "=E2=8F=8E"; }
+
+.xrx-enter_rtl::before { content: "=EE=89=9D"; }
+
+.xrx-envelope::before { content: "=E2=9C=89"; }
+
+.xrx-envelope_lef::before { content: "=EE=81=B0"; }
+
+.xrx-envelope_reloaded_lef::before { content: "=EE=AC=8A"; }
+
+.xrx-envelope_reloaded_sef::before { content: "=EE=AC=8B"; }
+
+.xrx-envelope_sef::before { content: "=EE=80=BB"; }
+
+.xrx-eraser::before { content: "=E2=AC=92"; }
+
+.xrx-exit::before { content: "=F0=9F=9A=AA"; }
+
+.xrx-expand::before { content: "=EA=84=95"; }
+
+.xrx-expand_height::before { content: "=EE=A9=81"; }
+
+.xrx-export::before { content: "=E2=87=AF"; }
+
+.xrx-extra_heavyweight_gloss_lef::before { content: "=EE=80=92"; }
+
+.xrx-extra_heavyweight_gloss_sef::before { content: "=EE=81=80"; }
+
+.xrx-extra_heavyweight_labels_lef::before { content: "=EE=80=9B"; }
+
+.xrx-extra_heavyweight_labels_sef::before { content: "=EE=81=9A"; }
+
+.xrx-extra_heavyweight_lef::before { content: "=EE=80=91"; }
+
+.xrx-extra_heavyweight_plus_lef::before { content: "=EE=80=95"; }
+
+.xrx-extra_heavyweight_plus_sef::before { content: "=EE=81=82"; }
+
+.xrx-extra_heavyweight_punched_lef::before { content: "=EE=A9=A7"; }
+
+.xrx-extra_heavyweight_punched_sef::before { content: "=EE=A9=A8"; }
+
+.xrx-extra_heavyweight_reloaded_lef::before { content: "=EE=80=94"; }
+
+.xrx-extra_heavyweight_reloaded_sef::before { content: "=EE=81=84"; }
+
+.xrx-extra_heavyweight_sef::before { content: "=EE=80=BF"; }
+
+.xrx-extra_hw_gloss_plus_lef::before { content: "=EE=B0=BE"; }
+
+.xrx-extra_hw_gloss_plus_sef::before { content: "=EE=B0=BD"; }
+
+.xrx-extra_hw_gloss_reloaded_lef::before { content: "=EE=80=93"; }
+
+.xrx-extra_hw_gloss_reloaded_sef::before { content: "=EE=81=81"; }
+
+.xrx-extra_hw_plus_reloaded_lef::before { content: "=EE=80=96"; }
+
+.xrx-extra_hw_plus_reloaded_sef::before { content: "=EE=81=83"; }
+
+.xrx-facebook::before { content: "=EE=B0=A7"; }
+
+.xrx-fastforward::before { content: "=E2=8F=A9"; }
+
+.xrx-fault::before { content: "=E2=AC=A3"; }
+
+.xrx-favorites::before { content: "=E2=9C=A6"; }
+
+.xrx-favorites_disabled::before, .xrx-favorites_disabled_light::before { co=
+ntent: "=E2=9C=A7"; }
+
+.xrx-fax_dialog_characters::before { content: "=EA=84=93"; }
+
+.xrx-fax_dial_numbers::before { content: "=E2=8C=90"; }
+
+.xrx-fax_machine::before { content: "=F0=9F=93=A0"; }
+
+.xrx-fax_secure::before { content: "=EE=89=97"; }
+
+.xrx-file::before { content: "=EE=B0=85"; }
+
+.xrx-files::before { content: "=EE=B0=80"; }
+
+.xrx-file_cabinet::before { content: "=EE=A4=80"; }
+
+.xrx-file_l::before { content: "=EE=AA=96"; }
+
+.xrx-file_locked::before { content: "=EE=A8=83"; }
+
+.xrx-file_move::before { content: "=EE=B0=BA"; }
+
+.xrx-file_move_copy::before { content: "=EE=B0=BB"; }
+
+.xrx-file_outline::before { content: "=F0=9F=93=84"; }
+
+.xrx-film_lef::before { content: "=EE=80=88"; }
+
+.xrx-film_sef::before { content: "=EE=81=8B"; }
+
+.xrx-finishing::before { content: "=EE=B8=A0"; }
+
+.xrx-firefox::before { content: "=EE=B0=A5"; }
+
+.xrx-flag::before { content: "=E2=9A=91"; }
+
+.xrx-fold::before { content: "=F0=9F=93=95"; }
+
+.xrx-folder::before { content: "=F0=9F=93=81"; }
+
+.xrx-folder_add::before { content: "=E5=8A=A0"; }
+
+.xrx-folder_camera::before { content: "=F0=9F=93=B8"; }
+
+.xrx-folder_download::before { content: "=EE=B1=B6"; }
+
+.xrx-folder_locked::before { content: "=EE=A8=81"; }
+
+.xrx-folder_personal::before { content: "=F0=9F=93=83"; }
+
+.xrx-folder_public::before { content: "=F0=9F=97=BA"; }
+
+.xrx-folder_read_only::before { content: "=E2=8D=89"; }
+
+.xrx-folder_subtract::before { content: "=E6=B8=9B"; }
+
+.xrx-folder_unlock::before { content: "=EE=A8=80"; }
+
+.xrx-folder_upload::before { content: "=F0=9F=93=82"; }
+
+.xrx-folder_usb::before { content: "=E2=9A=AD"; }
+
+.xrx-folding::before { content: "=F0=9F=93=99"; }
+
+.xrx-fonts::before { content: "=E3=92=B3"; }
+
+.xrx-font_color::before { content: "=EA=9C=BA"; }
+
+.xrx-four_holes_left_l::before { content: "=EE=AA=91"; }
+
+.xrx-four_holes_left_p::before { content: "=EE=AA=94"; }
+
+.xrx-four_holes_right_l::before { content: "=EE=AA=90"; }
+
+.xrx-four_holes_right_p::before { content: "=EE=AA=95"; }
+
+.xrx-four_holes_top_l::before { content: "=EE=AA=93"; }
+
+.xrx-four_holes_top_p::before { content: "=EE=AA=92"; }
+
+.xrx-full_cut_tabs_lef::before { content: "=EE=81=96"; }
+
+.xrx-full_cut_tabs_sef::before { content: "=EE=80=89"; }
+
+.xrx-funnel::before { content: "=E6=BC=8F"; }
+
+.xrx-fx_logo::before { content: "=EE=82=89"; }
+
+.xrx-fx_logo_small::before { content: "=EE=82=90"; }
+
+.xrx-gear::before { content: "=E2=9A=99"; }
+
+.xrx-gears::before { content: "=EF=98=B9"; }
+
+.xrx-globe::before { content: "=F0=9F=8C=90"; }
+
+.xrx-gloss_lef::before { content: "=EE=80=8A"; }
+
+.xrx-gloss_reloaded_lef::before { content: "=EE=80=8B"; }
+
+.xrx-gloss_reloaded_sef::before { content: "=EE=80=BE"; }
+
+.xrx-gloss_sef::before { content: "=EE=80=BD"; }
+
+.xrx-google::before { content: "=EE=B0=A0"; }
+
+.xrx-google_drive::before { content: "=E2=8F=85"; }
+
+.xrx-google_plus::before { content: "=EE=B0=AA"; }
+
+.xrx-grid::before { content: "=E2=AC=9A"; }
+
+.xrx-group::before { content: "=F0=9F=91=A5"; }
+
+.xrx-group_add::before { content: "=F0=9F=91=A6"; }
+
+.xrx-group_favorite::before { content: "=E2=98=84"; }
+
+.xrx-group_network::before { content: "=EE=B0=AF"; }
+
+.xrx-hand::before { content: "=F0=9F=91=8A"; }
+
+.xrx-hard_drive::before { content: "=E2=9C=87"; }
+
+.xrx-headset::before { content: "=F0=9F=8E=A7"; }
+
+.xrx-heart::before { content: "=E2=99=A5"; }
+
+.xrx-heart_disabled::before { content: "=F0=9F=92=94"; }
+
+.xrx-heavyweight_gloss_lef::before { content: "=EE=80=8E"; }
+
+.xrx-heavyweight_gloss_reloaded_lef::before { content: "=EE=80=8F"; }
+
+.xrx-heavyweight_gloss_reloaded_sef::before { content: "=EE=81=87"; }
+
+.xrx-heavyweight_gloss_sef::before { content: "=EE=81=86"; }
+
+.xrx-heavyweight_hole_punched_lef::before { content: "=EE=A9=A5"; }
+
+.xrx-heavyweight_hole_punched_sef::before { content: "=EE=A9=A6"; }
+
+.xrx-heavyweight_labels_lef::before { content: "=EE=80=9A"; }
+
+.xrx-heavyweight_labels_sef::before { content: "=EE=81=99"; }
+
+.xrx-heavyweight_lef::before { content: "=EE=80=8D"; }
+
+.xrx-heavyweight_precut_tabs_lef::before { content: "=EE=A8=84"; }
+
+.xrx-heavyweight_precut_tabs_sef::before { content: "=EE=A8=85"; }
+
+.xrx-heavyweight_preprinted_lef::before { content: "=EE=A9=90"; }
+
+.xrx-heavyweight_preprinted_sef::before { content: "=EE=A9=91"; }
+
+.xrx-heavyweight_reloaded_lef::before { content: "=EE=80=90"; }
+
+.xrx-heavyweight_reloaded_sef::before { content: "=EE=81=88"; }
+
+.xrx-heavyweight_sef::before { content: "=EE=81=85"; }
+
+.xrx-help::before { content: "=E2=9D=93"; }
+
+.xrx-help_rtl::before { content: "=EE=89=9E"; }
+
+.xrx-highlighter::before { content: "=F0=9F=96=8A"; }
+
+.xrx-history::before { content: "=E2=A5=80"; }
+
+.xrx-hole_punch::before { content: "=E2=9E=80"; }
+
+.xrx-hole_punched_lef::before { content: "=EE=80=8C"; }
+
+.xrx-hole_punched_sef::before { content: "=EE=81=8F"; }
+
+.xrx-home::before { content: "=E2=8C=82"; }
+
+.xrx-home_favorite::before { content: "=EE=A9=89"; }
+
+.xrx-home_outline::before { content: "=E2=8C=83"; }
+
+.xrx-id_card::before { content: "=F0=9F=86=94"; }
+
+.xrx-ignored::before { content: "=E2=9C=8B"; }
+
+.xrx-import::before { content: "=E2=87=AE"; }
+
+.xrx-import_export::before { content: "=E2=87=85"; }
+
+.xrx-inbox::before { content: "=E2=AC=99"; }
+
+.xrx-increase_indent::before { content: "=E2=86=9D"; }
+
+.xrx-information::before { content: "=E2=8D=BF"; }
+
+.xrx-insert::before { content: "=EE=B0=BF"; }
+
+.xrx-inserter_paper_empty::before { content: "=E2=A4=B6"; }
+
+.xrx-inserter_paper_present::before { content: "=E2=A4=A6"; }
+
+.xrx-instagram::before { content: "=EE=B0=AB"; }
+
+.xrx-install::before { content: "=E2=87=B2"; }
+
+.xrx-install_square::before { content: "=E2=AD=BD"; }
+
+.xrx-internet_explorer::before { content: "=EE=B0=A1"; }
+
+.xrx-interrupt::before { content: "=EE=82=96"; }
+
+.xrx-italic::before { content: "=C3=8D"; }
+
+.xrx-justify_text::before { content: "=E2=96=84"; }
+
+.xrx-key::before { content: "=F0=9F=94=91"; }
+
+.xrx-keyboard::before { content: "=E2=8C=A8"; }
+
+.xrx-keyboard_accent::before { content: "=E2=8C=87"; }
+
+.xrx-keyboard_alpha::before { content: "=EE=B8=A4"; }
+
+.xrx-keyboard_arabic::before { content: "=EE=89=AA"; }
+
+.xrx-keyboard_chinese_simplified::before { content: "=EE=89=A6"; }
+
+.xrx-keyboard_chinese_traditional::before { content: "=EE=89=A7"; }
+
+.xrx-keyboard_down::before { content: "=E2=8D=94"; }
+
+.xrx-keyboard_greek_alpha::before { content: "=EE=B8=A2"; }
+
+.xrx-keyboard_japanese_hiragana::before { content: "=EE=89=A4"; }
+
+.xrx-keyboard_japanese_kana::before { content: "=EE=89=A5"; }
+
+.xrx-keyboard_japanese_katakana::before { content: "=EE=89=A3"; }
+
+.xrx-keyboard_korean::before { content: "=EE=89=A8"; }
+
+.xrx-keyboard_numbers::before { content: "=EE=B8=A5"; }
+
+.xrx-keyboard_russian_alpha::before { content: "=EE=B8=A3"; }
+
+.xrx-keyboard_symbols::before { content: "}"; }
+
+.xrx-keyboard_thai::before { content: "=EE=89=A9"; }
+
+.xrx-keypad::before { content: "=EE=82=81"; }
+
+.xrx-key_counter::before { content: "=E2=A0=80"; }
+
+.xrx-labels_lef::before { content: "=EE=80=99"; }
+
+.xrx-labels_sef::before { content: "=EE=81=98"; }
+
+.xrx-landscape::before { content: "=F0=9F=8C=83"; }
+
+.xrx-laptop::before { content: "=EF=80=94"; }
+
+.xrx-layout_image_text_l::before { content: "=EE=89=9B"; }
+
+.xrx-layout_image_text_p::before { content: "=EE=89=99"; }
+
+.xrx-layout_text_image_l::before { content: "=EE=89=9A"; }
+
+.xrx-layout_text_image_p::before { content: "=EE=89=98"; }
+
+.xrx-lef_sef::before { content: "=EE=AC=80"; }
+
+.xrx-lef_sef_fill::before { content: "=EE=AC=93"; }
+
+.xrx-letterhead_lef::before { content: "=EE=80=9C"; }
+
+.xrx-letterhead_sef::before { content: "=EE=81=8C"; }
+
+.xrx-lightbulb::before { content: "=F0=9F=92=A1"; }
+
+.xrx-lightweight_gloss_lef::before { content: "=EE=80=98"; }
+
+.xrx-lightweight_gloss_sef::before { content: "=EE=81=8A"; }
+
+.xrx-lightweight_lef::before { content: "=EE=80=97"; }
+
+.xrx-lightweight_preprinted_lef::before { content: "=EE=A8=88"; }
+
+.xrx-lightweight_preprinted_sef::before { content: "=EE=A8=89"; }
+
+.xrx-lightweight_reloaded_lef::before { content: "=EE=A8=86"; }
+
+.xrx-lightweight_reloaded_sef::before { content: "=EE=A8=87"; }
+
+.xrx-lightweight_sef::before { content: "=EE=81=89"; }
+
+.xrx-link::before { content: "=F0=9F=94=97"; }
+
+.xrx-linked_in::before { content: "=EE=B0=A8"; }
+
+.xrx-link_small::before { content: "=E6=8B=BC"; }
+
+.xrx-list::before { content: "=EE=B5=90"; }
+
+.xrx-list_rtl::before { content: "=EE=89=9F"; }
+
+.xrx-locked::before { content: "=EE=80=B4"; }
+
+.xrx-locked_square::before { content: "=EE=A9=92"; }
+
+.xrx-lock_outline::before { content: "=EF=94=92"; }
+
+.xrx-logo::before { content: "=E1=BA=8A"; }
+
+.xrx-logo_small::before { content: "=E1=BA=8C"; }
+
+.xrx-long_edge_feed::before { content: "=E2=88=BF"; }
+
+.xrx-mailbox::before { content: "=F0=9F=93=AA"; }
+
+.xrx-mailboxes::before { content: "=E2=AC=93"; }
+
+.xrx-mailbox_add::before { content: "=EE=AC=8E"; }
+
+.xrx-mailbox_private::before { content: "=E2=8C=A7"; }
+
+.xrx-map::before { content: "=E2=9B=B8"; }
+
+.xrx-matte_lef::before { content: "=EE=A9=97"; }
+
+.xrx-matte_sef::before { content: "=EE=A9=98"; }
+
+.xrx-medal::before { content: "=EE=B0=97"; }
+
+.xrx-menu::before { content: "=E2=98=B0"; }
+
+.xrx-menu_side::before { content: "=EE=A8=BA"; }
+
+.xrx-merge::before { content: "=EE=B0=94"; }
+
+.xrx-mfd::before { content: "=E2=9B=8A"; }
+
+.xrx-mfd_fill::before { content: "=EE=B8=AB"; }
+
+.xrx-microphone::before { content: "=F0=9F=8E=A4"; }
+
+.xrx-minimize::before { content: "=E2=94=81"; }
+
+.xrx-minus::before { content: "=E2=88=92"; }
+
+.xrx-mobile::before { content: "=F0=9F=93=B1"; }
+
+.xrx-mountain::before { content: "=E2=9B=B0"; }
+
+.xrx-mountain_square::before { content: "=EE=89=AB"; }
+
+.xrx-move::before { content: "=F0=9F=95=82"; }
+
+.xrx-ms_edge::before { content: "=EE=B0=B0"; }
+
+.xrx-ms_office::before { content: "=EE=B0=B1"; }
+
+.xrx-navigate_down::before { content: "=E2=87=93"; }
+
+.xrx-navigate_first::before { content: "=E2=87=87"; }
+
+.xrx-navigate_last::before { content: "=E2=87=89"; }
+
+.xrx-navigate_left::before { content: "=E2=87=90"; }
+
+.xrx-navigate_right::before { content: "=E2=87=92"; }
+
+.xrx-navigate_up::before { content: "=E2=87=91"; }
+
+.xrx-network::before { content: "=E4=8D=9D"; }
+
+.xrx-network_square::before { content: "=EE=A9=B2"; }
+
+.xrx-newspaper::before { content: "=F0=9F=93=B0"; }
+
+.xrx-next::before { content: "=E2=96=BA"; }
+
+.xrx-next_square::before { content: "=EF=80=92"; }
+
+.xrx-nfc::before { content: "=F0=9F=93=B2"; }
+
+.xrx-non_secure::before { content: "=E6=B7=A1"; }
+
+.xrx-notebook::before { content: "=F0=9F=93=93"; }
+
+.xrx-no_entry::before { content: "=E2=9B=94"; }
+
+.xrx-numbering::before { content: "=E2=86=88"; }
+
+.xrx-numbering_rtl::before { content: "=EE=89=A2"; }
+
+.xrx-offset_printed::before { content: "=F0=9F=90=BE"; }
+
+.xrx-onedrive::before { content: "=EE=A8=82"; }
+
+.xrx-one_staple_l::before { content: "=EE=81=A5"; }
+
+.xrx-one_staple_left_l::before { content: "=EE=82=83"; }
+
+.xrx-one_staple_left_p::before { content: "=EE=81=B8"; }
+
+.xrx-one_staple_p::before { content: "=EE=81=9B"; }
+
+.xrx-one_staple_right_l::before { content: "=EE=82=84"; }
+
+.xrx-one_staple_right_p::before { content: "=EE=81=B9"; }
+
+.xrx-one_touch::before { content: "=E2=98=9A"; }
+
+.xrx-opera::before { content: "=EE=B0=A2"; }
+
+.xrx-order_down_left::before { content: "=E2=84=A4"; }
+
+.xrx-order_down_right::before { content: "=E1=B4=8E"; }
+
+.xrx-order_left_down::before { content: "=E1=B6=B0"; }
+
+.xrx-order_left_right::before { content: "=EE=AC=88"; }
+
+.xrx-order_right_down::before { content: "=E1=B4=A2"; }
+
+.xrx-order_right_left::before { content: "=EE=AC=89"; }
+
+.xrx-other_type_lef::before { content: "=EE=80=9D"; }
+
+.xrx-other_type_lef_rtl::before { content: "=EE=89=A0"; }
+
+.xrx-other_type_sef::before { content: "=EE=81=8D"; }
+
+.xrx-other_type_sef_rtl::before { content: "=EE=89=A1"; }
+
+.xrx-outbox::before { content: "=E2=AC=98"; }
+
+.xrx-package::before { content: "=F0=9F=93=A6"; }
+
+.xrx-page_number::before { content: "=F0=9F=92=B7"; }
+
+.xrx-paint::before { content: "=E7=AD=B2"; }
+
+.xrx-paperclip::before { content: "=F0=9F=93=8E"; }
+
+.xrx-password::before { content: "=E2=81=9E"; }
+
+.xrx-pause::before { content: "=E2=97=AB"; }
+
+.xrx-pause_circle::before { content: "=EF=80=96"; }
+
+.xrx-paypal::before { content: "=EE=B0=A3"; }
+
+.xrx-personal_jobs::before { content: "=EE=82=91"; }
+
+.xrx-phone::before { content: "=F0=9F=93=9E"; }
+
+.xrx-phone_disabled::before { content: "=F0=9F=93=B5"; }
+
+.xrx-photo_lef::before { content: "=EE=80=9E"; }
+
+.xrx-photo_sef::before { content: "=EE=81=8E"; }
+
+.xrx-picture::before { content: "=F0=9F=8C=84"; }
+
+.xrx-pictures::before { content: "=EE=A1=91"; }
+
+.xrx-pie_chart::before { content: "=E2=97=8C"; }
+
+.xrx-plain_lef::before { content: "=EE=80=82"; }
+
+.xrx-plain_reloaded_lef::before { content: "=EE=80=83"; }
+
+.xrx-plain_reloaded_sef::before { content: "=EE=80=BC"; }
+
+.xrx-plain_sef::before { content: "=EE=81=B4"; }
+
+.xrx-play::before { content: "=E2=96=B6"; }
+
+.xrx-plug::before { content: "=EE=B0=90"; }
+
+.xrx-plus::before { content: "+"; }
+
+.xrx-plus_minus::before { content: "=EE=B0=BC"; }
+
+.xrx-pointer::before { content: "=EE=80=AC"; }
+
+.xrx-polling::before { content: "=E2=9C=98"; }
+
+.xrx-portrait::before { content: "=E2=98=BA"; }
+
+.xrx-positioning::before { content: "=E2=8C=96"; }
+
+.xrx-postcard_lef::before { content: "=EE=81=94"; }
+
+.xrx-postcard_reloaded_lef::before { content: "=EE=A9=A1"; }
+
+.xrx-postcard_reloaded_sef::before { content: "=EE=A9=A2"; }
+
+.xrx-postcard_sef::before { content: "=EE=80=9F"; }
+
+.xrx-pound::before { content: "#"; }
+
+.xrx-power::before { content: "=E2=8C=BD"; }
+
+.xrx-precut_tabs_lef::before { content: "=EE=81=95"; }
+
+.xrx-precut_tabs_sef::before { content: "=EE=80=A0"; }
+
+.xrx-preprinted_lef::before { content: "=EE=80=A1"; }
+
+.xrx-preprinted_sef::before { content: "=EE=81=97"; }
+
+.xrx-presentation::before { content: "=F0=9F=8E=A6"; }
+
+.xrx-previous::before { content: "=E2=97=84"; }
+
+.xrx-previous_square::before { content: "=EF=80=93"; }
+
+.xrx-print::before { content: "=E2=8E=99"; }
+
+.xrx-printer_default_type_lef::before { content: "=EE=80=81"; }
+
+.xrx-printer_default_type_sef::before { content: "=EE=81=92"; }
+
+.xrx-print_square::before { content: "=EE=A9=B1"; }
+
+.xrx-profile::before { content: "=EE=B0=93"; }
+
+.xrx-prohibit::before { content: "=E2=83=A0"; }
+
+.xrx-prohibit_square::before { content: "=EE=AA=83"; }
+
+.xrx-promo::before { content: "=EE=98=B8"; }
+
+.xrx-promote::before { content: "=EE=80=AE"; }
+
+.xrx-promote_square::before { content: "=E2=A4=B4"; }
+
+.xrx-qr_code::before { content: "=E2=96=89"; }
+
+.xrx-queue::before { content: "=F0=9F=93=A5"; }
+
+.xrx-queue_active::before { content: "=E2=98=B2"; }
+
+.xrx-queue_completed::before { content: "=E2=98=B3"; }
+
+.xrx-queue_held::before { content: "=E2=98=B6"; }
+
+.xrx-quote::before { content: "\""; }
+
+.xrx-radio_off::before { content: "=E2=8A=99"; }
+
+.xrx-radio_on::before { content: "=F0=9F=94=98"; }
+
+.xrx-reading_list::before { content: "=F0=9F=91=93"; }
+
+.xrx-reading_order_l_r::before { content: "=F0=9F=93=97"; }
+
+.xrx-reading_order_r_l::before { content: "=F0=9F=93=98"; }
+
+.xrx-read_receipts::before { content: "=EE=82=97"; }
+
+.xrx-receipt::before { content: "=EE=AC=86"; }
+
+.xrx-record::before { content: "=E2=AC=A4"; }
+
+.xrx-recycle::before { content: "=E2=99=BB"; }
+
+.xrx-recycled_full_cut_tabs_lef::before { content: "=EE=B0=8F"; }
+
+.xrx-recycled_full_cut_tabs_sef::before { content: "=EE=B0=98"; }
+
+.xrx-recycled_lef::before { content: "=EE=80=A2"; }
+
+.xrx-recycled_precut_tabs_lef::before { content: "=EE=B0=8D"; }
+
+.xrx-recycled_precut_tabs_sef::before { content: "=EE=B0=8C"; }
+
+.xrx-recycled_sef::before { content: "=EE=81=93"; }
+
+.xrx-redirect::before { content: "=E2=86=AA"; }
+
+.xrx-redo::before { content: "=E2=A4=96"; }
+
+.xrx-redo_square::before { content: "=E2=A4=80"; }
+
+.xrx-reduce_enlarge::before { content: "=EE=B8=97"; }
+
+.xrx-refresh::before { content: "=E2=86=BB"; }
+
+.xrx-refresh_all::before { content: "=E2=86=A3"; }
+
+.xrx-refresh_square::before { content: "=E2=87=B4"; }
+
+.xrx-reload::before { content: "=E2=A4=90"; }
+
+.xrx-remote::before { content: "=E6=82=A0"; }
+
+.xrx-remote_desktop::before { content: "=EE=82=95"; }
+
+.xrx-remove_all::before { content: "=E2=A7=89"; }
+
+.xrx-remove_all_square::before { content: "=EE=AC=8F"; }
+
+.xrx-rename::before { content: "=EE=B0=B9"; }
+
+.xrx-reorder::before { content: "=E2=9A=9F"; }
+
+.xrx-replay::before { content: "=E2=86=BA"; }
+
+.xrx-replay_all::before { content: "=E2=86=A2"; }
+
+.xrx-replay_square::before { content: "=E2=AC=B0"; }
+
+.xrx-reply_to::before { content: "=E2=9E=A5"; }
+
+.xrx-reset::before { content: "=E2=AA=94"; }
+
+.xrx-reset_all::before { content: "=E2=AA=93"; }
+
+.xrx-reset_square::before { content: "=E2=AA=92"; }
+
+.xrx-restart::before { content: "=E2=9F=BC"; }
+
+.xrx-return::before { content: "=E2=90=8D"; }
+
+.xrx-rewind::before { content: "=E2=8F=AA"; }
+
+.xrx-rough_surface_lef::before { content: "=EE=80=A3"; }
+
+.xrx-rough_surface_sef::before { content: "=EE=81=90"; }
+
+.xrx-rows::before { content: "=EE=A6=A1"; }
+
+.xrx-rows_four::before { content: "=EE=B0=9C"; }
+
+.xrx-ruler::before { content: "=F0=9F=93=8F"; }
+
+.xrx-safari::before { content: "=EE=B0=9F"; }
+
+.xrx-sample::before { content: "=EE=88=80"; }
+
+.xrx-save::before { content: "=F0=9F=92=BE"; }
+
+.xrx-saved_jobs::before { content: "=E2=87=B1"; }
+
+.xrx-save_disabled::before { content: "=EE=82=93"; }
+
+.xrx-scale_down::before { content: "=EE=B8=85"; }
+
+.xrx-scale_up::before { content: "=EE=B8=84"; }
+
+.xrx-scan::before { content: "=E2=8E=BD"; }
+
+.xrx-screen_share::before { content: "=EF=80=95"; }
+
+.xrx-scroll_top::before { content: "=EE=B0=81"; }
+
+.xrx-sd_card::before { content: "=F0=9F=85=8C"; }
+
+.xrx-search::before { content: "=F0=9F=94=8E"; }
+
+.xrx-secure::before { content: "=E7=89=A2"; }
+
+.xrx-secure_print::before { content: "=F0=9F=92=BD"; }
+
+.xrx-select_all::before { content: "=E2=9C=85"; }
+
+.xrx-send::before { content: "=EE=8D=90"; }
+
+.xrx-sequence_emboss_lef::before { content: "=EE=B0=86"; }
+
+.xrx-sequence_emboss_sef::before { content: "=EE=B0=87"; }
+
+.xrx-sequence_lef::before { content: "=EE=B0=83"; }
+
+.xrx-sequence_recycled_lef::before { content: "=EE=B0=9A"; }
+
+.xrx-sequence_recycled_sef::before { content: "=EE=B0=9B"; }
+
+.xrx-sequence_sef::before { content: "=EE=B0=84"; }
+
+.xrx-server::before { content: "=E6=89=89"; }
+
+.xrx-shapes::before { content: "=DB=9E"; }
+
+.xrx-share::before { content: "=E2=84=80"; }
+
+.xrx-sharpness::before { content: "=F0=9F=99=BE"; }
+
+.xrx-shield::before { content: "=E2=9B=A8"; }
+
+.xrx-shift::before { content: "=E2=AC=86"; }
+
+.xrx-shopping_bag::before { content: "=F0=9F=9B=8D"; }
+
+.xrx-short_edge_feed::before { content: "=E2=88=BE"; }
+
+.xrx-signature::before { content: "=F0=9F=96=8B"; }
+
+.xrx-simplex::before { content: "=EE=B0=95"; }
+
+.xrx-skip_backward::before { content: "=E2=8F=AE"; }
+
+.xrx-skip_forward::before { content: "=E2=8F=AD"; }
+
+.xrx-sleep::before { content: "=F0=9F=8C=99"; }
+
+.xrx-smart_card::before { content: "=F0=9F=9D=99"; }
+
+.xrx-sort::before { content: "=EE=AC=83"; }
+
+.xrx-sort_ascending::before { content: "=EE=AC=84"; }
+
+.xrx-sort_a_z::before { content: "=E2=86=A8"; }
+
+.xrx-sort_big_small::before { content: "=E2=A7=AD"; }
+
+.xrx-sort_descending::before { content: "=EE=AC=85"; }
+
+.xrx-sort_down::before { content: "=E2=96=BC"; }
+
+.xrx-sort_newest::before { content: "=EE=AC=8C"; }
+
+.xrx-sort_small_big::before { content: "=E2=87=A9"; }
+
+.xrx-sort_up::before { content: "=E2=96=B2"; }
+
+.xrx-sort_z_a::before { content: "=E2=86=AF"; }
+
+.xrx-space_bar::before { content: "=E2=8C=91"; }
+
+.xrx-spinner::before { content: "=EE=B8=93"; }
+
+.xrx-springboard::before { content: "=EE=82=88"; }
+
+.xrx-staple_horizontal_top::before { content: "=E2=9A=8F"; }
+
+.xrx-staple_none::before { content: "=EE=82=99"; }
+
+.xrx-staple_two_horizontal_top::before { content: "=EE=82=85"; }
+
+.xrx-staple_two_vertical_left::before { content: "=EE=82=86"; }
+
+.xrx-staple_two_vertical_right::before { content: "=EE=82=87"; }
+
+.xrx-staple_upper_left::before { content: "=E2=9A=8D"; }
+
+.xrx-staple_upper_right::before { content: "=E2=9A=8E"; }
+
+.xrx-staple_vertical_left::before { content: "=E1=A0=86"; }
+
+.xrx-staple_vertical_right::before { content: "=EF=B8=B2"; }
+
+.xrx-stapling::before { content: "=EE=B8=A1"; }
+
+.xrx-star::before { content: "=E2=98=85"; }
+
+.xrx-starburst::before { content: "=E2=9C=BA"; }
+
+.xrx-start::before { content: "=E2=AC=A6"; }
+
+.xrx-star_disabled::before { content: "=E2=98=86"; }
+
+.xrx-stop::before { content: "=E2=96=A0"; }
+
+.xrx-stopwatch::before { content: "=E2=8F=B1"; }
+
+.xrx-store::before { content: "=F0=9F=8F=AA"; }
+
+.xrx-straighten::before { content: "=DC=8D"; }
+
+.xrx-strikethrough::before { content: "=EA=9E=A8"; }
+
+.xrx-submit_file::before { content: "=E5=8F=A0"; }
+
+.xrx-subtract_circle::before { content: "=E2=8A=96"; }
+
+.xrx-subtract_square::before { content: "=E2=8A=9F"; }
+
+.xrx-sunshine::before { content: "=EE=80=87"; }
+
+.xrx-support::before { content: "=EE=B8=91"; }
+
+.xrx-swipe_card::before { content: "=F0=9F=93=9B"; }
+
+.xrx-sync::before { content: "=E2=86=A0"; }
+
+.xrx-sync_alert::before { content: "=EE=AA=98"; }
+
+.xrx-sync_check::before { content: "=EE=AA=99"; }
+
+.xrx-sync_fault::before { content: "=EE=AA=97"; }
+
+.xrx-tables::before { content: "=E3=8D=BF"; }
+
+.xrx-tab_backward::before { content: "=E2=87=A4"; }
+
+.xrx-tab_forward::before { content: "=E2=87=A5"; }
+
+.xrx-tag::before { content: "=EE=81=B7"; }
+
+.xrx-tap_down::before { content: "=F0=9F=91=87"; }
+
+.xrx-tap_left::before { content: "=F0=9F=91=88"; }
+
+.xrx-tap_right::before { content: "=F0=9F=91=89"; }
+
+.xrx-tap_up::before { content: "=F0=9F=91=86"; }
+
+.xrx-target::before { content: "=EE=AC=82"; }
+
+.xrx-text::before { content: "=F0=9F=84=A3"; }
+
+.xrx-text_square::before { content: "=E1=B9=AC"; }
+
+.xrx-three_holes_left_l::before { content: "=EE=81=AD"; }
+
+.xrx-three_holes_left_p::before { content: "=EE=81=A3"; }
+
+.xrx-three_holes_right_l::before { content: "=EE=81=AC"; }
+
+.xrx-three_holes_right_p::before { content: "=EE=81=A4"; }
+
+.xrx-three_holes_top_l::before { content: "=EE=81=AB"; }
+
+.xrx-three_holes_top_p::before { content: "=EE=81=A2"; }
+
+.xrx-thumbnails::before { content: "=EE=A6=A3"; }
+
+.xrx-thumbnail_reorder::before { content: "=E2=AF=90"; }
+
+.xrx-thumbnail_text::before { content: "=EE=92=AB"; }
+
+.xrx-thumb_drive::before { content: "=F0=9F=91=8D"; }
+
+.xrx-toggles::before { content: "=E2=9B=BF"; }
+
+.xrx-toner::before { content: "=F0=9F=94=8F"; }
+
+.xrx-toolbox::before { content: "=E2=9A=92"; }
+
+.xrx-transfer::before { content: "=E2=87=84"; }
+
+.xrx-transfer_lef::before { content: "=EE=A9=94"; }
+
+.xrx-transfer_sef::before { content: "=EE=A9=93"; }
+
+.xrx-transparency_lef::before { content: "=EE=80=A4"; }
+
+.xrx-transparency_sef::before { content: "=EE=81=91"; }
+
+.xrx-trash::before { content: "=F0=9F=97=91"; }
+
+.xrx-trash_square::before { content: "=EE=A9=B0"; }
+
+.xrx-tray_auto::before { content: "=EE=B1=80"; }
+
+.xrx-tray_eight_empty::before { content: "=EE=A8=B3"; }
+
+.xrx-tray_eight_fifty::before { content: "=EE=A8=B5"; }
+
+.xrx-tray_eight_full::before { content: "=EE=A8=B7"; }
+
+.xrx-tray_eight_inserter_empty::before { content: "=EE=A9=88"; }
+
+.xrx-tray_eight_inserter_present::before { content: "=EE=A9=87"; }
+
+.xrx-tray_eight_seventy_five::before { content: "=EE=A8=B6"; }
+
+.xrx-tray_eight_twenty_five::before { content: "=EE=A8=B4"; }
+
+.xrx-tray_empty::before { content: "=E2=88=85"; }
+
+.xrx-tray_fifty::before { content: "=3D"; }
+
+.xrx-tray_five_bypass_empty::before { content: "=EE=A8=BF"; }
+
+.xrx-tray_five_bypass_present::before { content: "=EE=A8=BE"; }
+
+.xrx-tray_five_empty::before { content: "=EE=A8=A4"; }
+
+.xrx-tray_five_fifty::before { content: "=EE=A8=A6"; }
+
+.xrx-tray_five_full::before { content: "=EE=A8=A8"; }
+
+.xrx-tray_five_seventy_five::before { content: "=EE=A8=A7"; }
+
+.xrx-tray_five_twenty_five::before { content: "=EE=A8=A5"; }
+
+.xrx-tray_four_empty::before { content: "=EE=A8=9F"; }
+
+.xrx-tray_four_fifty::before { content: "=EE=A8=A1"; }
+
+.xrx-tray_four_full::before { content: "=EE=A8=A3"; }
+
+.xrx-tray_four_seventy_five::before { content: "=EE=A8=A2"; }
+
+.xrx-tray_four_twenty_five::before { content: "=EE=A8=A0"; }
+
+.xrx-tray_full::before { content: "=E2=89=A3"; }
+
+.xrx-tray_one_bypass_empty::before { content: "=EE=A8=BD"; }
+
+.xrx-tray_one_bypass_present::before { content: "=EE=A8=BC"; }
+
+.xrx-tray_one_empty::before { content: "=EE=A8=90"; }
+
+.xrx-tray_one_fifty::before { content: "=EE=A8=92"; }
+
+.xrx-tray_one_full::before { content: "=EE=A8=94"; }
+
+.xrx-tray_one_seventy_five::before { content: "=EE=A8=93"; }
+
+.xrx-tray_one_twenty_five::before { content: "=EE=A8=91"; }
+
+.xrx-tray_seventy_five::before { content: "=E2=89=A1"; }
+
+.xrx-tray_seven_empty::before { content: "=EE=A8=AE"; }
+
+.xrx-tray_seven_fifty::before { content: "=EE=A8=B0"; }
+
+.xrx-tray_seven_full::before { content: "=EE=A8=B2"; }
+
+.xrx-tray_seven_inserter_empty::before { content: "=EE=A9=86"; }
+
+.xrx-tray_seven_inserter_present::before { content: "=EE=A9=85"; }
+
+.xrx-tray_seven_seventy_five::before { content: "=EE=A8=B1"; }
+
+.xrx-tray_seven_twenty_five::before { content: "=EE=A8=AF"; }
+
+.xrx-tray_six_empty::before { content: "=EE=A8=A9"; }
+
+.xrx-tray_six_fifty::before { content: "=EE=A8=AB"; }
+
+.xrx-tray_six_full::before { content: "=EE=A8=AD"; }
+
+.xrx-tray_six_inserter_empty::before { content: "=EE=A9=84"; }
+
+.xrx-tray_six_inserter_present::before { content: "=EE=A9=83"; }
+
+.xrx-tray_six_seventy_five::before { content: "=EE=A8=AC"; }
+
+.xrx-tray_six_twenty_five::before { content: "=EE=A8=AA"; }
+
+.xrx-tray_three_empty::before { content: "=EE=A8=9A"; }
+
+.xrx-tray_three_fifty::before { content: "=EE=A8=9C"; }
+
+.xrx-tray_three_full::before { content: "=EE=A8=9E"; }
+
+.xrx-tray_three_seventy_five::before { content: "=EE=A8=9D"; }
+
+.xrx-tray_three_twenty_five::before { content: "=EE=A8=9B"; }
+
+.xrx-tray_twenty_five::before { content: "=E2=8E=BA"; }
+
+.xrx-tray_two_empty::before { content: "=EE=A8=95"; }
+
+.xrx-tray_two_fifty::before { content: "=EE=A8=97"; }
+
+.xrx-tray_two_full::before { content: "=EE=A8=99"; }
+
+.xrx-tray_two_seventy_five::before { content: "=EE=A8=98"; }
+
+.xrx-tray_two_twenty_five::before { content: "=EE=A8=96"; }
+
+.xrx-trophy::before { content: "=F0=9F=8F=86"; }
+
+.xrx-truck::before { content: "=EE=B0=89"; }
+
+.xrx-twitter::before { content: "=EE=B0=A9"; }
+
+.xrx-two_holes_left_l::before { content: "=EE=81=A6"; }
+
+.xrx-two_holes_left_p::before { content: "=EE=81=9D"; }
+
+.xrx-two_holes_right_l::before { content: "=EE=81=A7"; }
+
+.xrx-two_holes_right_p::before { content: "=EE=81=9E"; }
+
+.xrx-two_holes_top_l::before { content: "=EE=81=B5"; }
+
+.xrx-two_holes_top_p::before { content: "=EE=81=9C"; }
+
+.xrx-two_staples_left_l::before { content: "=EE=81=AA"; }
+
+.xrx-two_staples_left_p::before { content: "=EE=81=A0"; }
+
+.xrx-two_staples_right_l::before { content: "=EE=81=A9"; }
+
+.xrx-two_staples_right_p::before { content: "=EE=81=A1"; }
+
+.xrx-two_staples_top_l::before { content: "=EE=81=A8"; }
+
+.xrx-two_staples_top_p::before { content: "=EE=81=9F"; }
+
+.xrx-uncoated_lef::before { content: "=EE=A9=A3"; }
+
+.xrx-uncoated_reloaded_lef::before { content: "=EE=AA=87"; }
+
+.xrx-uncoated_reloaded_sef::before { content: "=EE=AA=86"; }
+
+.xrx-uncoated_sef::before { content: "=EE=A9=A4"; }
+
+.xrx-underline::before { content: "=C5=B0"; }
+
+.xrx-undo::before { content: "=E2=AC=BB"; }
+
+.xrx-undo_square::before { content: "=E2=AC=B4"; }
+
+.xrx-unlock::before { content: "=F0=9F=94=93"; }
+
+.xrx-unlock_square::before { content: "=EE=A9=A9"; }
+
+.xrx-upload::before { content: "=E2=86=A5"; }
+
+.xrx-upload_square::before { content: "=EE=A9=B4"; }
+
+.xrx-usage_counter::before { content: "=EE=82=92"; }
+
+.xrx-usb::before { content: "=EE=80=AF"; }
+
+.xrx-user::before { content: "=F0=9F=91=A4"; }
+
+.xrx-user_add::before { content: "=EE=82=82"; }
+
+.xrx-user_admin::before { content: "=EF=92=BC"; }
+
+.xrx-user_check_on::before { content: "=EE=80=B2"; }
+
+.xrx-user_diagnose::before { content: "=EF=94=A7"; }
+
+.xrx-user_favorite::before { content: "=E2=98=83"; }
+
+.xrx-user_job::before { content: "=E2=86=AD"; }
+
+.xrx-user_network::before { content: "=EE=B8=96"; }
+
+.xrx-user_password::before { content: "=F0=9F=94=90"; }
+
+.xrx-user_personalize::before { content: "=E2=9B=AE"; }
+
+.xrx-user_save::before { content: "=E2=87=B0"; }
+
+.xrx-user_secure::before { content: "=F0=9F=91=AE"; }
+
+.xrx-user_subtract::before { content: "=EE=80=B3"; }
+
+.xrx-video::before { content: "=F0=9F=93=B9"; }
+
+.xrx-video_player::before { content: "=EE=82=94"; }
+
+.xrx-view::before { content: "=F0=9F=91=80"; }
+
+.xrx-view_disabled::before { content: "=E2=89=A0"; }
+
+.xrx-volume::before { content: "=F0=9F=94=88"; }
+
+.xrx-volume_high::before { content: "=F0=9F=94=8A"; }
+
+.xrx-volume_low::before { content: "=F0=9F=94=89"; }
+
+.xrx-volume_mute::before { content: "=F0=9F=94=87"; }
+
+.xrx-wand::before { content: "=E2=8B=86"; }
+
+.xrx-weight::before { content: "=E2=8D=BE"; }
+
+.xrx-wifi::before { content: "=E2=97=B2"; }
+
+.xrx-wifi_direct::before { content: "=E2=97=B1"; }
+
+.xrx-wifi_disabled::before { content: "=EE=B8=95"; }
+
+.xrx-wifi_logo::before { content: "=E2=97=B3"; }
+
+.xrx-wifi_medium::before { content: "=E2=97=B4"; }
+
+.xrx-wifi_none::before { content: "=E2=97=B6"; }
+
+.xrx-wifi_secure_medium::before { content: "=E2=97=B9"; }
+
+.xrx-wifi_secure_none::before { content: "=E2=97=B7"; }
+
+.xrx-wifi_secure_strong::before { content: "=E2=97=BA"; }
+
+.xrx-wifi_secure_weak::before { content: "=E2=97=B8"; }
+
+.xrx-wifi_weak::before { content: "=E2=97=B5"; }
+
+.xrx-window::before { content: "=EE=9C=94"; }
+
+.xrx-windows_phone::before { content: "=EE=B0=A4"; }
+
+.xrx-workflow::before { content: "=E2=87=B6"; }
+
+.xrx-workflow_add::before { content: "=EE=AC=8D"; }
+
+.xrx-wrench::before { content: "=F0=9F=94=A7"; }
+
+.xrx-wrench_phone::before { content: "=EE=AC=90"; }
+
+.xrx-wrench_square::before { content: "=EE=A9=B5"; }
+
+.xrx-youtube::before { content: "=EE=B0=AC"; }
+
+.xrx-zoom_in::before { content: "=E2=8F=82"; }
+
+.xrx-zoom_out::before { content: "=E2=8F=81"; }
+
+@font-face { font-family: XeroxGlyph-Icons; src: url("/toolkits/mobileWebTo=
+olkit/fonts/xeroxglyph-regular-webfont.woff") format("woff"), url("/toolkit=
+s/mobileWebToolkit/fonts/xeroxglyph-regular-webfont.ttf") format("truetype"=
+); font-weight: normal; font-style: normal; }
+
+.glyph { background: none; border: none; outline: none; padding: 0px; line-=
+height: 1.1; }
+
+.glyph-chbx-radio-theme-chkd::before { font-size: 32px; color: rgb(31, 129,=
+ 233); transition: color 0.1s linear 0s; }
+
+.glyph-chbx-radio-theme-uchkd::before { font-size: 32px; color: rgb(128, 13=
+0, 133); transition: color 0.1s linear 0s; }
+
+.glyph-chbx-radio-theme-chkd:hover::before { color: rgb(78, 191, 250); }
+
+.glyph-chbx-radio-theme-uchkd:hover::before { color: rgb(78, 191, 250); }
+
+.glyph-chbx-radio-theme-chkd.disabled::before, .glyph-chbx-radio-theme-uchk=
+d.disabled::before { color: rgba(128, 130, 133, 0.35); cursor: default; }
+
+.glyph-chbx-radio-gold-chkd::before { font-size: 32px; color: rgb(255, 158,=
+ 0); transition: color 0.1s linear 0s; }
+
+.glyph-chbx-radio-gold-uchkd::before { font-size: 32px; color: rgb(128, 130=
+, 133); transition: color 0.1s linear 0s; }
+
+.glyph-chbx-radio-gold-chkd:hover::before { color: rgb(255, 194, 14); }
+
+.glyph-chbx-radio-gold-uchkd:hover::before { color: rgb(255, 194, 14); }
+
+.glyph-chbx-radio-gold-chkd.disabled::before, .glyph-chbx-radio-gold-uchkd.=
+disabled::before { color: rgba(128, 130, 133, 0.35); cursor: default; }
+
+[class^=3D"xrx-"] { position: relative; }
+
+.black-16 { font-size: 16px; color: rgb(0, 0, 0); }
+
+.black-24 { font-size: 24px; color: rgb(0, 0, 0); }
+
+.black-32 { font-size: 32px; color: rgb(0, 0, 0); }
+
+.black-48 { font-size: 48px; color: rgb(0, 0, 0); }
+
+.black-64 { font-size: 64px; color: rgb(0, 0, 0); }
+
+.black-96 { font-size: 96px; color: rgb(0, 0, 0); }
+
+.black-128 { font-size: 128px; color: rgb(0, 0, 0); }
+
+.white-16 { font-size: 16px; color: rgb(255, 255, 255); }
+
+.white-24 { font-size: 24px; color: rgb(255, 255, 255); }
+
+.white-32 { font-size: 32px; color: rgb(255, 255, 255); }
+
+.white-48 { font-size: 48px; color: rgb(255, 255, 255); }
+
+.white-64 { font-size: 64px; color: rgb(255, 255, 255); }
+
+.white-96 { font-size: 96px; color: rgb(255, 255, 255); }
+
+.white-128 { font-size: 128px; color: rgb(255, 255, 255); }
+
+.gray-16 { font-size: 16px; color: rgb(128, 130, 133); }
+
+.gray-24 { font-size: 24px; color: rgb(128, 130, 133); }
+
+.gray-32 { font-size: 32px; color: rgb(128, 130, 133); }
+
+.gray-48 { font-size: 48px; color: rgb(128, 130, 133); }
+
+.gray-64 { font-size: 64px; color: rgb(128, 130, 133); }
+
+.gray-96 { font-size: 96px; color: rgb(128, 130, 133); }
+
+.gray-128 { font-size: 128px; color: rgb(128, 130, 133); }
+
+.blue-16 { font-size: 16px; color: rgb(31, 129, 233); }
+
+.blue-24 { font-size: 24px; color: rgb(31, 129, 233); }
+
+.blue-32 { font-size: 32px; color: rgb(31, 129, 233); }
+
+.blue-48 { font-size: 48px; color: rgb(31, 129, 233); }
+
+.blue-64 { font-size: 64px; color: rgb(31, 129, 233); }
+
+.blue-96 { font-size: 96px; color: rgb(31, 129, 233); }
+
+.blue-128 { font-size: 128px; color: rgb(31, 129, 233); }
+
+.static-red { color: rgb(217, 34, 49); }
+
+.static-green { color: rgb(83, 167, 47); }
+
+.conf-msg-color { color: rgb(83, 167, 47); }
+
+.alert-msg-color { color: rgb(255, 158, 0); }
+
+.white { color: rgb(255, 255, 255); }
+
+.blue { color: rgb(99, 255, 255); }
+
+.yellow { color: rgb(255, 255, 112); }
+
+.green { color: rgb(148, 255, 156); }
+
+.pink { color: rgb(255, 206, 255); }
+
+.ivory { color: rgb(255, 255, 195); }
+
+.gray { color: rgb(216, 216, 216); }
+
+.lightgray { color: rgb(201, 200, 205); }
+
+.buff { color: rgb(255, 236, 156); }
+
+.goldenrod { color: rgb(255, 198, 0); }
+
+.red { color: rgb(255, 0, 0); }
+
+.orange { color: rgb(255, 132, 0); }
+
+.clear { color: rgb(216, 229, 237); }
+
+.xrx-favorites { color: rgb(255, 158, 0); }
+
+.xrx-favorites_disabled { color: rgb(128, 130, 133); }
+
+.xrx-favorites_disabled_light { color: rgb(201, 200, 205); }
+
+.turquoise { color: rgb(0, 125, 119); }
+
+body { background-color: rgb(243, 243, 248); color: black; font-family: "He=
+lvetica Neue", Arial, Helvetica, sans-serif; font-size: 9pt; margin: 0px; p=
+adding: 0px; }
+
+form { margin: 0px; padding: 0px; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+td, th { padding: 0px; }
+
+h1 { background-color: inherit; color: black; font-size: 16pt; font-weight:=
+ bold; height: 34px; margin: 0px; padding: 11px 0px 0px 10px; }
+
+h1 a { background-color: inherit; color: rgb(31, 129, 233); }
+
+h1 img { margin: 0px 6px 0px 0px; padding: 0px; vertical-align: middle; }
+
+h1.withIcon { height: 44px; }
+
+h2 { display: inline; font-size: 1.1em; font-weight: normal; }
+
+h2.label { display: block; font-size: 9pt; font-weight: bold; }
+
+a, .link { color: rgb(31, 129, 233); text-decoration: underline; }
+
+a:hover, .link:hover { color: rgb(78, 191, 250); cursor: pointer; }
+
+a + a::before { content: " "; visibility: hidden; }
+
+i[class^=3D"xrx-"]::after { content: " "; visibility: hidden; }
+
+a i { text-decoration: none; display: inline-block; }
+
+hr { border-width: 1px 0px 0px; border-style: solid; border-color: rgb(201,=
+ 200, 205) black black; border-image: initial; }
+
+button, input[type=3D"button"] { font-weight: bold; background-color: trans=
+parent; border: 1px solid rgb(128, 130, 133); border-radius: 4px; padding: =
+3px 15px; text-align: center; min-height: 27px; }
+
+button:hover, input[type=3D"button"]:hover { border: 1px solid rgb(78, 191,=
+ 250); }
+
+button:active, input[type=3D"button"]:active { border: 1px solid rgb(31, 12=
+9, 233); background-color: rgb(31, 129, 233); color: white; transition: col=
+or 0.1s linear 0s; }
+
+button.noClick, button[disabled], button.noClick:hover, button[disabled]:ho=
+ver, button.noClick:active, button[disabled]:active { border: 1px solid rgb=
+(128, 130, 133); background-color: transparent; color: rgb(128, 130, 133); =
+}
+
+button img { padding-right: 4px; }
+
+a img { border: 0px; }
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+
+div.clearFloats { clear: both; }
+
+.alignTop { vertical-align: top; }
+
+.alignBottom { vertical-align: bottom; }
+
+.middleAlign, img.middle { vertical-align: middle; }
+
+.centerAlign { text-align: center; }
+
+.rightAlign { text-align: right; }
+
+.noBreak { white-space: nowrap; }
+
+.noShow { display: none; }
+
+.stretchFormElement { width: 95%; }
+
+.textDescriptor { font-size: 12px; font-weight: normal; vertical-align: top=
+; }
+
+div.halfBody { float: left; min-width: 300px; padding-right: 3%; width: 45%=
+; }
+
+div.thirdBody { float: left; min-width: 300px; padding-right: 3%; width: 30=
+%; }
+
+div.quarterBody { float: left; min-width: 230px; padding-right: 3%; width: =
+20%; }
+
+div.halfquarterBody { float: left; min-width: 80px; padding-right: 3%; widt=
+h: 8%; }
+
+div.imageWell { border: 1px solid rgb(201, 200, 205); padding: 10px; }
+
+.widgetLabel { background-color: inherit; color: rgb(0, 0, 0); font-size: 1=
+em; font-weight: bold; margin: 0px; padding: 0px; }
+
+#widPageHeader div.widContent { margin-bottom: 0px; }
+
+div.widContent { background-color: inherit; color: rgb(0, 0, 0); margin: 0p=
+x 0px 12px; padding: 0px; }
+
+div.widLeft { float: left; text-align: right; width: 60px; margin-right: 10=
+px; }
+
+div.aWidget { clear: left; }
+
+div.aWidget div.widContent { position: relative; }
+
+div.aWidgetWithIcon div.widContent { position: relative; margin-left: 70px;=
+ }
+
+div.widContent h6 { font-size: 9pt; font-weight: bold; margin: 0px; padding=
+: 0px 0px 6px; }
+
+div.widContent span.subText { display: block; margin: 0px; padding: 0px 0px=
+ 6px; }
+
+div.widContainer { margin: 0px; padding: 0px; }
+
+div.widExtra { margin: 0px; padding: 6px 0px 0px 20px; }
+
+div.widExtra div.aWidget { margin: 0px; padding: 0px; }
+
+div.widExtra div.widContent { margin: 0px 0px 12px; padding: 0px; }
+
+div.widInline { display: inline; }
+
+div.widOneLine { clear: left; }
+
+div.widOneLine h6 { display: inline; float: left; margin-right: 5%; width: =
+45%; }
+
+div.widOneLine div.widContainer { display: inline; float: left; margin-righ=
+t: 5%; width: 45%; }
+
+div.horizButtonBarAboveTableLeft { margin-left: 15px; margin-bottom: 15px; =
+text-align: left; }
+
+div.horizButtonBarAboveTableLeft button { margin-right: 7px; }
+
+div.horizButtonBarAboveTableRight { margin-right: 15px; margin-bottom: 15px=
+; text-align: right; }
+
+div.horizButtonBarAboveTableRight button { margin-left: 7px; }
+
+div.horizButtonBarInTabbedPane { margin-top: 12px; margin-right: 12px; marg=
+in-bottom: 12px; text-align: right; }
+
+div.horizButtonBarInTabbedPane button { margin-left: 7px; }
+
+div.horizButtonBarBelowTableLeft { margin-left: 15px; margin-top: 15px; mar=
+gin-bottom: 15px; text-align: left; }
+
+div.horizButtonBarBelowTableLeft button { margin-right: 7px; }
+
+div.horizButtonBarBelowTableRight { margin-right: 15px; margin-top: 15px; m=
+argin-bottom: 15px; text-align: right; }
+
+div.horizButtonBarBelowTableRight button { margin-left: 7px; }
+
+div.horizButtonBarBelowTableRight button.harmfulButton { margin-right: 42px=
+; }
+
+div.horizButtons { margin-left: auto; margin-right: auto; margin-top: 16px;=
+ text-align: center; }
+
+div.horizButtons button { margin-left: 4px; margin-right: 4px; padding-left=
+: 12px; padding-right: 12px; }
+
+div.vertButtonsInBox { float: left; text-align: center; margin-left: 10px; =
+margin-top: 14px; }
+
+div.vertButtonsInBox button { display: block; margin-top: 4px; margin-botto=
+m: 8px; min-width: 6px; text-align: center; }
+
+div.buttonContainer { margin-left: auto; margin-right: auto; margin-top: 16=
+px; text-align: center; }
+
+img.bgImage { position: absolute; z-index: 1; }
+
+img.fgImage { position: relative; left: 0px; z-index: 2; }
+
+div.box, div.borderedBody, div.boundingBox { background-color: inherit; bor=
+der: 1px solid rgb(201, 200, 205); color: black; margin: 0px; overflow: hid=
+den; }
+
+div.box, div.borderedBody { padding: 9px; margin-left: 10px; margin-right: =
+10px; }
+
+h3, div.borderedHead h3, div.boundingBox div.titleBar h3 { background: rgb(=
+255, 255, 255); color: rgb(0, 0, 0); font-size: 9pt; font-weight: bold; hei=
+ght: 16px; line-height: 16px; margin: 0px 10px; padding: 2px 0px 2px 9px; b=
+order-width: 1px 1px 0px; border-top-style: solid; border-right-style: soli=
+d; border-left-style: solid; border-top-color: rgb(201, 200, 205); border-r=
+ight-color: rgb(201, 200, 205); border-left-color: rgb(201, 200, 205); bord=
+er-image: initial; border-bottom-style: initial; border-bottom-color: initi=
+al; }
+
+div.boundingBox div.titleBar h3 { border: none; margin-left: 0px; margin-ri=
+ght: 0px; }
+
+div.boundingBox div.boxBody { border-top: 1px solid rgb(201, 200, 205); mar=
+gin: 0px; padding: 9px; }
+
+div.boxBody table { font-size: 9pt; }
+
+div.boundingBox div.boxBody h1 { font-size: 9pt; }
+
+div.boundingBox div.boxBody.noTop { border-top: 0px; }
+
+div.noPadding, div.boundingBox div.boxBody.noPadding { padding: 0px; }
+
+div.boundingBox div.boxBody h6 { background-color: inherit; color: rgb(0, 0=
+, 0); font-size: 9pt; font-weight: bold; margin: 0px; padding: 0px 0px 6px;=
+ }
+
+div.boundingBox div.boxBody div.component { background-color: inherit; colo=
+r: rgb(0, 0, 0); font-size: 1em; margin: 0px; padding: 0px 0px 12px; }
+
+div.boundingBox div.titleBar h3 a { background-color: inherit; background-i=
+mage: inherit; }
+
+div.normalSpacing { margin-left: 10px; margin-right: 10px; margin-bottom: -=
+1px; }
+
+div.boundingBox div.titleBar h3.bigger { height: 3.5em; line-height: 3.5em;=
+ background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(201, 20=
+0, 205); vertical-align: middle; }
+
+h3 #cfgSetKey { margin-top: 36px; }
+
+h3.bigger { height: 2.5em; background-color: rgb(255, 255, 255); border-bot=
+tom: 1px solid rgb(201, 200, 205); vertical-align: middle; }
+
+h3 button { margin-top: 0px; margin-right: 6px; float: right; }
+
+div.noBorder { border: 0px; }
+
+div.noMargin { margin: 0px; }
+
+h3.bigger button { margin-top: 7px; margin-right: 7px; }
+
+div.addAlert, div.alert div.boxBody, div.inline-alert div.boxBody { backgro=
+und-color: rgb(255, 251, 204); color: rgb(0, 0, 0); border: 1px solid rgb(2=
+55, 206, 127); }
+
+h3.addAlert, div.alert div.titleBar h3 { background: rgb(255, 255, 255); co=
+lor: inherit; border-top: 1px solid rgb(201, 200, 205); border-right: 1px s=
+olid rgb(201, 200, 205); border-left: 1px solid rgb(201, 200, 205); border-=
+image: initial; border-bottom: none; }
+
+div.addDetail, div.detail, div.detail div.boxBody, div.wait div.boxBody, di=
+v.addInfo, div.info div.boxBody, div.inline-detail div.boxBody { background=
+-color: rgb(206, 243, 247); color: inherit; border: 1px solid rgb(127, 208,=
+ 209); }
+
+div.detail div.boxBody a:hover { color: rgb(255, 255, 255); }
+
+div.detail div.tableBody a:hover, div.detail div.boxBody td a:hover { color=
+: rgb(78, 191, 250); }
+
+h3.addDetail, div.detail div.titleBar h3, div.wait div.titleBar h3, h3.addI=
+nfo, div.info div.titleBar h3 { background: rgb(255, 255, 255); color: inhe=
+rit; border-top: 1px solid rgb(201, 200, 205); border-right: 1px solid rgb(=
+201, 200, 205); border-left: 1px solid rgb(201, 200, 205); border-image: in=
+itial; border-bottom: none; }
+
+div.addFault, div.fault div.boxBody { background-color: rgb(255, 227, 227);=
+ color: inherit; border: 1px solid rgb(236, 144, 152); }
+
+div.inline-alert div.boxBody, div.inline-detail div.boxBody { border-left: =
+0px; border-right: 0px; }
+
+h3.addFault, div.fault div.titleBar h3 { background: rgb(255, 255, 255); co=
+lor: inherit; border-top: 1px solid rgb(201, 200, 205); border-right: 1px s=
+olid rgb(201, 200, 205); border-left: 1px solid rgb(201, 200, 205); border-=
+image: initial; border-bottom: none; }
+
+div.alert.boundingBox, div.detail.boundingBox, div.fault.boundingBox, div.w=
+ait.boundingBox, div.info.boundingBox { border: none; }
+
+div.warn div.boxBody { background-color: rgb(237, 221, 195); color: inherit=
+; }
+
+div.success div.boxBody { background-color: rgb(198, 235, 239); color: inhe=
+rit; }
+
+div.failed div.boxBody { background-color: rgb(255, 255, 206); color: inher=
+it; }
+
+.addBottomMargin, div.addBottomMargin, div.bordered { margin-bottom: 9px; }
+
+.addTopMargin, div.addTopMargin { margin-top: 9px; }
+
+div.borderedAlign { margin-bottom: 8px; margin-left: auto; font-size: 1em; =
+}
+
+span.failure { color: rgb(255, 51, 51); }
+
+label dfn { font-style: normal; padding-left: 2em; }
+
+.section-header, .alert-header { width: 100%; height: 48px; line-height: 48=
+px; font-weight: 500; font-size: 20px; z-index: 99999; }
+
+div i.right-section-header-glyph { font-size: 24px; color: rgb(31, 129, 233=
+); float: right; margin-right: 25px; }
+
+div i.left-section-header-glyph { font-size: 24px; color: rgb(31, 129, 233)=
+; margin-left: 25px; }
+
+div i.left-section-header-glyph:hover, div i.right-section-header-glyph:hov=
+er { color: rgb(78, 191, 250); }
+
+.section-header > div, .alert-header > div { width: 25%; float: left; }
+
+.section-header > div.middle, .alert-header > div.middle { width: 50%; font=
+-weight: bold; text-align: center; white-space: nowrap; }
+
+.section-header { background: rgb(255, 255, 255); color: rgb(0, 0, 0); bord=
+er-bottom: 1px solid rgb(201, 200, 205); }
+
+.alert-header { background: rgb(255, 158, 0); color: rgb(255, 255, 255); bo=
+rder-bottom: 1px solid rgb(201, 200, 205); }
+
+button.sectionHeaderButton { float: right; position: absolute; right: 25px;=
+ top: 8px; font-size: 18px; line-height: 6px; height: 32px; }
+
+.checkboxWidget { display: none; }
+
+.checkboxWidget + label::before { font-family: XeroxGlyph-Icons; content: "=
+=E2=96=A2"; background-color: inherit; color: rgb(128, 130, 133); font-size=
+: 18px; transition: color 0.1s linear 0s; }
+
+.checkboxWidget:checked + label::before { font-family: XeroxGlyph-Icons; co=
+ntent: "=E2=98=91"; color: rgb(31, 129, 233); }
+
+.checkboxWidget:disabled + label::before { background-color: inherit; color=
+: rgb(201, 200, 205); }
+
+.checkboxWidget:disabled:checked + label::before { color: rgb(201, 200, 205=
+); }
+
+.checkboxWidget:hover + label::before { color: rgb(78, 191, 250); }
+
+.checkboxWidget:checked:hover + label::before { color: rgb(78, 191, 250); }
+
+.checkboxWidget:disabled:hover + label::before { color: rgb(201, 200, 205);=
+ }
+
+.checkboxWidget:disabled:checked:hover + label::before { color: rgb(201, 20=
+0, 205); }
+
+.checkboxLabel { position: relative; top: -2px; margin-left: 3px; }
+
+.radioButtonWidget { display: none; }
+
+.radioButtonWidget + span::before { line-height: 20px; }
+
+.radioButtonWidget ~ span::before { content: "=E2=8A=99"; color: rgb(128, 1=
+30, 133); font-size: 16px; transition: color 0.1s linear 0s; }
+
+.radioButtonWidget:checked ~ span::before { content: "=F0=9F=94=98"; color:=
+ rgb(31, 129, 233); }
+
+.radioButtonWidget:disabled ~ span::before { color: rgb(201, 200, 205); }
+
+.radioButtonWidget:hover ~ span::before { color: rgb(78, 191, 250); }
+
+.radioButtonWidget:disabled:hover ~ span::before { color: rgb(201, 200, 205=
+); }
+
+.textFieldWidget, .textAreaWidget, .numRangeWidget { border-radius: 4px; pa=
+dding: 4px; border: 1px solid transparent; font-size: 14px; }
+
+.textFieldWidget:focus, .textAreaWidget:focus, .numRangeWidget:focus { outl=
+ine: none; border: 1px solid rgb(31, 129, 233); border-radius: 4px; padding=
+: 4px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px 1px; }
+
+.textFieldWidget:disabled, .textAreaWidget:disabled, .numRangeWidget:disabl=
+ed { border: 1px solid rgb(201, 200, 205); background: transparent; }
+
+label.numRangeWidgetLabel { font-size: 12px; }
+
+.numRangeWidgetLabel input[type=3D"text"] { margin-right: 5px; }
+
+.text-field-glyph { font-size: 16px; margin-left: -30px; background: rgb(25=
+5, 255, 255) !important; }
+
+.menuWidget { height: 22px; border-radius: 4px; font-size: 14px; background=
+: transparent; border: 1px solid rgb(128, 130, 133); }
+
+.menuWidget:hover { border: 1px solid rgb(78, 191, 250); }
+
+.menuWidget option { background: white; padding: 4px; border: 1px solid tra=
+nsparent; }
+
+.menuWidget option:hover { background: rgb(78, 191, 250); color: black; }
+
+.menuWidget:focus { background: rgb(31, 129, 233); color: white; border: 1p=
+x solid rgb(31, 129, 233); }
+
+.menuWidget:focus option { color: black; }
+
+.leftMenuLabel { float: left; margin-right: 10px; margin-top: 8px; }
+
+.rightMenu { clear: right; margin-bottom: 10px; }
+
+select[multiple].menuWidget { height: 100%; }
+
+select[multiple] { background: white; border: 1px solid transparent; border=
+-radius: 4px; }
+
+select[multiple]:hover, select[multiple]:active { border: 1px solid rgb(31,=
+ 129, 233); box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px 1px; }
+
+select[multiple] option { padding: 4px; }
+
+select[multiple] option:checked { background: rgb(31, 129, 233); }
+
+select[multiple] option:hover { background: rgb(78, 191, 250); color: black=
+; }
+
+div.levelIndicatorContainer { display: table; }
+
+div.levelIndicatorPercentage { display: table-cell; vertical-align: bottom;=
+ }
+
+div.levelIndicatorPercentage span { font-weight: bold; font-size: 11pt; mar=
+gin-left: 3px; }
+
+div.XrxTimeTextFields { float: left; margin-right: 5px; }
+
+.button-spinner { width: 14px; height: 14px; position: relative; top: 2px; =
+left: -6px; animation-name: spin; animation-duration: 750ms; animation-iter=
+ation-count: infinite; animation-timing-function: linear; }
+
+.busy-spinner { width: 24px; height: 24px; position: relative; top: 6px; le=
+ft: 6px; animation-name: spin; animation-duration: 750ms; animation-iterati=
+on-count: infinite; animation-timing-function: linear; }
+
+@keyframes spin {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+.state-busy { color: rgb(128, 130, 133); }
+
+div.hasBottom { border-bottom: 1px solid rgb(201, 200, 205); overflow: hidd=
+en; }
+
+.noTop, div.noTop { border-top: 0px; }
+
+div.noBottom { border-bottom: 0px; }
+
+.noLeft, div.noLeft { border-left: 0px; }
+
+.noRight, div.noRight { border-right: 0px; }
+
+.innerTdContainer { margin-top: 8px; }
+
+.paperTrayGlyph { text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px; }
+
+.whitePaper { color: rgb(255, 255, 255); }
+
+.pinkPaper { color: rgb(255, 206, 255); }
+
+.yellowPaper { color: rgb(255, 255, 112); }
+
+.bluePaper { color: rgb(99, 255, 255); }
+
+.redPaper { color: rgb(255, 0, 0); }
+
+.greenPaper { color: rgb(148, 255, 156); }
+
+.orangePaper { color: rgb(255, 132, 0); }
+
+.goldenrodPaper { color: rgb(255, 198, 0); }
+
+.clearPaper { color: rgb(216, 229, 237); }
+
+.ivoryPaper { color: rgb(255, 255, 195); }
+
+.buffPaper { color: rgb(255, 236, 156); }
+
+.grayPaper { color: rgb(216, 216, 216); }
+
+.search-div { margin-top: 10px; margin-left: 10px; }
+
+#nav-search { border-radius: 4px; padding: 4px; border: 1px solid transpare=
+nt; font-size: 14px; width: 210px; }
+
+#nav-search:focus { outline: none; border: 1px solid rgb(31, 129, 233); bor=
+der-radius: 4px; padding: 4px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 0px =
+1px; }
+
+.sort-arrows { font-size: 12px; color: rgb(255, 255, 255); float: right; ma=
+rgin-right: 10px; }
+
+.nonNativeOverlay { position: relative; top: 50%; transform: translateY(-50=
+%); }
+
+.appImageDiv { background: radial-gradient(lightgray, rgb(172, 172, 172)); =
+text-align: center; height: 32px; width: 43px; box-shadow: rgba(0, 0, 0, 0.=
+5) 0px 2px 2px; margin-top: 5px; margin-bottom: 5px; border: 2px solid whit=
+e; border-radius: 6px; }
+
+.appIcon { border: 2px solid white; border-radius: 6px; box-shadow: rgba(0,=
+ 0, 0, 0.5) 0px 2px 2px; }
+
+#timeout-alert { border: 1px solid rgb(201, 200, 205); display: none; left:=
+ 50%; margin-left: -250px; position: fixed; top: 20px; width: 500px; }
+
+#timeout-alert-ok { position: absolute; right: 20px; }
+
+#timeout-alert-msg-div { background: rgb(255, 255, 255); padding: 30px; }
+
+#timeout-alert-btn-div { background: rgb(239, 239, 244); padding: 20px 20px=
+ 45px; }
+
+.inactiveLink { pointer-events: none; cursor: default; text-decoration: non=
+e; }
+
+.ninth-gen-btn { background-color: transparent; border: 1px solid rgb(128, =
+130, 133); border-radius: 4px; font-size: 18px; font-weight: normal; paddin=
+g: 3px 25px; text-align: center; }
+
+.alert-warning { background-color: rgb(255, 241, 210); }
+
+.alert-warning i { color: rgb(246, 126, 0); margin-right: 10px; }
+
+.alertbox { font-size: 18px; padding: 20px; }
+
+.alertbox span.alert-header-txt { font-size: 24px; font-weight: normal; }
+
+.alertbox span.alert-message-txt { display: block; font-size: 16px; margin-=
+top: 10px; }
+
+#attributionStatement { background-color: inherit; color: rgb(69, 77, 106);=
+ font-size: 7pt; margin: 18px 15px 10px; padding: 0px; text-align: center; =
+}
+
+.modal-screen { display: none; position: fixed; z-index: 1; padding-top: 3%=
+; padding-bottom: 3%; left: 0px; top: 0px; width: 100%; height: 100%; backg=
+round-color: rgba(0, 0, 0, 0.4); }
+
+.modal-content { background-color: rgb(243, 243, 248); margin: auto; border=
+: 1px solid rgb(136, 136, 136); width: 600px; text-align: center; border-ra=
+dius: 4px; box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 14px 0px; overflow: auto;=
+ max-height: 90vh; max-width: 75%; }
+
+.modal-content .modal-title { background-color: rgb(255, 255, 255); text-al=
+ign: left; padding: 10px; font-size: large; border-bottom: 1px solid rgb(19=
+1, 191, 191); font-weight: bold; }
+
+.modal-content button { font-size: 18px; padding: 9px 12px; font-weight: no=
+rmal; }
+
+.modal-content div.buttonsBox { background: inherit; margin-top: -1px; padd=
+ing-top: 30px; }
+
+.buttonsBox { padding: 7px; }
+
+.buttonsBox button { margin-left: 3px; }
+
+.buttonsBox div.button-box-left { float: left; margin-left: 20px; margin-to=
+p: 10px; font-size: 18px; }
+
+.modal-content.title-hidden { padding: 0px; }
+
+.modal-content.title-hidden .modal-title { display: none; }
+
+.modal-content .alertMessage { overflow: auto; padding: 20px 10px; }
+
+button.red-button { color: rgb(255, 255, 255); background-color: rgb(217, 8=
+3, 79); border-color: rgb(217, 83, 79); }
+
+button.red-button:hover, button.red-button:active, .show > button.red-butto=
+n.dropdown-toggle { color: rgb(255, 255, 255); background-color: rgb(201, 4=
+8, 44); border-color: rgb(193, 46, 42); }
+
+button.red-button.focus, button.red-button:focus { box-shadow: rgba(217, 83=
+, 79, 0.5) 0px 0px 0px 2px; }
+
+button.blue-button { color: rgb(255, 255, 255); background-color: rgb(31, 1=
+29, 233); border-color: rgb(31, 129, 233); }
+
+button.blue-button:hover, button.blue-button:active, .show > button.blue-bu=
+tton.dropdown-toggle { color: rgb(255, 255, 255); background-color: rgb(58,=
+ 153, 233); border-color: rgb(21, 89, 233); }
+
+button.blue-button.focus, button.blue-button:focus { box-shadow: rgb(30, 14=
+4, 255) 0px 0px 0px 2px; }
+
+.popover { background: rgb(255, 255, 255); border: 1px solid rgb(201, 200, =
+205); border-radius: 10px; width: 300px; }
+
+.popover .arrow-up { border-bottom: 15px solid white; border-left: 15px sol=
+id transparent; border-right: 15px solid transparent; height: 0px; position=
+: absolute; left: 135px; top: -15px; width: 0px; }
+
+.popover .arrow-up-bk { border-bottom: 15px solid rgb(201, 200, 205); borde=
+r-left: 15px solid transparent; border-right: 15px solid transparent; heigh=
+t: 0px; position: absolute; left: 135px; top: -16px; width: 0px; }
+
+.popover-item { border-bottom: 1px solid rgb(201, 200, 205); padding: 10px;=
+ }
+
+.popover-item:hover { cursor: pointer; }
+
+.popover-item-desc { color: rgb(128, 130, 133); transition: color 0.15s lin=
+ear 0s; }
+
+.popover-item-desc:hover { color: rgb(78, 191, 250); transition: color 0.15=
+s linear 0s; }
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://158.38.104.7/css/seventh/tree.css
+
+@charset "utf-8";
+
+#tree { margin: 0px; padding: 9px 10px; max-width: 220px; min-width: 180px;=
+ width: auto; }
+
+#tree div.boxBody { background-color: inherit; color: inherit; margin: 0px;=
+ padding: 0px; font-size: 8pt; }
+
+#tree a { background-color: inherit; color: rgb(0, 0, 0); display: block; t=
+ext-decoration: none; }
+
+#tree a:hover { text-decoration: underline; }
+
+#tree a img { border: 0px; padding-right: 4px; }
+
+#tree a img.noPad { border: 0px; padding: 0px; }
+
+#tree img { margin: 0px; padding: 0px; vertical-align: middle; }
+
+#tree ul { list-style: none; margin: 0px; padding: 0px; }
+
+#tree li { display: block; margin: 0px; padding: 0px; min-height: 0.5px; li=
+ne-height: 16px; }
+
+#tree li a { padding-left: 14px; }
+
+#tree li.noShow { display: none; }
+
+#tree li.closed { font-weight: bold; padding-top: 2px; padding-bottom: 2px;=
+ background-image: url("/images/gen8/closed.png"); background-repeat: no-re=
+peat; background-position: 6px 5px; }
+
+#tree li.open { font-weight: bold; padding-top: 2px; background-image: url(=
+"/images/gen8/open.png"); background-repeat: no-repeat; background-position=
+: 6px 4px; }
+
+#tree li.open li { background-position: 14px 3px; }
+
+#tree li.open li li { background-position: 22px 3px; }
+
+#tree li.open ul { display: block; font-weight: normal; list-style: none; }
+
+#tree li.open ul a { padding-left: 22px; }
+
+#tree li.open ul ul a { padding-left: 30px; }
+
+#tree li.open ul ul ul a { padding-left: 38px; }
+
+#tree li.closed ul { display: none; font-weight: normal; list-style: none; =
+}
+
+#tree li.open ul.open { display: block; }
+
+#tree li.open ul.closed { display: none; }
+
+#tree li.open li, #tree li.closed li { border-top: 0px; padding-top: 0px; p=
+adding-bottom: 0px; }
+
+#tree li.addingIcon { min-height: 18px; line-height: 18px; }
+
+#tree li.addingIcon a { padding-left: 6px; }
+
+#selected { background-color: rgb(128, 130, 133); color: rgb(255, 255, 255)=
+; }
+
+#selected a { background-color: rgb(128, 130, 133); color: rgb(255, 255, 25=
+5); text-decoration: none; }
+
+#selected a:hover { background-color: rgb(31, 129, 233); color: rgb(255, 25=
+5, 255); text-decoration: none; }
+
+#selectedParent { background-color: rgb(31, 129, 233); color: rgb(255, 255,=
+ 255); }
+
+#selectedParent a { background-color: inherit; color: rgb(255, 255, 255); }
+
+#selectedParent a:hover { cursor: pointer; text-decoration: none; }
+
+body { border-right: 1px solid rgb(201, 200, 205); }
+
+#tree div.boundingBox, #tree div.boundingBox div.boxBody { border: none; }
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://158.38.104.7/css/seventh/table.css
+
+@charset "utf-8";
+
+div.boundingBox div.tableBody { padding: 0px; }
+
+div.nonTableData { padding: 9px; }
+
+table.addTopBorder { border-top: 1px solid rgb(201, 200, 205); }
+
+table.tableDiv { border-spacing: 0px; font-size: inherit; width: 100%; }
+
+table.tableDiv tr { height: 18px; }
+
+table.tableDiv tr.taller { height: 30px; }
+
+table.tableDiv tr.firstRow { height: 25px; margin: 0px; padding: 8px 0px 0p=
+x; text-align: left; vertical-align: middle; }
+
+table.tableDiv td.firstColumn { border-left: 0px; border-right: 0px; width:=
+ 25%; }
+
+table.tableDiv td.twentyWidthColumn { border-left: 0px; border-right: 0px; =
+width: 20%; text-align: center; }
+
+table.tableDiv tr.lastRow { height: 25px; margin: 0px; padding: 0px 0px 8px=
+; text-align: left; vertical-align: middle; }
+
+table.tableDiv tr td { font-size: inherit; padding-left: 8px; }
+
+table.tableDiv tr.even td { background-color: rgb(243, 243, 248); color: in=
+herit; border-bottom: 1px solid rgb(201, 200, 205); border-top: 1px solid r=
+gb(255, 255, 255); }
+
+table.tableDiv.hoverable tr.even:not(.selected) td:hover { background-color=
+: rgb(201, 200, 205); color: inherit; border-bottom: 1px solid rgb(201, 200=
+, 205); border-top: 1px solid rgb(255, 255, 255); }
+
+table.tableDiv tr.odd td { background-color: rgb(243, 243, 248); color: inh=
+erit; border-bottom: 1px solid rgb(201, 200, 205); border-top: 1px solid rg=
+b(255, 255, 255); }
+
+table.tableDiv tr.even th { background-color: rgb(243, 243, 248); color: in=
+herit; border-bottom: 1px solid rgb(201, 200, 205); border-top: 1px solid r=
+gb(255, 255, 255); }
+
+table.tableDiv tr.odd th { background-color: rgb(243, 243, 248); color: inh=
+erit; border-bottom: 1px solid rgb(201, 200, 205); border-top: 1px solid rg=
+b(255, 255, 255); }
+
+table.tableDiv tr.bottomBorder td { border-width: 0px 0px 1px; border-top-s=
+tyle: initial; border-right-style: initial; border-left-style: initial; bor=
+der-top-color: initial; border-right-color: initial; border-left-color: ini=
+tial; border-image: initial; border-bottom-style: solid; border-bottom-colo=
+r: rgb(201, 200, 205); color: inherit; }
+
+table.tableDiv tr.noBorder td { border: 0px; color: inherit; }
+
+table.tableDiv tr.selected td, table.tableDiv tr.selected td a, table.table=
+Div tr.selected td a i { background-color: rgb(31, 129, 233); color: rgb(25=
+5, 255, 255); }
+
+table.tableDiv tr.header, table.tableDiv thead tr { background: rgb(255, 25=
+5, 255); color: inherit; }
+
+table.tableDiv tr.header th, table.tableDiv thead tr th { border-width: 0px=
+ 0px 1px; border-top-style: initial; border-right-style: initial; border-le=
+ft-style: initial; border-top-color: initial; border-right-color: initial; =
+border-left-color: initial; border-image: initial; border-bottom-style: sol=
+id; border-bottom-color: rgb(201, 200, 205); color: inherit; margin: 0px; p=
+adding: 3px 8px; text-align: left; white-space: nowrap; }
+
+table.tableDiv tr.header th.taller { height: 32px; }
+
+table.tableDiv tr.header th.halfHeader { border-left: 0px; border-right: 0p=
+x; width: 50%; }
+
+table.tableDiv tr.normalRow { border: 0px; color: inherit; font-size: 9pt; =
+margin: 0px; padding: 0px 8px; text-align: left; white-space: nowrap; }
+
+table.tableDiv tr.normalRow td.halfRow { border-left: 0px; border-right: 0p=
+x; width: 50%; }
+
+table.tableDiv tr.normalRow td.quarterRow { border-left: 0px; border-right:=
+ 0px; width: 25%; }
+
+table.tableDiv tr.normalRow td.threeQuartersRow { border-left: 0px; border-=
+right: 0px; width: 75%; }
+
+table.tableDiv tr.header th.firstCol, table.tableDiv thead tr th:first-chil=
+d { border-left: 0px; border-right: 0px; width: 25%; }
+
+table.tableDiv tr.header th.twentyWidth { border-left: 0px; border-right: 0=
+px; width: 20%; text-align: center; }
+
+table.tableDiv tr.header th.lastCol, table.tableDiv thead tr th:last-child =
+{ border-right: 0px; border-left: 0px; }
+
+table.tableDiv tr.header th.icon { border-left: 0px; width: 5%; }
+
+table.tableDiv tr.header th.first { border-left: 0px; width: 25%; }
+
+table.tableDiv tr.header th.second { width: 35%; }
+
+table.tableDiv tr.header th.third { width: 10%; }
+
+table.tableDiv tr.header th.fourth { width: 30%; }
+
+table.tableDiv tr.header th.last { border-right: 0px; }
+
+table.tableDiv tr.header th a, table.tableDiv thead tr th a { background-co=
+lor: inherit; color: rgb(0, 0, 0); display: block; height: 100%; margin: 0p=
+x; padding: 1px 0px 2px 8px; text-decoration: none; vertical-align: middle;=
+ }
+
+table.tableDiv tr.header th a:hover, table.tableDiv thead tr th a:hover { b=
+ackground-color: rgb(78, 191, 250); color: rgb(255, 255, 255); }
+
+table.tableDiv tr.header th.canSelect, table.tableDiv thead tr th.canSelect=
+ { background-color: rgb(255, 255, 255); color: inherit; margin: 0px; paddi=
+ng: 0px; }
+
+table.tableDiv tr.header th.sortedOn, table.tableDiv thead tr th.sortedOn {=
+ background-color: rgb(31, 129, 233); background-image: none; color: inheri=
+t; margin: 0px; padding: 0px 0px 0px 8px; }
+
+table.tableDiv tr.header th.sortedOn a, table.tableDiv thead tr th.sortedOn=
+ a { background-color: inherit; color: rgb(255, 255, 255); }
+
+table.tableDiv tr.header th.sortedOn img, table.tableDiv thead tr th.sorted=
+On img { float: right; margin: 0px; padding: 3px 5px 0px 0px; vertical-alig=
+n: middle; }
+
+table.tableDiv tr.addTopBorder th { border-top: 1px solid rgb(201, 200, 205=
+); }
+
+.templateTable { width: 100%; }
+
+td.leftCol { width: 45%; }
+
+td.leftCol img { float: right; }
+
+td.leftColIndent1 { padding-left: 24px; width: 45%; }
+
+td.leftColIndent2 { padding-left: 48px; width: 45%; }
+
+td.rightCol { width: 46%; }
+
+td.rightColIndent1 { padding-left: 24px; }
+
+td.fullWidth { width: 91%; }
+
+table.tableDiv thead tr th.Down { background-image: url("/images/widgets/ta=
+ble/down.gif"); background-repeat: no-repeat; background-position: right ce=
+nter; }
+
+table.tableDiv thead tr th.Down a { background-image: url("/images/widgets/=
+table/down.gif"); background-repeat: no-repeat; background-position: right =
+center; }
+
+table.tableDiv thead tr th.Up { background-image: url("/images/widgets/tabl=
+e/up.gif"); background-repeat: no-repeat; background-position: right center=
+; }
+
+table.tableDiv thead tr th.Up a { background-image: url("/images/widgets/ta=
+ble/up.gif"); background-repeat: no-repeat; background-position: right cent=
+er; }
+
+table.tableHead tr td a { font-size: 9pt; font-weight: normal; border-spaci=
+ng: 0px; padding-bottom: 15px; }
+
+table.tableHead tr td a:visited { font-weight: normal; }
+
+table.tableHead tr td a img { padding-left: 10px; }
+
+table.tableHead tr td { line-height: 1em; }
+
+table.tableHead { margin-top: 7px; }
+
+table.tableDiv.addBorder { border: 1px solid rgb(201, 200, 205); }
+
+table.tableDiv.noBottom { border-bottom: none; }
+
+table.tableDiv td a { font-size: 9pt; font-weight: normal; }
+
+table.tableDiv td a:visited { font-weight: normal; }
+
+table.tableDiv td a img { padding-right: 4px; vertical-align: middle; }
+
+.table { border-collapse: separate; font-size: 18px; width: 100%; border-sp=
+acing: 0px; }
+
+@media (max-width: 767px) {
+  .table { font-size: 16px; }
+}
+
+.table > tbody > tr:hover > td { background: rgb(227, 226, 231); }
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > t=
+h, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr =
+> td { color: rgb(0, 0, 0); padding: 9px 25px; line-height: 1.231; border-t=
+op: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(201, 200, 20=
+5); vertical-align: middle; background: rgb(243, 243, 248); cursor: pointer=
+; transition: background-color 0.15s linear 0s, border-top-color 0.15s line=
+ar 0s, color 0.15s linear 0s; }
+
+.table > thead > tr > th .glyph, .table > tbody > tr > th .glyph, .table > =
+tfoot > tr > th .glyph, .table > thead > tr > td .glyph, .table > tbody > t=
+r > td .glyph, .table > tfoot > tr > td .glyph { font-size: 24px; cursor: t=
+ext; position: relative; top: 3px; padding: 0px 2px; }
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > t=
+h { color: rgb(0, 0, 0); font-weight: 500; font-size: 20px; background: rgb=
+(255, 255, 255); cursor: default; }
+
+.table > thead > tr > td.feedback, .table > tbody > tr > td.feedback, .tabl=
+e > tfoot > tr > td.feedback { color: rgb(128, 130, 133); text-align: right=
+; }
+
+.table > tbody > tr > td.info { color: rgb(128, 130, 133); }
+
+@media (max-width: 767px) {
+  .table > thead > tr > td.feedback, .table > tbody > tr > td.feedback, .ta=
+ble > tfoot > tr > td.feedback { font-size: 14px; }
+}
+
+.table > thead > tr > td.feedback .glyph, .table > tbody > tr > td.feedback=
+ .glyph, .table > tfoot > tr > td.feedback .glyph { color: rgb(0, 0, 0); tr=
+ansition: color 0.15s linear 0s; }
+
+.table > thead > tr > td.feedback .alert-inline span, .table > tbody > tr >=
+ td.feedback .alert-inline span, .table > tfoot > tr > td.feedback .alert-i=
+nline span { font-size: 18px; }
+
+.table > thead > tr > th.feedback, .table > tbody > tr > th.feedback, .tabl=
+e > tfoot > tr > th.feedback { text-align: right; }
+
+.table > thead > tr > th { border-bottom: 1px solid rgb(201, 200, 205); tex=
+t-align: left; }
+
+.table > tbody > tr:active > td, .table > tbody > tr.active > td, .table > =
+tbody > tr:active > td .glyph, .table > tbody > tr.active > td .glyph, .tab=
+le > tbody > tr:active > td .feedback, .table > tbody > tr.active > td .fee=
+dback, .table > tbody > tr:active > td .alert-inline, .table > tbody > tr.a=
+ctive > td .alert-inline { }
+
+.table tr.index-header td { height: 22px; padding: 0px 25px; line-height: 0=
+; cursor: default; background: rgb(255, 255, 255) !important; color: rgb(0,=
+ 0, 0) !important; border-top-color: rgb(255, 255, 255) !important; }
+
+.table.read-only > tbody > tr:active > td, .table.read-only > tbody > tr > =
+td, .table.read-only > tbody > tr:active > td .glyph, .table.read-only > tb=
+ody > tr > td .glyph, .table.read-only > tbody > tr:active > td .feedback, =
+.table.read-only > tbody > tr > td .feedback, .table.read-only > tbody > tr=
+:active > td .alert-inline, .table.read-only > tbody > tr > td .alert-inlin=
+e { border-top-color: rgb(243, 243, 248); border-bottom-color: rgb(227, 226=
+, 231); color: rgb(0, 0, 0); cursor: default; background-color: rgb(243, 24=
+3, 248) !important; }
+
+.table.disabled > tbody > tr:active > td, .table.disabled > tbody > tr > td=
+, .table.disabled > tbody > tr:active > td .glyph, .table.disabled > tbody =
+> tr > td .glyph, .table.disabled > tbody > tr:active > td .feedback, .tabl=
+e.disabled > tbody > tr > td .feedback, .table.disabled > tbody > tr:active=
+ > td .alert-inline, .table.disabled > tbody > tr > td .alert-inline { colo=
+r: rgba(0, 0, 0, 0.35); background-color: rgb(243, 243, 248); border-top-co=
+lor: rgb(243, 243, 248); border-bottom-color: rgb(227, 226, 231); cursor: d=
+efault; }
+
+.table.alternate > tbody > tr:nth-child(2n) > td { background-color: rgb(23=
+4, 234, 239); }
+
+.table.alternate > tbody > tr:nth-child(2n+1) > td { background-color: rgb(=
+243, 243, 248); }
+
+.table.alternate > tbody > tr:hover > td { background-color: rgb(227, 226, =
+231); }
+
+.table.alternate > tbody > tr:active > td, .table.alternate > tbody > tr.ac=
+tive > td, .table.alternate > tbody > tr:active > td .glyph, .table.alterna=
+te > tbody > tr.active > td .glyph, .table.alternate > tbody > tr:active > =
+td .feedback, .table.alternate > tbody > tr.active > td .feedback, .table.a=
+lternate > tbody > tr:active > td .alert-inline, .table.alternate > tbody >=
+ tr.active > td .alert-inline { color: rgb(255, 255, 255); background-color=
+: rgb(31, 129, 233); border-top-color: rgb(31, 129, 233); }
+
+.table tbody tr td i.right-glyph { font-size: 24px; float: right; }
+
+.sort-arrows { color: rgb(0, 0, 0); font-size: 18px; float: right; margin-r=
+ight: 10px; }
+
+.sorted { background: rgb(31, 129, 233); color: rgb(255, 255, 255); }
+
+.sorted span, tr#table-header th.sorted { color: white; }
+
+table.table th.sorted { background: rgb(31, 129, 233); border: none; }
+
+.table-sm th > tr > th, .table-sm > thead > tr > th, .table-sm > tbody > tr=
+ > th, .table-sm > tfoot > tr > th, .table-sm th > tr > td, .table-sm > the=
+ad > tr > td, .table-sm > tbody > tr > td, .table-sm > tfoot > tr > td { pa=
+dding: 4px; font-size: 16px; height: 36px; }
+
+.table-sm th > th, .table-sm > thead > th, .table-sm > tbody > th, .table-s=
+m > tfoot > th { font-size: 16px; }
+
+.table-bordered { border-collapse: collapse; border: 1px solid rgb(154, 156=
+, 159); }
+
+.table-bordered th, .table-bordered td { border: 1px solid rgb(154, 156, 15=
+9) !important; }
+
+.table-bordered thead th, .table-bordered thead td { border-bottom-width: 1=
+px; }
+
+.thead-inverse thead > tr > th { color: rgb(255, 255, 255); background-colo=
+r: rgb(107, 109, 111); border-bottom: rgb(107, 109, 111); }
+
+.table.read-only > tbody > tr.alert > td { background-color: rgb(255, 251, =
+204) !important; }
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://158.38.104.7/images/gen8/ai_web_light_bkgd_24f.gif
+
+R0lGODlhbgBuAPf/AGqRvIiYqlSMymKPwYqYqZOapHKSt1yOxTeG23+WsIKWrm+SuV6OxFqOxWWQ
+vz6I16CgpJ6eoqyssJ2doLy8wOnp7p2dodnZ3ru7vt/f5K+vs7KytsfHy+Pj6MvL0Ofn66WlqOHh
+5qamqd7e48jIzLCwtODg5dHR1bOzt+zs8dPT17u7v+3t8uTk6c3N0uXl6aysr+bm6kCI1WKQwqGh
+peLi58TEyLS0uK2tsdvb4K6usre3uyaC5UqLz5GZpdjY3JucoNfX29TU2Ojo7J+fo8zM0SCA6CGB
+6HmUszKF3ZWao5mboJmboY6YpmWQwDmH2WCPwkuKznyVskGI1CyE4YSWrYGWrjuH2CCB6U6KzYeX
+qiWC5Y+Zp9ra36KiptLS1r29wcDAxNDQ1MHBxS6E4Zubn5qbny+E33uVs4qYqiuD4o2YpyOC5yuD
+4UmK0CGB5y2E4SKC5ymD44mXqjaG3IOWrZiboDeG3ESJ1HiUtHqUs0yLz5KZpSWC5keJ0DqG2VKM
+ykqKzz+H1X2VsXaTtZSapJaaoj2H10GJ1mmRvmiRvUWJ0laNyNXV2d3d4lCMzFKMy5eaoU+LzE+L
+zX6VsYaXrEOJ1GSQwDWG3CSC5ieD5SaD5WCPwzCF3imD5FiNyHuUspaboyiD5SOB5mOQwVaNyW2R
+upiboVCLymGPwpSaozuG13aUt3eUtTCF31WMyS6E32yRuzGF3iiC5F+Ow3STtlWNymeRvoGWr3KT
+uHGSuE6LzVmNx4eYq4WXrISXrYaXq0SI03iUtTiH21GLy5eboiqE4y2D4DSF3FCLzHWTtTOF3JCZ
+pU2Lzo+ZpX+Vr3GTuW6SujqH2YCWrzOF3T2H1lSMyUKI1DyH13yVsY2ZqC6E4GaQv2eQvoyYqDiG
+2pKZpHWTtnCSuFOMykeK0lqNxYSXrEiJ0XiUs12Ow1iNx0uLzzuH2TmH2kqK0HCSuWmQvVmNxjKF
+3o6Zp26RuWmRvVeNyIyZqUiK0C+F4HOTt0CI1myRvB+B6Zycn+/v9CH/C05FVFNDQVBFMi4wAwEA
+AAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVT
+ek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9
+IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAg
+ICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIy
+LXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1w
+TU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8v
+bnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6
+Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRp
+ZDpDQkU0QzdBQkY4MjE2ODExODIyQUNBRjE5NkFBMzY1MyIgeG1wTU06RG9jdW1lbnRJRD0ieG1w
+LmRpZDo2NkQxNTQyNzMyMzQxMUU1OTVCRUZCNjdGMTk5RUU2RiIgeG1wTU06SW5zdGFuY2VJRD0i
+eG1wLmlpZDo2NkQxNTQyNjMyMzQxMUU1OTVCRUZCNjdGMTk5RUU2RiIgeG1wOkNyZWF0b3JUb29s
+PSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0
+UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzEzOTBBQURBMDJDNjgxMTgyMkFERDY3RkIyRkE1QTEi
+IHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Q0JFNEM3QUJGODIxNjgxMTgyMkFDQUYxOTZBQTM2
+NTMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tl
+dCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT
+0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJua
+mZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2Jh
+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
+pBEKQQEBADs=
+
+------MultipartBoundary--Ne7sMNSt7Y9tYJXZZlKA9lspr7ynWMSn8siXQBA43U------
