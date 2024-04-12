@@ -29,12 +29,12 @@ async function scrapeData(url) {
 
         const keys = [
 
-            'Component',
-            'Status',
-            'LifeRemaining',
-            'EstPages',
-            'EstDays',
-            'PrinterUrl'
+            'component',
+            'status',
+            'liferemaining',
+            'estpages',
+            'estdays',
+            'printerurl'
             //'Timestamp' - settes inn av DB
 
         ]
@@ -58,7 +58,7 @@ async function scrapeData(url) {
                 )
                 }
                
-                printerObj['printer'] = url
+                printerObj['printerurl'] = url
                 printerObj['timestamp'] = Date.now()
                 printerArr.push(printerObj)
             }   
