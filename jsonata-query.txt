@@ -1,0 +1,6 @@
+{
+    "statuscount": $count($[status = "ERROR"]),
+    "alertestays": $count($[estdays < 14 ]),
+    "alertliferemaining": $count($[liferemaining < 30 ]),
+    "alertestpages": $count($[estpages < 30 ])
+}
