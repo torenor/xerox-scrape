@@ -1,0 +1,1585 @@
+[
+    {
+        "id": "fa64ff49b8b6cb0b",
+        "type": "tab",
+        "label": "xerox2db",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1e34f6d5a73b419d",
+        "type": "sqlite",
+        "z": "fa64ff49b8b6cb0b",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "prepared",
+        "sql": "INSERT INTO printerdata (component, status , liferemaining, estpages, estdays, printerurl) VALUES ($val1, $val2, $val3,$val4, $val5, $val6)",
+        "name": "into_sqldata",
+        "x": 890,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c59063c1a31e7a17",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "prepare-params",
+        "func": "\n\nmsg.params = {\n    $val1: msg.payload.component, \n    $val2: msg.payload.status,\n    $val3: msg.payload.liferemaining,\n    $val4: msg.payload.estpages,\n    $val5: msg.payload.estdays,\n    $val6: msg.payload.printerurl\n    \n    }\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 180,
+        "wires": [
+            [
+                "025c791b755d7263"
+            ]
+        ]
+    },
+    {
+        "id": "fe37a9ed86b798af",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "demodata",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"component\":\"Black Toner\",\"status\":\"OK\",\"liferemaining\":11,\"estpages\":9000,\"estdays\":11,\"printerurl\":\"printer1\"},{\"component\":\"Cyan Toner\",\"status\":\"OK\",\"liferemaining\":5,\"estpages\":1258,\"estdays\":2,\"printerurl\":\"printer4\"},{\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estpages\":555,\"estdays\":11,\"printerurl\":\"printer3\"}]",
+        "payloadType": "json",
+        "x": 260,
+        "y": 260,
+        "wires": [
+            [
+                "ec276d432cdda7b9",
+                "368a3dcf24a64557"
+            ]
+        ]
+    },
+    {
+        "id": "368a3dcf24a64557",
+        "type": "split",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "c59063c1a31e7a17",
+                "ed0552767490750f"
+            ]
+        ]
+    },
+    {
+        "id": "5a60fc538a1f0b97",
+        "type": "sqlite",
+        "z": "fa64ff49b8b6cb0b",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "xeroxdata",
+        "x": 560,
+        "y": 420,
+        "wires": [
+            [
+                "ec276d432cdda7b9",
+                "96561fe2ea963144"
+            ]
+        ]
+    },
+    {
+        "id": "736e627c7f1b3aad",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "select all",
+        "func": "msg.topic = \"select component, status, liferemaining, estpages, estdays, printerurl, timestamp from printerdata\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 420,
+        "wires": [
+            [
+                "5a60fc538a1f0b97"
+            ]
+        ]
+    },
+    {
+        "id": "9f70fda0549dc03f",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "736e627c7f1b3aad"
+            ]
+        ]
+    },
+    {
+        "id": "025c791b755d7263",
+        "type": "delay",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "delay 1 sec",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "1e34f6d5a73b419d"
+            ]
+        ]
+    },
+    {
+        "id": "07406c8da45cf499",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "count all",
+        "func": "msg.topic = \"select count(*) as countall from printerdata\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 480,
+        "wires": [
+            [
+                "5a60fc538a1f0b97"
+            ]
+        ]
+    },
+    {
+        "id": "dfb884299399a404",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "07406c8da45cf499"
+            ]
+        ]
+    },
+    {
+        "id": "d4bf4863ca3bd112",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "format chart data",
+        "func": "// Create a data variable   \nvar series = [\"temp DegC\"];\nvar labels = [\"Data Values\"];\nvar data = \"[[\";\n\nfor (var i = 0; i < msg.payload.length; i++) {\n    data += '{ \"x\":' + msg.payload[i].ts2 + ', \"y\":' + msg.payload[i].estpages + '}';\n    if (i < (msg.payload.length - 1)) {\n        data += \",\"\n    } else {\n        data += \"]]\"\n    }\n}\nvar jsondata = JSON.parse(data);\nmsg.payload = [{ \"series\": series, \"data\": jsondata, \"labels\": labels }];\n\n\nreturn msg;  \n\n\n/*\n\nvar series = [\"temp DegC\"];  \n var labels = [\"Data Values\"];  \n var data = \"[[\";  \n   \n for (var i=0; i < msg.payload.length; i++) {  \n   data += '{ \"x\":' + msg.payload[i].thetime + ', \"y\":' + msg.payload[i].thetemp + '}';  \n   if (i < (msg.payload.length - 1)) {  \n     data += \",\"  \n   } else {  \n     data += \"]]\"  \n   }  \n }  \n var jsondata = JSON.parse(data);  \n msg.payload = [{\"series\": series, \"data\": jsondata, \"labels\": labels}];  \n   \n   \n return msg;  \n\n */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec276d432cdda7b9",
+        "type": "ui-template",
+        "z": "fa64ff49b8b6cb0b",
+        "group": "ec56c2a77b8b0b40",
+        "page": "",
+        "ui": "",
+        "name": "Header configuration",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<template>\n\n \n  \n  <!-- Provide an input text box to search the content -->\n  <v-text-field v-model=\"search\" label=\"Search\" prepend-inner-icon=\"mdi-magnify\" single-line variant=\"outlined\"\n    hide-details></v-text-field>\n  <v-data-table v-model:search=\"search\" :items=\"msg?.payload\">\n\n \n  \n  <template v-slot:item.printerurl=\"{ item }\">\n    <!-- turn the email column to an Email hyperlink -->\n    <a :href=\"item.printerurl\">{{item.printerurl}}</a>\n  </template>\n\n\n\n    <template v-slot:item.liferemaining=\"{ item }\">\n      <!-- Display the progress as a linear progress -->\n      <v-progress-linear :color=\"getProgressColor(item)\" :model-value=\"item.liferemaining\" bg-color=\"yellow\"\n        height=\"20\"></v-progress-linear>\n\n\n      <span class=\"progress-bar-txt\">\n            {{item.liferemaining}}%\n        </span>\n\n\n    </template>\n\n    <template v-slot:item.estpages=\"{ item }\">\n      <!-- Add a custom suffix \"years\" after the number -->\n      <v-chip :color=\"getChipColor(item)\">\n        {{ item.estpages }}\n      </v-chip>\n    </template>\n\n    <template v-slot:item.estdays=\"{ item }\">\n      <!-- Add a custom suffix \"years\" after the number -->\n      <v-chip :color=\"getChipColor2(item)\">\n        {{ item.estdays }}\n      </v-chip>\n    </template>\n\n    <template v-slot:item.component=\"{ item }\">\n      <v-chip size=\"large\" class=\"ma-2\" label :color=\"getColor(item.component)\">{{ item.component }}</v-chip>\n\n    </template>\n\n    <template v-slot:item.status=\"{ item }\">\n      <v-chip :color=\"getColorStatus(item.status)\" variant=\"text\"> {{ item.status }}</v-chip>\n    </template>\n\n \n\n\n  </v-data-table>\n</template>\n\n\n\n<script>\n  export default {\n    data () {\n      return {\n          sortBy: [{ key: 'timestamp', order: 'desc' }],\n      \n        search: ''\n      }\n    },\n  \n    methods: {\n        // add a function to determine the color of the progress bar given the row's item\n      \n        getColorStatus (status) {\n        if (status == \"ERROR\") return 'red'\n        else if (status == \"Pink\") return 'pink'\n        else if (status == \"Yellow\") return 'yellow'\n        else if (status == \"Red\") return 'red'\n        else return 'grey'\n        },\n    getProgressColor: function (item) {\n    if (item !== undefined ) {\n    if (item.liferemaining < 30) { return 'red' ; } \n      else { if (item.liferemaining> 130) {\n      return 'orange';\n      } else {\n      return 'green';\n      }\n      }\n      }\n      },\n    getColor (component) {\n      if (component == \"Cyan Toner\") return 'cyan'\n        else if (component == \"Magenta Toner\") return 'pink'\n        else if (component == \"Yellow Toner\") return 'yellow'\n        else if (component == \"Black Toner\") return 'grey' \n      else return 'Secondary'\n    },\n      getChipColor: function (item) {\n        if (item !== undefined ) {\n          if (item.estpages < 7500) {\n            return 'red';\n            } else {\n              if (item.estpages > 15000) {\n                return 'green';\n              } else {\n                return 'orange';\n            }\n          }\n        }\n      },\n    getChipColor2: function (item) {\n    if (item !== undefined ) {\n      if (item.estdays < 55) { return 'red' ; \n        } else { if (item.estdays> 120) {\n          return 'green';\n        } else {\n          return 'orange';\n            }\n          }\n        }\n      }\n    }   \n    \n  }\n</script>\n\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 860,
+        "y": 260,
+        "wires": [
+            [
+                "1bd02d239820fb20"
+            ]
+        ]
+    },
+    {
+        "id": "ed29a98839c4cf86",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "empty table",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 650,
+        "y": 240,
+        "wires": [
+            [
+                "ec276d432cdda7b9"
+            ]
+        ]
+    },
+    {
+        "id": "1bd02d239820fb20",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "debug 363",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d1c37b991fe4674b",
+        "type": "ui-button",
+        "z": "fa64ff49b8b6cb0b",
+        "group": "83f18ae4b4e81c88",
+        "name": "",
+        "label": "Load all data",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "database-export",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "736e627c7f1b3aad"
+            ]
+        ]
+    },
+    {
+        "id": "209883e1576e61e5",
+        "type": "http request",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "localhost:3000/printers",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "da1d33ac8063762d"
+            ]
+        ]
+    },
+    {
+        "id": "da1d33ac8063762d",
+        "type": "json",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "f18f91983d309afb"
+            ]
+        ]
+    },
+    {
+        "id": "f18f91983d309afb",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.*. {\t    \"component\": component,\t    \"status\": status,\t    \"liferemaining\": $replace(liferemaining,  /[^0-9]/,\"\"),\t    \"estpages\": estpages,\t    \"estdays\": estdays,\t    \"printerurl\": printerurl,\t    \"timestamp\": timestamp\t    \t}\t\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "368a3dcf24a64557"
+            ]
+        ]
+    },
+    {
+        "id": "ed0552767490750f",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 364",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1c982b58fdb4fa19",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "web-scrape data",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 20,
+        "wires": [
+            [
+                "209883e1576e61e5"
+            ]
+        ]
+    },
+    {
+        "id": "2fb63b5451b6eb28",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "select all",
+        "func": "msg.topic = \"select component, estpages, ts2 from printerdata where printerurl like '%lev%' AND component like  '%lack%'\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 680,
+        "wires": [
+            [
+                "e213bfa271229e44"
+            ]
+        ]
+    },
+    {
+        "id": "71c89a13f7366a5d",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 600,
+        "wires": [
+            [
+                "2fb63b5451b6eb28"
+            ]
+        ]
+    },
+    {
+        "id": "207e8d039b1cc6b4",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 365",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e213bfa271229e44",
+        "type": "sqlite",
+        "z": "fa64ff49b8b6cb0b",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "query xeroxdata",
+        "x": 540,
+        "y": 720,
+        "wires": [
+            [
+                "207e8d039b1cc6b4",
+                "12afc9243fdd650c",
+                "ec276d432cdda7b9",
+                "cc1fda8d190bfd60"
+            ]
+        ]
+    },
+    {
+        "id": "628bd79aa7bd6dbb",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "data",
+        "func": "let last = context.get(\"last\") ?? 100;\nlet time = context.get(\"time\") ?? new Date().getTime();\n\nlast += Math.floor(Math.random()*10)-5;\ntime +=1000;\ncontext.set(\"last\", last);\ncontext.set(\"time\", time);\n\nvar m = [\n    { topic: \"Temperature 1\", payload: { x: time, y: last } },\n    { topic: \"Temperature 2\", payload: { x: time, y: last +10 } },\n    { topic: \"Temperature 3\", payload: { x: time, y: last +25 } },\n    { topic: \"Temperature 4\", payload: { x: time, y: last +35 } },\n    { topic: \"Temperature 5\", payload: { x: time, y: last -20 } },\n    ];\nreturn [m];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18bdba549a0c5447",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 580,
+        "wires": [
+            [
+                "628bd79aa7bd6dbb"
+            ]
+        ]
+    },
+    {
+        "id": "a0f18ef233a361f6",
+        "type": "ui-template",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "group": "ec56c2a77b8b0b40",
+        "page": "",
+        "ui": "",
+        "name": "Header configuration",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<template>\n  <!-- Provide an input text box to search the content -->\n  <v-text-field v-model=\"search\" label=\"Search\" prepend-inner-icon=\"mdi-magnify\" single-line variant=\"outlined\"\n    hide-details></v-text-field>\n  <v-data-table v-model:search=\"search\" :items=\"msg?.payload\">\n\n\n  <template v-slot:item.printerurl=\"{ item }\">\n        <!-- turn the email column to an Email hyperlink -->\n        <a :href=\"item.printerurl\">{{item.printerurl}}</a>\n      </template>\n\n\n\n<template v-slot:item.liferemaining=\"{ item }\">\n  <!-- Display the progress as a linear progress -->\n  <v-progress-linear :color=\"getProgressColor(item)\" :model-value=\"item.liferemaining\" bg-color=\"yellow\" height=\"20\"></v-progress-linear>\n  \n\n    <span class=\"progress-bar-txt\">\n            {{item.liferemaining}}%\n        </span>\n\n   \n</template>\n\n    <template v-slot:item.estpages=\"{ item }\">\n      <!-- Add a custom suffix \"years\" after the number -->\n      <v-chip :color=\"getChipColor(item)\">\n        {{ item.estpages }}\n      </v-chip>\n    </template>\n\n      <template v-slot:item.estdays=\"{ item }\">\n        <!-- Add a custom suffix \"years\" after the number -->\n        <v-chip :color=\"getChipColor2(item)\">\n          {{ item.estdays }}\n        </v-chip>\n      </template>\n\n  <template v-slot:item.component=\"{ item }\">\n    <v-chip size=\"large\" class=\"ma-2\" label :color=\"getColor(item.component)\" >{{ item.component }}</v-chip>\n     \n  </template>\n\n  <template v-slot:item.status=\"{ item }\">\n    <v-chip :color=\"getColorStatus(item.status)\" variant=\"text\"> {{ item.status }}</v-chip>\n  </template>\n\n\n\n\n\n  </v-data-table>\n</template>\n\n<script>\n  export default {\n    data () {\n      return {\n          sortBy: [{ key: 'timestamp', order: 'desc' }],\n        search: ''\n      }\n    },\n    methods: {\n        // add a function to determine the color of the progress bar given the row's item\n      \n        getColorStatus (status) {\n        if (status == \"ERROR\") return 'red'\n        else if (status == \"Pink\") return 'pink'\n        else if (status == \"Yellow\") return 'yellow'\n        else if (status == \"Red\") return 'red'\n        else return 'grey'\n        },\n    getProgressColor: function (item) {\n    if (item !== undefined ) {\n    if (item.liferemaining < 30) { return 'red' ; } \n      else { if (item.liferemaining> 130) {\n      return 'orange';\n      } else {\n      return 'green';\n      }\n      }\n      }\n      },\n    getColor (component) {\n      if (component == \"Cyan Toner\") return 'cyan'\n        else if (component == \"Magenta Toner\") return 'pink'\n        else if (component == \"Yellow Toner\") return 'yellow'\n        else if (component == \"Black Toner\") return 'grey' \n      else return 'Secondary'\n    },\n      getChipColor: function (item) {\n        if (item !== undefined ) {\n          if (item.estpages < 7500) {\n            return 'red';\n            } else {\n              if (item.estpages > 15000) {\n                return 'green';\n              } else {\n                return 'orange';\n            }\n          }\n        }\n      },\n    getChipColor2: function (item) {\n    if (item !== undefined ) {\n      if (item.estdays < 55) { return 'red' ; \n        } else { if (item.estdays> 120) {\n          return 'green';\n        } else {\n          return 'orange';\n            }\n          }\n        }\n      }\n    }   \n    \n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1060,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e8746e656fe2f22",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "demodata",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"component\":\"Magenta Toner\",\"status\":\"ERROR\",\"liferemaining\":33,\"estpages\":10000,\"estdays\":11,\"printerurl\":\"printer1\"},{\"component\":\"Yellow Toner\",\"status\":\"ERROR\",\"liferemaining\":55,\"estpages\":1258,\"estdays\":636,\"printerurl\":\"printer4\"},{\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estpages\":555,\"estdays\":11,\"printerurl\":\"printer3\"}]",
+        "payloadType": "json",
+        "x": 500,
+        "y": 300,
+        "wires": [
+            [
+                "ec276d432cdda7b9"
+            ]
+        ]
+    },
+    {
+        "id": "02d6298d41a6c1a9",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "sql_check_thresholds",
+        "func": "msg.topic = \"select ts, printerurl, component, status, liferemaining, estdays, estpages  from printerdata where ts >= datetime('now','-24 hours') AND (estpages < 100 OR estdays < 14 OR status NOT LIKE 'OK')\"\nreturn msg;\n\n\n// select ts, printerurl, component, status, liferemaining, estdays, estpages  from printerdata where ts >= datetime('now','-4 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK');",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 800,
+        "wires": [
+            [
+                "e213bfa271229e44"
+            ]
+        ]
+    },
+    {
+        "id": "1494a6faa73ae2fc",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "daily",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 800,
+        "wires": [
+            [
+                "02d6298d41a6c1a9"
+            ]
+        ]
+    },
+    {
+        "id": "301c17abd0d62fd9",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "WarningInfo",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[{\"ts\":\"2024-04-12 18:28:36\",\"printerurl\":\"printer1\",\"component\":\"Magenta Toner\",\"status\":\"ERROR\",\"liferemaining\":33,\"estdays\":11,\"estpages\":10000},{\"ts\":\"2024-04-12 18:28:37\",\"printerurl\":\"printer4\",\"component\":\"Yellow Toner\",\"status\":\"ERROR\",\"liferemaining\":55,\"estdays\":636,\"estpages\":1258},{\"ts\":\"2024-04-12 18:28:38\",\"printerurl\":\"printer3\",\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estdays\":11,\"estpages\":555},{\"ts\":\"2024-04-12 18:30:05\",\"printerurl\":\"printer1\",\"component\":\"Black Toner\",\"status\":\"ERROR\",\"liferemaining\":33,\"estdays\":11,\"estpages\":10000},{\"ts\":\"2024-04-12 18:30:07\",\"printerurl\":\"printer3\",\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estdays\":11,\"estpages\":555},{\"ts\":\"2024-04-12 18:31:08\",\"printerurl\":\"printer1\",\"component\":\"Black Toner\",\"status\":\"ERROR\",\"liferemaining\":11,\"estdays\":11,\"estpages\":10000},{\"ts\":\"2024-04-12 18:31:09\",\"printerurl\":\"printer4\",\"component\":\"Cyan Toner\",\"status\":\"OK\",\"liferemaining\":5,\"estdays\":2,\"estpages\":1258},{\"ts\":\"2024-04-12 18:31:10\",\"printerurl\":\"printer3\",\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estdays\":11,\"estpages\":555},{\"ts\":\"2024-04-12 19:21:22\",\"printerurl\":\"printer1\",\"component\":\"Black Toner\",\"status\":\"ERROR\",\"liferemaining\":11,\"estdays\":11,\"estpages\":10000},{\"ts\":\"2024-04-12 19:21:23\",\"printerurl\":\"printer4\",\"component\":\"Cyan Toner\",\"status\":\"OK\",\"liferemaining\":5,\"estdays\":2,\"estpages\":1258},{\"ts\":\"2024-04-12 19:21:24\",\"printerurl\":\"printer3\",\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estdays\":11,\"estpages\":555},{\"ts\":\"2024-04-12 21:12:41\",\"printerurl\":\"printer1\",\"component\":\"Black Toner\",\"status\":\"OK\",\"liferemaining\":11,\"estdays\":11,\"estpages\":9000},{\"ts\":\"2024-04-12 21:12:42\",\"printerurl\":\"printer4\",\"component\":\"Cyan Toner\",\"status\":\"OK\",\"liferemaining\":5,\"estdays\":2,\"estpages\":1258},{\"ts\":\"2024-04-12 21:12:43\",\"printerurl\":\"printer3\",\"component\":\"Trommelkassett (R1)\",\"status\":\"unknown\",\"liferemaining\":67,\"estdays\":11,\"estpages\":555}]",
+        "payloadType": "json",
+        "x": 110,
+        "y": 1080,
+        "wires": [
+            [
+                "27dac45909044e6d",
+                "5209d877de6d1192"
+            ]
+        ]
+    },
+    {
+        "id": "d7f68fdc5f4169b6",
+        "type": "ui-notification",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "ui": "cb79bc4520925e32",
+        "position": "top center",
+        "colorDefault": false,
+        "color": "#fde808",
+        "displayTime": "3",
+        "showCountdown": true,
+        "outputs": 0,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 930,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "20803575f90bde4e",
+        "type": "csv",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "once",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "ts, printerurl, component, status, liferemaining, estdays, estpages",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 730,
+        "y": 940,
+        "wires": [
+            [
+                "93880ad26150572b",
+                "d7f68fdc5f4169b6"
+            ]
+        ]
+    },
+    {
+        "id": "93880ad26150572b",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 366",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "12afc9243fdd650c",
+        "type": "json",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 690,
+        "y": 860,
+        "wires": [
+            [
+                "20803575f90bde4e"
+            ]
+        ]
+    },
+    {
+        "id": "0c6542ad793de010",
+        "type": "ui-button",
+        "z": "fa64ff49b8b6cb0b",
+        "group": "83f18ae4b4e81c88",
+        "name": "",
+        "label": "Under limit 24h",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "filter-check",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 860,
+        "wires": [
+            [
+                "02d6298d41a6c1a9"
+            ]
+        ]
+    },
+    {
+        "id": "90de465e9ae40e45",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "sql_check_thresholds",
+        "func": "msg.topic = \"select count(*) from printerdata where ts >= datetime('now','-22 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK')\"\nreturn msg;\n\n// select count(*) from printerdata where ts >= datetime('now','-22 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK')\n\n// select ts, printerurl, component, status, liferemaining, estdays, estpages  from printerdata where ts >= datetime('now','-4 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK');",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 920,
+        "wires": [
+            [
+                "e213bfa271229e44"
+            ]
+        ]
+    },
+    {
+        "id": "7de522551101da8a",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 920,
+        "wires": [
+            [
+                "90de465e9ae40e45"
+            ]
+        ]
+    },
+    {
+        "id": "96561fe2ea963144",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].countall",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "cfed3325bd55196c"
+            ]
+        ]
+    },
+    {
+        "id": "cfed3325bd55196c",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 368",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "36abb401dcbfeb43",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 370",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "cc1fda8d190bfd60",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.*.{\"statuscount\": $count($[status = \"ERROR\"])}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 780,
+        "wires": [
+            [
+                "36abb401dcbfeb43"
+            ]
+        ]
+    },
+    {
+        "id": "27dac45909044e6d",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.${\t    \"liferemainingcount\":$count($[liferemaining < 30])\t}\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1420,
+        "wires": [
+            [
+                "7196d8a4cb1474f3"
+            ]
+        ]
+    },
+    {
+        "id": "9ecbbb197a42e3c2",
+        "type": "ui-gauge",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "Errorcount",
+        "group": "816ae9167bdf54e4",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Status=ERROR",
+        "units": "",
+        "icon": "printer-alert",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#00ff4c"
+            },
+            {
+                "from": "3",
+                "color": "#fac800"
+            },
+            {
+                "from": "9",
+                "color": "#fc0303"
+            }
+        ],
+        "min": "0",
+        "max": "15",
+        "sizeThickness": "20",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 710,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "7196d8a4cb1474f3",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.liferemainingcount",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1420,
+        "wires": [
+            [
+                "9ecbbb197a42e3c2"
+            ]
+        ]
+    },
+    {
+        "id": "46bb7f49d380f7c3",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.liferemainingcount",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1220,
+        "wires": [
+            [
+                "c1647b459aab424b"
+            ]
+        ]
+    },
+    {
+        "id": "c1647b459aab424b",
+        "type": "ui-gauge",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "Liferemainingcount",
+        "group": "816ae9167bdf54e4",
+        "order": 2,
+        "width": "3",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Life remaining < 30%",
+        "units": "",
+        "icon": "timer-sand-empty",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "14",
+                "color": "#ffc800"
+            },
+            {
+                "from": "45",
+                "color": "#ea5353"
+            }
+        ],
+        "min": "0",
+        "max": "50",
+        "sizeThickness": "12",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 710,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "5209d877de6d1192",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.${\t    \"liferemainingcount\":$count($[liferemaining < 400]),\t    \"estpagescount\": $count($[estpages < 3000]),\t    \"estdayscount\": $count($[estdays < 14]),\t    \"statuscount\": $count($[status = \"ERROR\" ])\t}\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 1160,
+        "wires": [
+            [
+                "6426b46ff321783e",
+                "3188651c310e1979",
+                "46bb7f49d380f7c3",
+                "794b94dbd91e9a45",
+                "9c4b0cd54a275f2e"
+            ]
+        ]
+    },
+    {
+        "id": "6426b46ff321783e",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 371",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "3188651c310e1979",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.estpagescount",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1160,
+        "wires": [
+            [
+                "1e02838b7408aa6d"
+            ]
+        ]
+    },
+    {
+        "id": "92427c4dcc7a0686",
+        "type": "debug",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "debug 372",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1e02838b7408aa6d",
+        "type": "ui-gauge",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "Estpagescount",
+        "group": "816ae9167bdf54e4",
+        "order": 3,
+        "width": "3",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Est pages < 3000 pages",
+        "units": "",
+        "icon": "tray-alert",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "15",
+                "color": "#ffc800"
+            },
+            {
+                "from": "25",
+                "color": "#1eff00"
+            }
+        ],
+        "min": "0",
+        "max": "30",
+        "sizeThickness": "12",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 700,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "e15b2ae30f493e4b",
+        "type": "sqlite",
+        "z": "fa64ff49b8b6cb0b",
+        "mydb": "fe775cdef0b98bdb",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "query xeroxdata",
+        "x": 360,
+        "y": 1040,
+        "wires": [
+            [
+                "5209d877de6d1192",
+                "92427c4dcc7a0686"
+            ]
+        ]
+    },
+    {
+        "id": "10f156843f6e6024",
+        "type": "inject",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 1000,
+        "wires": [
+            [
+                "78a80798605ef330"
+            ]
+        ]
+    },
+    {
+        "id": "78a80798605ef330",
+        "type": "function",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "sql_check_thresholds",
+        "func": "msg.topic = \"select count(*) from printerdata where ts >= datetime('now','-48 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK')\"\nreturn msg;\n\n// select count(*) from printerdata where ts >= datetime('now','-22 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK')\n\n// select ts, printerurl, component, status, liferemaining, estdays, estpages  from printerdata where ts >= datetime('now','-4 hours') AND (estpages < 1 OR estdays < 4 OR status NOT LIKE 'OK');",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 980,
+        "wires": [
+            [
+                "e15b2ae30f493e4b"
+            ]
+        ]
+    },
+    {
+        "id": "2707e794545c6cba",
+        "type": "ui-button",
+        "z": "fa64ff49b8b6cb0b",
+        "group": "83f18ae4b4e81c88",
+        "name": "",
+        "label": "Webscape now",
+        "order": 0,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "download",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "794b94dbd91e9a45",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.estdayscount",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1280,
+        "wires": [
+            [
+                "5b97dd5ca74ca7b3"
+            ]
+        ]
+    },
+    {
+        "id": "5b97dd5ca74ca7b3",
+        "type": "ui-gauge",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "Estdayscount",
+        "group": "816ae9167bdf54e4",
+        "order": 3,
+        "width": "3",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Est days < 14 days",
+        "units": "",
+        "icon": "timer-sand",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "15",
+                "color": "#ffc800"
+            },
+            {
+                "from": "25",
+                "color": "#1eff00"
+            }
+        ],
+        "min": "0",
+        "max": "30",
+        "sizeThickness": "12",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 700,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "9c4b0cd54a275f2e",
+        "type": "change",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.statuscount",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1340,
+        "wires": [
+            [
+                "64f4840260e08d46"
+            ]
+        ]
+    },
+    {
+        "id": "64f4840260e08d46",
+        "type": "ui-gauge",
+        "z": "fa64ff49b8b6cb0b",
+        "name": "Statuscount",
+        "group": "816ae9167bdf54e4",
+        "order": 3,
+        "width": "3",
+        "height": "2",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "Status=ERROR",
+        "units": "",
+        "icon": "printer-alert",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ff0000"
+            },
+            {
+                "from": "15",
+                "color": "#ffc800"
+            },
+            {
+                "from": "25",
+                "color": "#1eff00"
+            }
+        ],
+        "min": "0",
+        "max": "30",
+        "sizeThickness": "12",
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 690,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "fe775cdef0b98bdb",
+        "type": "sqlitedb",
+        "db": "c:\\sqlite3\\xerox.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "ec56c2a77b8b0b40",
+        "type": "ui-group",
+        "name": "Table",
+        "page": "9a0625b471898271",
+        "width": "20",
+        "height": "1",
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "83f18ae4b4e81c88",
+        "type": "ui-group",
+        "name": "Load",
+        "page": "9a0625b471898271",
+        "width": "4",
+        "height": "1",
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "cb79bc4520925e32",
+        "type": "ui-base",
+        "name": "My UI",
+        "path": "/dashboard",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false
+    },
+    {
+        "id": "816ae9167bdf54e4",
+        "type": "ui-group",
+        "name": "Number of components below threshold values in the last 24 hours",
+        "page": "9a0625b471898271",
+        "width": "12",
+        "height": "1",
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "9a0625b471898271",
+        "type": "ui-page",
+        "name": "xeroxdata",
+        "ui": "cb79bc4520925e32",
+        "path": "/xerox",
+        "icon": "home",
+        "layout": "flex",
+        "theme": "1c0bf383e941114c",
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "1c0bf383e941114c",
+        "type": "ui-theme",
+        "name": "Theme Name",
+        "colors": {
+            "surface": "#000000",
+            "primary": "#7a7e7f",
+            "bgPage": "#000000",
+            "groupBg": "#000000",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    }
+]

@@ -1,6 +1,21 @@
+query: count values below threshold
+========================================
 {
     "statuscount": $count($[status = "ERROR"]),
     "alertestays": $count($[estdays < 14 ]),
     "alertliferemaining": $count($[liferemaining < 30 ]),
     "alertestpages": $count($[estpages < 30 ])
 }
+
+
+${
+    "liferemainingcount":$count($[liferemaining < 400]),
+    "estpagescount": $count($[estpages < 3000]),
+    "estpagesdays": $count($[estdays < 14]),
+    "statuscount": $count($[status = "ERROR" ])
+}
+
+
+query: sum estdays left group by component types
+=========================================
+*{`component`: $sum(estdays)}
