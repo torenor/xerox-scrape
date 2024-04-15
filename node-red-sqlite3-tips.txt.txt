@@ -36,7 +36,7 @@ create table if not exists printerdata (
    id integer primary key autoincrement NOT NULL,
    Component TEXT,
    Status TEXT,
-   LifeRemaining TEXT,
+   LifeRemaining INTEGER,
    EstPages INTEGER,
    EstDays INTEGER,
    PrinterUrl TEXT,
