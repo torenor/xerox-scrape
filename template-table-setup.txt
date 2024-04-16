@@ -1,0 +1,161 @@
+<template>
+
+ 
+  
+  <!-- Provide an input text box to search the content -->
+  <v-text-field v-model="search" label="Search" prepend-inner-icon="mdi-magnify" single-line variant="outlined"
+    hide-details></v-text-field>
+  <v-data-table v-model:search="search" :items="msg?.payload">
+
+ 
+  
+  <template v-slot:item.printerurl="{ item }">
+    <!-- turn the email column to an Email hyperlink -->
+    <span class="printerurl-txt">
+    <a :href="item.printerurl">{{item.printerurl}}</a>
+
+      
+      </span>
+  </template>
+
+
+
+    <template v-slot:item.liferemaining="{ item }">
+      <!-- Display the progress as a linear progress -->
+      <v-progress-linear :color="getProgressColor(item)" :model-value="item.liferemaining" bg-color="yellow"
+        height="20"></v-progress-linear>
+
+
+      <span class="progress-bar-txt">
+            {{item.liferemaining}}%
+        </span>
+
+
+    </template>
+
+    <template v-slot:item.estpages="{ item }">
+      <!-- Add a custom suffix "years" after the number -->
+      <v-chip :color="getChipColor(item)">
+        {{ item.estpages }}
+      </v-chip>
+    </template>
+
+    <template v-slot:item.estdays="{ item }">
+      <!-- Add a custom suffix "years" after the number -->
+      <v-chip :color="getChipColor2(item)">
+        {{ item.estdays }}
+      </v-chip>
+    </template>
+
+    <template v-slot:item.component="{ item }">
+      <v-chip size="large" class="ma-2" label :color="getColor(item.component)">{{ item.component }}</v-chip>
+
+    </template>
+
+    <template v-slot:item.status="{ item }">
+      <v-chip :color="getColorStatus(item.status)" variant="text"> {{ item.status }}</v-chip>
+    </template>
+
+ 
+
+
+  </v-data-table>
+</template>
+
+
+
+<script>
+  export default {
+    data () {
+      return {
+          sortBy: [{ key: 'timestamp', order: 'desc' }],
+      
+        search: ''
+      }
+    },
+  
+    methods: {
+        // add a function to determine the color of the progress bar given the row's item
+      
+        getColorStatus (status) {
+        if (status == "ERROR") return 'red'
+        else if (status == "Pink") return 'pink'
+        else if (status == "Yellow") return 'yellow'
+        else if (status == "Red") return 'red'
+        else return 'grey'
+        },
+    getProgressColor: function (item) {
+    if (item !== undefined ) {
+    if (item.liferemaining < 30) { return 'red' ; } 
+      else { if (item.liferemaining> 130) {
+      return 'orange';
+      } else {
+      return 'green';
+      }
+      }
+      }
+      },
+    getColor (component) {
+      if (component == "Cyan Toner") return 'cyan'
+        else if (component == "Magenta Toner") return 'pink'
+        else if (component == "Yellow Toner") return 'yellow'
+        else if (component == "Black Toner") return 'grey' 
+      else return 'Secondary'
+    },
+      getChipColor: function (item) {
+        if (item !== undefined ) {
+          if (item.estpages < 7500) {
+            return 'red';
+            } else {
+              if (item.estpages > 15000) {
+                return 'green';
+              } else {
+                return 'orange';
+            }
+          }
+        }
+      },
+    getChipColor2: function (item) {
+    if (item !== undefined ) {
+      if (item.estdays < 55) { return 'red' ; 
+        } else { if (item.estdays> 120) {
+          return 'green';
+        } else {
+          return 'orange';
+            }
+          }
+        }
+      }
+    }   
+    
+  }
+</script>
+
+<style>
+  /* define any styles here - supports raw CSS */
+  .printerurl-txt {
+    font-size: 24px;
+    color: yellow;
+  }
+
+  /* unvisited link */
+  a:link {
+  color: cyan;
+  }
+  
+  /* visited link */
+  a:visited {
+  color: pink;
+  }
+  
+  /* mouse over link */
+  a:hover {
+  color: orange;
+  }
+  
+  /* selected link */
+  a:active {
+  color: yellow;
+  }
+</style>
+
