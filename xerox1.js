@@ -12,11 +12,15 @@ const urls = [
     'https://158.38.104.7/stat/consumables.php', 
     'https://Lev-print-B112/stat/consumables.php',
     'https://Lev-print-B262/stat/consumables.php',
-    'https://Lev-print-C1122/stat/consumables.php',
-    'https://Lev-print-C4-353/stat/consumables.php',
+     'https://Lev-print-C4-353/stat/consumables.php',
     'https://Lev-print-G2222/stat/consumables.php',
     'https://Lev-print-G3117/stat/consumables.php',
-    'https://Lev-print-pav3/stat/consumables.php'
+    'https://Lev-print-pav3/stat/consumables.php',
+    'https://Lev-print-G3217/stat/consumables.php',
+    'https://158.38.104.3/stat/consumables.php',
+    'https://Lev-print-A104A/stat/consumables.php'
+    
+
 
    
 
