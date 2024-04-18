@@ -1,14 +1,14 @@
 // kilde: https://www.youtube.com/watch?v=5YCuUCRS_Ks
 
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+//process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 //const axios = require('axios')
-const express = require("express");
+//const express = require("express");
 //const app = express();
 //const port = process.env.PORT || 5000;
 const cheerio = require("cheerio")
 const fs = require("fs");
-const siteUrl = "https://158.38.104.4/stat/consumables.php"
-//cont .17 
+//const siteUrl = "https://158.38.104.6/stat/consumables.php"
+//cont .17 node
 // lev-print-a104a.ad.nord.no, lev-print-b112.ad.nord.no, lev-print-b262.ad.nord.no, lev-print-c1122.ad.nord.no
 // lev-print-c4-353.ad.nord.no
 
@@ -23,13 +23,13 @@ async function getFeed() {
             url: siteUrl,
         })
 */
-        const response = await fetch(siteUrl)
-        const data = await response.text()
-        //const $ = cheerio.load(fs.readFileSync('./printerhtml.html'))
-        const $ = cheerio.load(data)
-        $('script').remove()
+        //const response = await fetch(siteUrl)
+        //const data = await response.text()
+        const $ = cheerio.load(fs.readFileSync('./Supplies.html'))
+        //const $ = cheerio.load(data)
+        //$('script').remove()
         $('table > tbody > tr.header').remove()
-                const elemSelector = 'body > div.mainContentNoSideBar > div > div.tableBody > table > tbody > tr'
+                const elemSelector = 'div.tableBody > table > tbody > tr'
                 //                    body > div.mainContentNoSideBar > div:nth-child(2) > div.tableBody > table > tbody > tr
                
       
@@ -63,12 +63,16 @@ async function getFeed() {
                     
                 }
                 )
-            coinObj['printer'] = siteUrl
+            coinObj['printer'] = "test" //siteUrl
             console.log(coinObj)
             coinArr.push(coinObj)
+
             
         }
+        console.log(coinObj)
+
     })
+
     return coinArr
     //console.log(coinArr)
     // catch kommer som følge av try i toppen av funksjonen
@@ -81,7 +85,7 @@ async function getFeed() {
    getFeed()
 
 // server settings
-
+/*
 const app = express()
 
 app.get('/printers', async (req, res) => {
@@ -105,3 +109,4 @@ app.listen(3001, () => {
 })
 
 
+*/

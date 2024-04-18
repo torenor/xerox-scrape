@@ -2,7 +2,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 const cheerio = require("cheerio")
 const fs = require("fs");
 const { getDefaultHighWaterMark } = require("stream");
-const url = "https://158.38.104.16/stat/consumables.php"
+const url = "testp"
 
 
 
@@ -15,7 +15,7 @@ const books_data = []
 
 async function getBooks() {
     
-    const $ = cheerio.load(fs.readFileSync('./printerhtml.html'))
+    const $ = cheerio.load(fs.readFileSync('./Supplies.html'))
     $('script').remove()
     const books = $("table")
    
