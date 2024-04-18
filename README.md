@@ -1,4 +1,6 @@
 Web-scraping for Xerox printers
+====================================================
+Nodejs scripts/api
 
 Models Xerox® AltaLink® 
 xerox-altalink.js
@@ -11,8 +13,58 @@ xerox-workcentre.js
 
 
 
+SQL
+====================================================
+create table:
+
+create table if not exists printerdata (
+   id integer primary key autoincrement NOT NULL,
+   component TEXT,
+   status TEXT,
+   liferemaining INTEGER,
+   estpages INTEGER,
+   estdays INTEGER,
+   printerurl TEXT,
+   epoch INTEGER,
+   timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   ts TIMESTAMP DEFAULT (DATETIME('now')),
+   ts2 integer(4) not null default (strftime('%s','now'))
 
 
+);
+
+Info: There are 4 columns for timestamp, that was created for test.
+
+
+
+Latest values for a printer:
+msg.topic = "select MAX(timestamp), printerurl, component, estdays, status, liferemaining, estdays, estpages from printerdata group by printerurl, component";
+return msg;
+
+
+JSONata
+====================================================
+Remove '%' from field liferemaining so that field can be an integer
+payload.*. {
+    "component": component,
+    "status": status,
+    "liferemaining": $replace(liferemaining,  /[^0-9]/,""),
+    "estpages": estpages,
+    "estdays": estdays,
+    "printerurl": printerurl,
+    "timestamp": timestamp
+    
+}
+
+
+Query data by thresholds, such as:
+payload.${
+    "liferemainingcount":$count($[liferemaining < 10]),
+    "estpagescount": $count($[estpages < 3000]),
+    "estdayscount": $count($[estdays < 14]),
+    "errorcount": $count($[status = "ERROR" ]),
+    "reordercount" :$count($[status = "Reorder" ])
+}
 
 
 
