@@ -39,9 +39,13 @@ Info: There are 4 columns for timestamp, that was created for test.
 
 
 
-Latest values for a printer:
+[Latest values for a printer]
 msg.topic = "select MAX(timestamp), printerurl, component, estdays, status, liferemaining, estdays, estpages from printerdata group by printerurl, component";
 return msg;
+
+[First and last timestamp for a printer]
+select printerurl, MIN(timestamp) as mintime, MAX(timestamp) as maxtime from printerdata group by printerurl;
+
 
 
 JSONata
