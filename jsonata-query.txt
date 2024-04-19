@@ -19,3 +19,7 @@ ${
 query: sum estdays left group by component types
 =========================================
 *{`component`: $sum(estdays)}
+
+
+Source:
+https://community.glideapps.com/t/jsonata-advanced-functions-filter-exists-not-map/72468
