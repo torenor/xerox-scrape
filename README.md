@@ -1,6 +1,5 @@
 Web-scraping for Xerox printers
 ====================================================
-Nodejs scripts/api
 
 Models Xerox AltaLink:
 - xerox-altalink.js
