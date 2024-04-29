@@ -1,3 +1,7 @@
+https://community.home-assistant.io/t/xerox-printer-monitoring-over-snmp/66787/18
+
+https://github.com/alfonsrv/printer-monitoring
+
 eksempel snmp overvåkning node-red: https://www.youtube.com/watch?v=0EGoyn-llTY
 
 oid_printer_name = '1.3.6.1.2.1.1.5.0'
