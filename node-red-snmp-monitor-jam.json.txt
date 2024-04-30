@@ -1,0 +1,229 @@
+[
+    {
+        "id": "0bdc779dc58006de",
+        "type": "inject",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "Array of IP-hosts",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[\"192.168.1.1\",\"192.168.68.129\"]",
+        "payloadType": "json",
+        "x": 120,
+        "y": 1080,
+        "wires": [
+            [
+                "9739dd718900b442"
+            ]
+        ]
+    },
+    {
+        "id": "9739dd718900b442",
+        "type": "split",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "Split array",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": "1",
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 140,
+        "y": 960,
+        "wires": [
+            [
+                "00265fa74eae5276"
+            ]
+        ]
+    },
+    {
+        "id": "00265fa74eae5276",
+        "type": "change",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "host",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1060,
+        "wires": [
+            [
+                "dee37b31bf709b81"
+            ]
+        ]
+    },
+    {
+        "id": "dee37b31bf709b81",
+        "type": "snmp",
+        "z": "4a0f1ef2dfaa1868",
+        "host": "",
+        "version": "2c",
+        "timeout": 5,
+        "community": "public",
+        "auth": "noAuthNoPriv",
+        "authprot": "MD5",
+        "privprot": "DES",
+        "oids": "1.3.6.1.2.1.1.5.0",
+        "name": "",
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "5d602950173b3010"
+            ]
+        ]
+    },
+    {
+        "id": "5d602950173b3010",
+        "type": "function",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "convert_buffertostring",
+        "func": "//var bufferdata = msg.payload[\"192.168.68.129\"][0].value;\nvar bufferdata = msg.payload[0].value\n//var bufferdata = [84, 78, 78, 65, 83, 49];\nconst b = Buffer.from(bufferdata);\n//payload[\"192.168.68.129\"][0].value\nmsg.payload = b.toString();\nreturn msg;\n\n// payload[\"192.168.68.129\"][0].value\n\n// [84,78,78,65,83,49]",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1060,
+        "wires": [
+            [
+                "8b9f387e1e9f15f8",
+                "989a6e30342f8090"
+            ]
+        ]
+    },
+    {
+        "id": "989a6e30342f8090",
+        "type": "debug",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "debug 381",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "8b9f387e1e9f15f8",
+        "type": "switch",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "checkif",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "TNNAS1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ubnt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 580,
+        "y": 980,
+        "wires": [
+            [
+                "e3d871949655ab35",
+                "3ba64be95a513c11"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e3d871949655ab35",
+        "type": "file",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "",
+        "filename": "c:\\temp\\snmpdata.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 760,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cecb07e4c6a0bd9f",
+        "type": "e-mail",
+        "z": "4a0f1ef2dfaa1868",
+        "server": "smtp.mail.yahoo.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "torenor10@gmail.com",
+        "dname": "mailsend",
+        "x": 820,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "d6cdabaa33e6adfe",
+        "type": "comment",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "https://flows.nodered.org/node/node-red-node-email",
+        "info": "[]()https://flows.nodered.org/node/node-red-node-email",
+        "x": 1070,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "3ba64be95a513c11",
+        "type": "function",
+        "z": "4a0f1ef2dfaa1868",
+        "name": "preparemail",
+        "func": "msg.topic = \"dette er et varsel: \" + msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 1060,
+        "wires": [
+            [
+                "cecb07e4c6a0bd9f"
+            ]
+        ]
+    }
+]
