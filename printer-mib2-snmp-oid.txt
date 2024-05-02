@@ -1,0 +1,57 @@
+https://mibbrowser.online/mibdb_search.php?mib=Printer-MIB
+
+https://www.rfc-editor.org/rfc/rfc3805#section-2.2.13.2
+
+http://oidref.com/1.3.6.1.2.1.25.3.5.1.2
+
+
+https://mibs.observium.org/mib/HOST-RESOURCES-MIB/#hrPrinterDetectedErrorState
+
+
+
+paper_jam_oid="1.3.6.1.2.1.25.3.5.1.2"
+# 1.3.6.1.2.1.25.3.5.1.2
+
+#     lowPaper              0
+#     noPaper               1
+#     lowToner              2
+#     noToner               3
+#     doorOpen              4
+#     jammed                5
+#     offline               6
+#     serviceRequested      7
+#     inputTrayMissing      8
+#     outputTrayMissing     9
+#     markerSupplyMissing  10
+#     outputNearFull       11
+#     outputFull           12
+#     inputTrayEmpty       13
+#     overduePreventMaint  14
+
+
+  02/05/2024   10:52.29   /drives/c/temp  snmpget -v2c -c public 158.38.104.17 1.3.6.1.2.1.25.3.5.1.2.1
+HOST-RESOURCES-MIB::hrPrinterDetectedErrorState.1 = Hex-STRING: 00 04
+
+
+
+
+
+
+
+  02/05/2024   09:21.22   /drives/c/temp  snmpwalk -v2c -c public 158.38.104.16 1.3.6.1.2.1.43.18
+SNMPv2-SMI::mib-2.43.18.1.1.2.1.2 = INTEGER: 0
+SNMPv2-SMI::mib-2.43.18.1.1.2.1.27 = INTEGER: 5
+SNMPv2-SMI::mib-2.43.18.1.1.3.1.2 = INTEGER: 3
+SNMPv2-SMI::mib-2.43.18.1.1.3.1.27 = INTEGER: 7
+SNMPv2-SMI::mib-2.43.18.1.1.4.1.2 = INTEGER: 8
+SNMPv2-SMI::mib-2.43.18.1.1.4.1.27 = INTEGER: 5
+SNMPv2-SMI::mib-2.43.18.1.1.5.1.2 = INTEGER: 5
+SNMPv2-SMI::mib-2.43.18.1.1.5.1.27 = INTEGER: -1
+SNMPv2-SMI::mib-2.43.18.1.1.6.1.2 = INTEGER: 753500
+SNMPv2-SMI::mib-2.43.18.1.1.6.1.27 = INTEGER: 155100
+SNMPv2-SMI::mib-2.43.18.1.1.7.1.2 = INTEGER: 808
+SNMPv2-SMI::mib-2.43.18.1.1.7.1.27 = INTEGER: 23
+SNMPv2-SMI::mib-2.43.18.1.1.8.1.2 = STRING: "07-535-00 Tray 5 (Bypass) is empty. User intervention is required to add paper to Tray 5. Print and Copy services can continue if the correct paper is available in other trays."
+SNMPv2-SMI::mib-2.43.18.1.1.8.1.27 = STRING: "01-551-00 The machine is in Sleep Mode; some administration functions cannot be performed. No user intervention is required. Printing will start when a job is received, a fax job is received (if installed), or a user initiates a job at the machine."
+SNMPv2-SMI::mib-2.43.18.1.1.9.1.2 = Timeticks: (2250) 0:00:22.50
+SNMPv2-SMI::mib-2.43.18.1.1.9.1.27 = Timeticks: (11524413) 1 day, 8:00:44.13
