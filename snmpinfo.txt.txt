@@ -7,6 +7,10 @@ https://forums.cacti.net/viewtopic.php?t=27847
 https://kb.paessler.com/en/topic/82038-xerox-printer-versalink-problems
 
 
+https://kb.paessler.com/en/topic/84726-mib-files-for-xerox-printer
+
+
+
 ...
 .1.3.6.1.4.1.253.8.53.13.2.1.1.14.20.1 = INTEGER: deviceLifetimeUsage(20)
 .1.3.6.1.4.1.253.8.53.13.2.1.1.14.24.1 = INTEGER: deviceMaximumLifetimeLimit(24)
