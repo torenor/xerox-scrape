@@ -7,12 +7,9 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 // Define your three URLs
-const urls = ['https://158.38.104.6/stat/consumables.php',
-'https://Lev-print-C1122/stat/consumables.php',
-'https://158.38.104.9/stat/consumables.php',
-'https://Lev-print-G3117/stat/consumables.php',
-'https://Lev-print-G1104/stat/consumables.php',
-'https://Lev-print-Rbolig/stat/consumables.php'
+const urls = ['https://printer3/stat/consumables.php',
+'https://printer4/stat/consumables.php'
+
    
 
 ]
