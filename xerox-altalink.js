@@ -8,19 +8,11 @@ const PORT = process.env.PORT || 3001;
 
 // Define your three URLs
 const urls = [
-<<<<<<< HEAD
-    'https://printera/stat/consumables.php', 
-    'https://printerb/stat/consumables.php'
-    
-    
 
-
-   
-=======
     'https://printer1/stat/consumables.php', 
     'https://printer2/stat/consumables.php'
  
->>>>>>> ce0c08fc51eabcd46b5c02d34ae00a40170094a7
+
 
 ]
 
