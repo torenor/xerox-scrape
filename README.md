@@ -1,5 +1,6 @@
 Web-scraping for Xerox printers
 ====================================================
+see more info at: https://tiot.home.blog/2024/08/13/xerox-printer-webscrape-toner-status/
 
 Models Xerox AltaLink:
 - xerox-altalink.js
