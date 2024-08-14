@@ -20,7 +20,8 @@ const urls = [
     'https://158.38.104.3/stat/consumables.php',
     'https://Lev-print-A104A/stat/consumables.php',
     'https://Lev-print-B360/stat/consumables.php',
-    'https://158.38.104.5/stat/consumables.php'
+    'https://158.38.104.5/stat/consumables.php',
+    'https://Ste-print-B358/stat/consumables.php'
     
     
 
