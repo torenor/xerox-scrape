@@ -24,6 +24,10 @@ const urls = [
 
 ]
 
+node-red flow
+====================================================
+The node-red flow use Dashboard 2.0 template node to present data in a table
+
 
 SQL
 ====================================================
