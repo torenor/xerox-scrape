@@ -9,20 +9,8 @@ const PORT = process.env.PORT || 3001;
 // Define your three URLs
 const urls = [
 <<<<<<< HEAD
-    'https://Lev-print-C4/stat/consumables.php', 
-    'https://158.38.104.7/stat/consumables.php', 
-    'https://Lev-print-B112/stat/consumables.php',
-    'https://Lev-print-B262/stat/consumables.php',
-     'https://Lev-print-C4-353/stat/consumables.php',
-    'https://Lev-print-G2222/stat/consumables.php',
-    'https://Lev-print-G3117/stat/consumables.php',
-    'https://Lev-print-pav3/stat/consumables.php',
-    'https://Lev-print-G3217/stat/consumables.php',
-    'https://158.38.104.3/stat/consumables.php',
-    'https://Lev-print-A104A/stat/consumables.php',
-    'https://Lev-print-B360/stat/consumables.php',
-    'https://158.38.104.5/stat/consumables.php',
-    'https://Ste-print-B358/stat/consumables.php'
+    'https://printera/stat/consumables.php', 
+    'https://printerb/stat/consumables.php'
     
     
 
