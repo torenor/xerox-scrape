@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 // Define your three URLs
 const urls = [
+<<<<<<< HEAD
     'https://Lev-print-C4/stat/consumables.php', 
     'https://158.38.104.7/stat/consumables.php', 
     'https://Lev-print-B112/stat/consumables.php',
@@ -27,6 +28,11 @@ const urls = [
 
 
    
+=======
+    'https://printer1/stat/consumables.php', 
+    'https://printer2/stat/consumables.php'
+ 
+>>>>>>> ce0c08fc51eabcd46b5c02d34ae00a40170094a7
 
 ]
 

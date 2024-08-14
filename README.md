@@ -13,6 +13,17 @@ Models XEROX WorkCentre:
 Install:
 npm install
 
+to add more printers, update this section in the .js files:
+// Define your three URLs
+const urls = [
+    'https://printer1/stat/consumables.php', 
+    'https://printer2/stat/consumables.php',
+    'https://anotherprinter/stat/consumables.php'
+    
+ 
+
+]
+
 
 SQL
 ====================================================
