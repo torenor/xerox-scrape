@@ -61,7 +61,7 @@ return msg;
 [First and last timestamp for a printer]
 select printerurl, MIN(timestamp) as mintime, MAX(timestamp) as maxtime from printerdata group by printerurl;
 
-Retrieve data to fill sparklines, see here
+
 
 
 
