@@ -40,6 +40,6 @@ FROM
 JOIN 
     TrendData ON printerdata.printerurl = TrendData.printerurl AND printerdata.component = TrendData.component
 WHERE 
-    printerdata.printerurl = 'https://printer007/stat/consumables.php' AND timestamp > (SELECT DATETIME('now', '-1 day'))
+    printerdata.printerurl = 'https://%' AND timestamp > (SELECT DATETIME('now', '-1 day'))
 ORDER BY 
     printerdata.component
