@@ -10,7 +10,9 @@ const PORT = process.env.PORT || 3001;
 const urls = [
 
  
-    
+     'https://your-printer-1/stat/consumables.php',
+        'https://your-printer-2/stat/consumables.php',
+        // Add more printers here
     
 
 
