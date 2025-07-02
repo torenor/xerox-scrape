@@ -1,5 +1,6 @@
 Web-scraping for Xerox printers
 ====================================================
+see more info at: https://tiot.home.blog/2024/08/13/xerox-printer-webscrape-toner-status/
 
 Models Xerox AltaLink:
 - xerox-altalink.js
@@ -23,6 +24,10 @@ const urls = [
  
 
 ]
+
+node-red flow
+====================================================
+The node-red flow use Dashboard 2.0 template node to present data in a table
 
 
 SQL
@@ -55,6 +60,8 @@ return msg;
 
 [First and last timestamp for a printer]
 select printerurl, MIN(timestamp) as mintime, MAX(timestamp) as maxtime from printerdata group by printerurl;
+
+
 
 
 

@@ -1,0 +1,16 @@
+o convert estdaystrend with JSON.parse as part of the payload, you can directly assign the parsed value to msg.payload[i].estdaystrend. Here's how you can modify your code:
+
+var msgs = [];
+for (var i = 0; i < msg.payload.length; i++) {
+  try {
+    msg.payload[i].estdaystrend = JSON.parse(msg.payload[i].estdaystrend);
+  } catch (e) {
+    console.error("Parsing error at index " + i + ": " + e.message);
+  }
+  msgs.push({ payload: msg.payload[i] });
+}
+
+return [msgs];
+
+This code will parse estdaystrend and update it within the payload object itself. If there's an error during parsing, it will log the error message without stopping the script.
+Give this a try and let me know if it works for you! If you encounter any issues, feel free to share the details.
