@@ -17,7 +17,11 @@ const urls = [ 'https://Lev-print-C4/stat/consumables.php',
     'https://Lev-print-pav3/stat/consumables.php',
     'https://Lev-print-G3217/stat/consumables.php',
     'https://158.38.104.3/stat/consumables.php',
-    'https://Lev-print-A104A/stat/consumables.php'
+    'https://Lev-print-A104A/stat/consumables.php',
+    'https://Lev-print-Rbolig/stat/consumables.php',
+    'https://nam-print-b1-1113/stat/consumables.php',
+    'https://nam-print-b1169/stat/consumables.php',
+    'https://nam-print-b2161/stat/consumables.php'
 
    
 
