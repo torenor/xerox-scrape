@@ -7,28 +7,12 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 // Define your three URLs
-<<<<<<< HEAD
-const urls = [ 'https://Lev-print-C4/stat/consumables.php', 
-    'https://158.38.104.7/stat/consumables.php', 
-    'https://Lev-print-B112/stat/consumables.php',
-    'https://Lev-print-B262/stat/consumables.php',
-     'https://Lev-print-C4-353/stat/consumables.php',
-    'https://Lev-print-G2222/stat/consumables.php',
-    'https://Lev-print-G3117/stat/consumables.php',
-    'https://Lev-print-pav3/stat/consumables.php',
-    'https://Lev-print-G3217/stat/consumables.php',
-    'https://158.38.104.3/stat/consumables.php',
-    'https://Lev-print-A104A/stat/consumables.php',
-    'https://Lev-print-Rbolig/stat/consumables.php',
-    'https://nam-print-b1-1113/stat/consumables.php',
-    'https://nam-print-b1169/stat/consumables.php',
-    'https://nam-print-b2161/stat/consumables.php'
-=======
+
 const urls = [ 
     'https://printer1/stat/consumables.php', 
     'https://printer2/stat/consumables.php'
    
->>>>>>> 2f62b5290f6d6dd283222c1df2f17068f78fe6f4
+
 
    
 
