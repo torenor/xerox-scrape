@@ -12,7 +12,7 @@ Models XEROX WorkCentre:
 - localhost:3002/workcentre
 
 Install:
-npm install
+npm install express axios cheerio
 
 to add more printers, update this section in the .js files:
 // Define your three URLs
